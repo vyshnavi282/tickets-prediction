@@ -161,10 +161,14 @@ class TicketVolumePredictor:
 
         return pd.DataFrame(predictions)
 
-    def predict_next_n_days(self, days):
+    '''def predict_next_n_days(self, days):
         last_date = self.daily_df['start_date'].max()
         start = last_date + pd.Timedelta(days=1)
         end = last_date + pd.Timedelta(days=days)
+        return self.predict_range(start, end)'''
+    def predict_next_n_days(self, days):
+        start = pd.Timestamp.today().normalize()  # Use current date, without time component
+        end = start + pd.Timedelta(days=days - 1)  # Adjust so it predicts for exactly 'days' days
         return self.predict_range(start, end)
 
     def predict_this_week(self):
