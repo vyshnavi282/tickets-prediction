@@ -1,0 +1,1001 @@
+ticket_id,start_date,resolve_date,priority,category,sub_category,department,assignee_team,sla_status,resolution_time_hrs,customer_impact,major_event,is_holiday,is_weekend,day_of_week,month,ticket_volume_day
+TCKT_0001,2025-05-02 20:32:16,2025-05-05 16:32:16,High,Software,Login Issue,IT,Hardware Support,Breached,68.0,Low,Security Patch,1,0,Friday,5,221
+TCKT_0002,2024-12-18 16:18:55,2024-12-20 14:18:55,High,Hardware,Monitor Issue,Finance,Hardware Support,Breached,46.0,Medium,Server Maintenance,0,0,Wednesday,12,236
+TCKT_0003,2024-11-04 14:00:42,2024-11-06 02:00:42,Low,Access,Password Reset,Admin,Infra Team,Met,36.0,High,Server Maintenance,0,0,Monday,11,226
+TCKT_0004,2025-03-01 23:22:33,2025-03-02 04:22:33,Critical,Network,WiFi Issue,Finance,Hardware Support,Met,5.0,Medium,System Upgrade,0,1,Saturday,3,130
+TCKT_0005,2025-07-28 12:06:31,2025-07-29 20:06:31,Critical,Software,Update Error,Admin,Hardware Support,Met,32.0,High,System Upgrade,1,0,Monday,7,121
+TCKT_0006,2025-09-30 11:49:54,2025-10-03 06:49:54,Medium,Hardware,Monitor Issue,IT,Hardware Support,Breached,67.0,Low,None,1,0,Tuesday,9,100
+TCKT_0007,2024-12-24 08:04:45,2024-12-24 11:04:45,Medium,Hardware,System Crash,Finance,Infra Team,Met,3.0,Medium,None,0,0,Tuesday,12,187
+TCKT_0008,2025-05-08 14:47:30,2025-05-11 04:47:30,Critical,Network,Router Failure,HR,Infra Team,Breached,62.0,High,Server Maintenance,0,0,Thursday,5,215
+TCKT_0009,2025-07-11 22:18:24,2025-07-13 21:18:24,High,Software,Login Issue,Finance,App Support,Breached,47.0,Low,Security Patch,0,0,Friday,7,133
+TCKT_0010,2025-07-12 00:52:39,2025-07-13 18:52:39,Critical,Hardware,Monitor Issue,IT,Hardware Support,Breached,42.0,High,Product Launch,1,1,Saturday,7,196
+TCKT_0011,2024-10-29 22:30:45,2024-10-31 15:30:45,High,Hardware,System Crash,Admin,App Support,Breached,41.0,Low,Security Patch,0,0,Tuesday,10,180
+TCKT_0012,2025-08-10 23:34:35,2025-08-12 02:34:35,Medium,Access,Account Lock,HR,Hardware Support,Breached,27.0,Low,Server Maintenance,1,1,Sunday,8,162
+TCKT_0013,2025-07-17 11:43:34,2025-07-18 21:43:34,Medium,Network,Router Failure,Admin,Infra Team,Met,34.0,High,Security Patch,0,0,Thursday,7,226
+TCKT_0014,2025-06-02 15:38:08,2025-06-04 21:38:08,Low,Software,Login Issue,HR,Hardware Support,Breached,54.0,Low,System Upgrade,0,0,Monday,6,233
+TCKT_0015,2025-02-21 20:27:41,2025-02-23 11:27:41,Low,Hardware,Monitor Issue,Admin,Hardware Support,Met,39.0,Low,Security Patch,1,0,Friday,2,218
+TCKT_0016,2025-05-17 21:27:27,2025-05-19 03:27:27,Medium,Access,Account Lock,HR,Infra Team,Met,30.0,High,Security Patch,1,1,Saturday,5,185
+TCKT_0017,2025-02-13 01:10:44,2025-02-13 11:10:44,Critical,Access,Password Reset,Admin,Infra Team,Met,10.0,Low,None,0,0,Thursday,2,248
+TCKT_0018,2025-07-14 10:02:34,2025-07-15 13:02:34,Medium,Network,Router Failure,HR,App Support,Breached,27.0,Medium,None,1,0,Monday,7,239
+TCKT_0019,2025-02-16 14:07:15,2025-02-17 11:07:15,Low,Network,Server Down,Finance,Hardware Support,Breached,21.0,Low,Server Maintenance,1,1,Sunday,2,189
+TCKT_0020,2025-08-22 18:20:29,2025-08-24 13:20:29,Low,Access,Password Reset,IT,Infra Team,Breached,43.0,High,None,0,0,Friday,8,189
+TCKT_0021,2025-04-13 21:30:31,2025-04-16 08:30:31,Critical,Network,WiFi Issue,Admin,Infra Team,Met,59.0,High,None,1,1,Sunday,4,187
+TCKT_0022,2024-11-26 06:12:59,2024-11-28 22:12:59,Critical,Software,Login Issue,Admin,Infra Team,Breached,64.0,Low,Security Patch,0,0,Tuesday,11,169
+TCKT_0023,2025-01-22 18:03:42,2025-01-24 06:03:42,Critical,Software,App Crash,IT,Hardware Support,Breached,36.0,High,Product Launch,1,0,Wednesday,1,107
+TCKT_0024,2025-06-19 06:32:58,2025-06-19 14:32:58,Low,Software,UI Bug,Admin,Hardware Support,Met,8.0,High,None,1,0,Thursday,6,140
+TCKT_0025,2025-09-21 03:17:42,2025-09-21 18:17:42,Critical,Hardware,Printer Issue,HR,Infra Team,Met,15.0,Medium,Server Maintenance,1,1,Sunday,9,135
+TCKT_0026,2025-10-16 09:18:34,2025-10-18 17:18:34,Critical,Hardware,Keyboard Issue,Finance,App Support,Met,56.0,High,Server Maintenance,1,0,Thursday,10,109
+TCKT_0027,2025-05-24 11:46:11,2025-05-26 04:46:11,Low,Hardware,Printer Issue,IT,App Support,Breached,41.0,Medium,None,0,1,Saturday,5,216
+TCKT_0028,2024-11-01 09:32:09,2024-11-02 10:32:09,Low,Network,Router Failure,IT,Infra Team,Breached,25.0,Medium,Server Maintenance,0,0,Friday,11,144
+TCKT_0029,2025-02-21 06:58:48,2025-02-24 01:58:48,Critical,Access,Account Lock,Admin,Hardware Support,Breached,67.0,Low,System Upgrade,0,0,Friday,2,218
+TCKT_0030,2025-10-10 06:58:28,2025-10-11 04:58:28,High,Hardware,Keyboard Issue,Admin,App Support,Met,22.0,Low,None,1,0,Friday,10,221
+TCKT_0031,2025-08-12 11:32:30,2025-08-13 14:32:30,Low,Network,Router Failure,IT,Infra Team,Met,27.0,Low,Product Launch,0,0,Tuesday,8,123
+TCKT_0032,2025-10-15 02:45:51,2025-10-16 15:45:51,Low,Software,App Crash,HR,Hardware Support,Met,37.0,High,Server Maintenance,1,0,Wednesday,10,236
+TCKT_0033,2025-04-29 22:42:43,2025-05-02 11:42:43,Medium,Access,Access Request,Finance,Hardware Support,Met,61.0,High,Product Launch,1,0,Tuesday,4,114
+TCKT_0034,2025-03-28 18:58:05,2025-03-29 21:58:05,Medium,Hardware,Keyboard Issue,Finance,Hardware Support,Met,27.0,Low,Server Maintenance,1,0,Friday,3,193
+TCKT_0035,2024-10-29 23:40:15,2024-10-30 11:40:15,Critical,Network,Server Down,Admin,Hardware Support,Breached,12.0,Low,System Upgrade,1,0,Tuesday,10,234
+TCKT_0036,2025-04-16 12:56:28,2025-04-19 01:56:28,Low,Access,Password Reset,IT,App Support,Met,61.0,Medium,None,0,0,Wednesday,4,247
+TCKT_0037,2025-07-04 16:53:35,2025-07-06 13:53:35,Medium,Software,UI Bug,IT,Hardware Support,Breached,45.0,Medium,System Upgrade,1,0,Friday,7,222
+TCKT_0038,2025-08-04 06:01:22,2025-08-04 09:01:22,Critical,Access,Access Request,Admin,Hardware Support,Met,3.0,High,None,0,0,Monday,8,156
+TCKT_0039,2025-03-02 22:46:07,2025-03-03 05:46:07,Low,Hardware,Monitor Issue,IT,App Support,Breached,7.0,Low,Product Launch,0,1,Sunday,3,148
+TCKT_0040,2025-02-15 09:24:23,2025-02-17 22:24:23,Medium,Access,Account Lock,HR,App Support,Breached,61.0,Low,System Upgrade,0,1,Saturday,2,220
+TCKT_0041,2025-10-01 08:26:45,2025-10-02 07:26:45,Medium,Access,Password Reset,IT,Hardware Support,Breached,23.0,Low,None,1,0,Wednesday,10,144
+TCKT_0042,2024-10-25 04:15:52,2024-10-27 22:15:52,Low,Access,Access Request,IT,Infra Team,Breached,66.0,Medium,Security Patch,0,0,Friday,10,224
+TCKT_0043,2024-10-17 06:34:08,2024-10-19 09:34:08,Low,Access,Account Lock,Admin,Infra Team,Breached,51.0,High,System Upgrade,1,0,Thursday,10,217
+TCKT_0044,2025-09-04 21:48:13,2025-09-05 11:48:13,High,Software,Update Error,IT,App Support,Breached,14.0,High,Security Patch,1,0,Thursday,9,199
+TCKT_0045,2025-07-24 03:27:29,2025-07-25 14:27:29,High,Access,Account Lock,IT,Infra Team,Breached,35.0,High,Security Patch,0,0,Thursday,7,144
+TCKT_0046,2025-04-23 12:10:43,2025-04-23 20:10:43,Low,Hardware,Printer Issue,HR,Hardware Support,Breached,8.0,Medium,None,0,0,Wednesday,4,216
+TCKT_0047,2025-04-14 23:51:58,2025-04-16 22:51:58,High,Access,Account Lock,Admin,Hardware Support,Breached,47.0,Low,System Upgrade,1,0,Monday,4,131
+TCKT_0048,2025-10-05 04:41:15,2025-10-05 10:41:15,Critical,Software,Update Error,Admin,App Support,Breached,6.0,Medium,None,0,1,Sunday,10,125
+TCKT_0049,2025-07-24 17:22:09,2025-07-25 10:22:09,High,Software,UI Bug,HR,Hardware Support,Met,17.0,High,Product Launch,0,0,Thursday,7,213
+TCKT_0050,2024-11-25 03:49:26,2024-11-26 13:49:26,Medium,Software,App Crash,Admin,Infra Team,Breached,34.0,Medium,Security Patch,1,0,Monday,11,171
+TCKT_0051,2025-03-28 19:31:17,2025-03-31 13:31:17,Low,Software,UI Bug,Admin,Hardware Support,Met,66.0,Low,None,1,0,Friday,3,250
+TCKT_0052,2025-05-12 02:33:50,2025-05-13 05:33:50,Low,Network,Router Failure,Finance,App Support,Breached,27.0,Medium,Product Launch,1,0,Monday,5,141
+TCKT_0053,2025-07-01 21:48:52,2025-07-02 13:48:52,Medium,Software,App Crash,Finance,Infra Team,Breached,16.0,High,None,0,0,Tuesday,7,180
+TCKT_0054,2025-02-11 09:41:31,2025-02-12 01:41:31,Medium,Hardware,Monitor Issue,IT,Infra Team,Met,16.0,Low,Security Patch,1,0,Tuesday,2,150
+TCKT_0055,2025-07-28 06:15:16,2025-07-28 18:15:16,Medium,Access,Password Reset,Finance,Hardware Support,Breached,12.0,Medium,Server Maintenance,0,0,Monday,7,168
+TCKT_0056,2024-11-19 20:20:52,2024-11-20 02:20:52,High,Access,Account Lock,IT,Infra Team,Met,6.0,Medium,System Upgrade,1,0,Tuesday,11,237
+TCKT_0057,2024-12-16 14:47:08,2024-12-19 13:47:08,Critical,Network,Server Down,Finance,Hardware Support,Breached,71.0,Low,Server Maintenance,1,0,Monday,12,122
+TCKT_0058,2025-01-18 08:50:14,2025-01-21 06:50:14,Low,Access,Account Lock,Finance,App Support,Breached,70.0,Low,None,0,1,Saturday,1,243
+TCKT_0059,2024-12-03 16:45:01,2024-12-04 12:45:01,Medium,Hardware,Keyboard Issue,HR,Hardware Support,Breached,20.0,Low,None,1,0,Tuesday,12,248
+TCKT_0060,2025-08-13 13:57:38,2025-08-14 19:57:38,Low,Software,App Crash,Finance,Infra Team,Breached,30.0,Medium,None,1,0,Wednesday,8,229
+TCKT_0061,2025-01-26 02:13:30,2025-01-27 16:13:30,High,Hardware,Monitor Issue,IT,App Support,Met,38.0,Medium,System Upgrade,0,1,Sunday,1,185
+TCKT_0062,2025-03-13 18:26:45,2025-03-15 17:26:45,Medium,Software,Login Issue,Finance,Infra Team,Breached,47.0,Medium,Security Patch,1,0,Thursday,3,125
+TCKT_0063,2025-01-24 01:36:40,2025-01-24 05:36:40,Medium,Software,UI Bug,Admin,Hardware Support,Breached,4.0,High,Server Maintenance,1,0,Friday,1,224
+TCKT_0064,2025-03-31 21:20:25,2025-04-01 12:20:25,Medium,Access,Access Request,IT,App Support,Breached,15.0,High,System Upgrade,0,0,Monday,3,163
+TCKT_0065,2025-09-07 10:57:23,2025-09-10 04:57:23,Medium,Software,Login Issue,HR,App Support,Breached,66.0,Medium,System Upgrade,1,1,Sunday,9,193
+TCKT_0066,2025-07-08 00:38:33,2025-07-09 01:38:33,High,Access,Access Request,IT,App Support,Met,25.0,High,Server Maintenance,0,0,Tuesday,7,151
+TCKT_0067,2025-08-26 17:25:15,2025-08-29 06:25:15,High,Hardware,Keyboard Issue,Finance,App Support,Breached,61.0,High,None,1,0,Tuesday,8,234
+TCKT_0068,2025-07-08 22:51:46,2025-07-11 00:51:46,High,Access,Account Lock,IT,Infra Team,Breached,50.0,High,Product Launch,1,0,Tuesday,7,226
+TCKT_0069,2025-02-23 14:28:20,2025-02-23 17:28:20,Low,Network,WiFi Issue,Admin,Infra Team,Met,3.0,Medium,System Upgrade,1,1,Sunday,2,217
+TCKT_0070,2025-04-11 01:38:44,2025-04-12 09:38:44,High,Network,VPN Issue,IT,App Support,Breached,32.0,Medium,None,1,0,Friday,4,181
+TCKT_0071,2025-04-06 10:16:37,2025-04-08 00:16:37,Critical,Network,WiFi Issue,Finance,Hardware Support,Met,38.0,Medium,Product Launch,1,1,Sunday,4,122
+TCKT_0072,2025-01-02 07:00:17,2025-01-03 10:00:17,Medium,Software,Login Issue,IT,Infra Team,Met,27.0,Medium,None,0,0,Thursday,1,212
+TCKT_0073,2025-03-03 03:53:20,2025-03-05 20:53:20,Medium,Access,Password Reset,Admin,Infra Team,Breached,65.0,High,Server Maintenance,0,0,Monday,3,146
+TCKT_0074,2025-06-06 22:51:41,2025-06-08 13:51:41,Low,Software,Login Issue,IT,App Support,Breached,39.0,High,None,0,0,Friday,6,235
+TCKT_0075,2025-09-24 13:26:51,2025-09-24 15:26:51,High,Software,Login Issue,HR,Hardware Support,Met,2.0,Low,Server Maintenance,1,0,Wednesday,9,152
+TCKT_0076,2025-01-12 06:32:04,2025-01-14 09:32:04,Critical,Hardware,Monitor Issue,IT,Infra Team,Breached,51.0,High,Security Patch,1,1,Sunday,1,114
+TCKT_0077,2025-03-16 08:48:29,2025-03-17 22:48:29,Low,Network,Router Failure,Admin,Infra Team,Breached,38.0,Low,System Upgrade,0,1,Sunday,3,209
+TCKT_0078,2025-06-04 02:19:17,2025-06-06 11:19:17,Medium,Access,Account Lock,IT,App Support,Breached,57.0,Medium,Security Patch,1,0,Wednesday,6,198
+TCKT_0079,2025-03-30 06:00:33,2025-03-30 16:00:33,High,Software,Login Issue,IT,Infra Team,Met,10.0,High,None,1,1,Sunday,3,183
+TCKT_0080,2025-04-12 23:33:28,2025-04-13 09:33:28,Medium,Network,WiFi Issue,Finance,App Support,Met,10.0,Medium,Product Launch,1,1,Saturday,4,172
+TCKT_0081,2025-07-05 18:05:46,2025-07-07 09:05:46,Low,Access,Password Reset,IT,Hardware Support,Breached,39.0,Medium,None,0,1,Saturday,7,110
+TCKT_0082,2025-08-16 06:56:58,2025-08-16 13:56:58,Low,Access,Access Request,Finance,App Support,Breached,7.0,Medium,Server Maintenance,0,1,Saturday,8,104
+TCKT_0083,2024-12-06 04:21:16,2024-12-07 09:21:16,Medium,Network,Server Down,HR,Hardware Support,Breached,29.0,Low,Server Maintenance,1,0,Friday,12,172
+TCKT_0084,2025-06-24 22:13:57,2025-06-26 05:13:57,Medium,Hardware,System Crash,Admin,Hardware Support,Breached,31.0,Medium,System Upgrade,0,0,Tuesday,6,234
+TCKT_0085,2025-03-07 13:28:32,2025-03-09 13:28:32,Medium,Network,WiFi Issue,IT,App Support,Met,48.0,Low,System Upgrade,0,0,Friday,3,143
+TCKT_0086,2025-04-30 10:31:57,2025-05-03 02:31:57,Medium,Access,Password Reset,Finance,Infra Team,Met,64.0,Medium,Server Maintenance,0,0,Wednesday,4,237
+TCKT_0087,2025-07-24 14:23:04,2025-07-26 21:23:04,High,Software,Login Issue,Finance,Infra Team,Met,55.0,Low,Security Patch,1,0,Thursday,7,193
+TCKT_0088,2024-11-21 10:35:09,2024-11-21 17:35:09,Critical,Access,Password Reset,IT,App Support,Met,7.0,High,Server Maintenance,1,0,Thursday,11,142
+TCKT_0089,2025-09-10 18:19:13,2025-09-13 04:19:13,Medium,Access,Account Lock,HR,Infra Team,Met,58.0,High,Product Launch,1,0,Wednesday,9,193
+TCKT_0090,2025-05-28 22:34:48,2025-05-29 18:34:48,Critical,Access,Password Reset,HR,Infra Team,Breached,20.0,Medium,System Upgrade,0,0,Wednesday,5,203
+TCKT_0091,2025-01-17 00:14:38,2025-01-17 13:14:38,Medium,Access,Account Lock,IT,Hardware Support,Breached,13.0,Low,Server Maintenance,1,0,Friday,1,138
+TCKT_0092,2025-02-12 22:09:16,2025-02-13 12:09:16,Low,Access,Account Lock,HR,Hardware Support,Breached,14.0,High,Server Maintenance,1,0,Wednesday,2,100
+TCKT_0093,2025-02-25 10:03:08,2025-02-27 12:03:08,Low,Access,Password Reset,HR,Infra Team,Breached,50.0,High,Product Launch,0,0,Tuesday,2,124
+TCKT_0094,2025-06-04 06:57:57,2025-06-06 18:57:57,Low,Network,WiFi Issue,Admin,Hardware Support,Met,60.0,Low,System Upgrade,0,0,Wednesday,6,227
+TCKT_0095,2025-09-11 13:29:37,2025-09-12 17:29:37,Medium,Access,Password Reset,Admin,Infra Team,Met,28.0,High,System Upgrade,0,0,Thursday,9,154
+TCKT_0096,2024-11-26 18:00:47,2024-11-28 04:00:47,Medium,Access,Password Reset,IT,Infra Team,Breached,34.0,Medium,Security Patch,0,0,Tuesday,11,135
+TCKT_0097,2025-02-08 02:28:13,2025-02-09 13:28:13,Critical,Access,Access Request,HR,Infra Team,Met,35.0,Medium,None,0,1,Saturday,2,239
+TCKT_0098,2025-07-15 13:33:27,2025-07-17 19:33:27,Low,Access,Account Lock,Finance,Infra Team,Breached,54.0,Low,Server Maintenance,1,0,Tuesday,7,205
+TCKT_0099,2025-05-10 15:13:37,2025-05-13 08:13:37,Critical,Network,WiFi Issue,Finance,App Support,Breached,65.0,High,Product Launch,1,1,Saturday,5,231
+TCKT_0100,2024-10-28 15:07:07,2024-10-31 15:07:07,Critical,Access,Password Reset,HR,Hardware Support,Breached,72.0,Low,Product Launch,1,0,Monday,10,246
+TCKT_0101,2025-07-29 03:18:16,2025-07-29 07:18:16,High,Hardware,Monitor Issue,Admin,Infra Team,Breached,4.0,High,System Upgrade,1,0,Tuesday,7,222
+TCKT_0102,2025-07-29 22:16:02,2025-08-01 22:16:02,Critical,Access,Password Reset,IT,App Support,Breached,72.0,Low,Server Maintenance,0,0,Tuesday,7,195
+TCKT_0103,2025-02-25 21:46:02,2025-02-27 11:46:02,Critical,Hardware,Monitor Issue,Admin,Hardware Support,Met,38.0,High,Security Patch,1,0,Tuesday,2,204
+TCKT_0104,2024-12-08 17:39:22,2024-12-10 17:39:22,Critical,Network,Server Down,Finance,Infra Team,Breached,48.0,Medium,System Upgrade,1,1,Sunday,12,188
+TCKT_0105,2025-03-07 16:55:49,2025-03-09 13:55:49,Low,Hardware,Printer Issue,IT,Infra Team,Met,45.0,Low,Security Patch,1,0,Friday,3,237
+TCKT_0106,2024-12-08 05:16:32,2024-12-08 09:16:32,Low,Access,Password Reset,HR,App Support,Breached,4.0,High,Security Patch,0,1,Sunday,12,207
+TCKT_0107,2025-07-01 11:21:47,2025-07-02 08:21:47,Medium,Access,Password Reset,Finance,Infra Team,Breached,21.0,Low,Product Launch,0,0,Tuesday,7,125
+TCKT_0108,2025-01-10 13:29:22,2025-01-12 04:29:22,Low,Hardware,Monitor Issue,IT,Infra Team,Breached,39.0,High,Product Launch,0,0,Friday,1,232
+TCKT_0109,2024-12-24 12:14:56,2024-12-27 02:14:56,Medium,Hardware,Monitor Issue,Finance,Hardware Support,Breached,62.0,Low,System Upgrade,0,0,Tuesday,12,126
+TCKT_0110,2025-07-15 22:01:44,2025-07-18 12:01:44,Medium,Access,Password Reset,Admin,Hardware Support,Breached,62.0,Medium,Security Patch,0,0,Tuesday,7,122
+TCKT_0111,2025-05-08 07:14:01,2025-05-10 11:14:01,High,Network,WiFi Issue,Finance,App Support,Met,52.0,Low,Server Maintenance,0,0,Thursday,5,211
+TCKT_0112,2025-03-30 20:28:29,2025-04-01 11:28:29,Medium,Hardware,System Crash,Admin,App Support,Breached,39.0,Medium,Product Launch,1,1,Sunday,3,212
+TCKT_0113,2025-06-14 10:31:23,2025-06-16 21:31:23,Critical,Network,WiFi Issue,Admin,Hardware Support,Met,59.0,High,Product Launch,0,1,Saturday,6,144
+TCKT_0114,2025-05-26 17:31:21,2025-05-26 23:31:21,Low,Access,Access Request,Finance,Hardware Support,Met,6.0,Low,System Upgrade,0,0,Monday,5,224
+TCKT_0115,2025-01-11 19:47:42,2025-01-13 08:47:42,High,Network,WiFi Issue,Finance,Hardware Support,Met,37.0,Medium,System Upgrade,0,1,Saturday,1,115
+TCKT_0116,2025-03-18 06:53:22,2025-03-19 03:53:22,Medium,Access,Password Reset,HR,Hardware Support,Breached,21.0,Medium,System Upgrade,1,0,Tuesday,3,208
+TCKT_0117,2025-04-05 14:14:54,2025-04-07 22:14:54,Medium,Network,WiFi Issue,IT,App Support,Breached,56.0,Low,Server Maintenance,0,1,Saturday,4,169
+TCKT_0118,2025-06-03 06:33:45,2025-06-05 11:33:45,High,Software,UI Bug,Finance,Hardware Support,Met,53.0,Medium,Server Maintenance,0,0,Tuesday,6,107
+TCKT_0119,2025-05-10 00:43:46,2025-05-10 23:43:46,High,Software,Login Issue,IT,Infra Team,Met,23.0,High,Server Maintenance,0,1,Saturday,5,177
+TCKT_0120,2025-06-17 01:29:36,2025-06-17 15:29:36,Critical,Software,App Crash,Finance,Infra Team,Met,14.0,Low,None,0,0,Tuesday,6,194
+TCKT_0121,2025-07-25 01:22:59,2025-07-26 12:22:59,High,Network,Router Failure,Finance,Hardware Support,Breached,35.0,High,System Upgrade,1,0,Friday,7,213
+TCKT_0122,2025-07-10 13:20:33,2025-07-11 10:20:33,High,Software,App Crash,Admin,Infra Team,Breached,21.0,High,Product Launch,0,0,Thursday,7,109
+TCKT_0123,2025-04-02 19:11:11,2025-04-03 21:11:11,Medium,Software,Login Issue,Admin,Hardware Support,Breached,26.0,High,Server Maintenance,1,0,Wednesday,4,150
+TCKT_0124,2024-10-20 09:51:41,2024-10-22 14:51:41,Medium,Hardware,Monitor Issue,Admin,Infra Team,Met,53.0,Medium,Server Maintenance,1,1,Sunday,10,137
+TCKT_0125,2025-01-30 23:11:46,2025-01-31 23:11:46,Low,Access,Account Lock,Admin,Infra Team,Breached,24.0,Low,None,0,0,Thursday,1,188
+TCKT_0126,2025-06-20 23:50:30,2025-06-23 01:50:30,High,Software,App Crash,IT,App Support,Met,50.0,High,Product Launch,0,0,Friday,6,206
+TCKT_0127,2025-08-18 17:15:26,2025-08-21 01:15:26,Critical,Network,VPN Issue,Finance,Infra Team,Met,56.0,Low,Product Launch,0,0,Monday,8,183
+TCKT_0128,2025-04-05 15:57:59,2025-04-07 02:57:59,Critical,Access,Access Request,IT,App Support,Breached,35.0,Low,System Upgrade,0,1,Saturday,4,107
+TCKT_0129,2025-08-11 22:48:26,2025-08-13 10:48:26,Critical,Access,Account Lock,Admin,Infra Team,Breached,36.0,Low,Server Maintenance,0,0,Monday,8,123
+TCKT_0130,2025-03-11 20:57:28,2025-03-13 20:57:28,Medium,Access,Password Reset,HR,App Support,Breached,48.0,High,System Upgrade,0,0,Tuesday,3,189
+TCKT_0131,2024-12-01 11:00:58,2024-12-03 19:00:58,High,Access,Access Request,Finance,Infra Team,Breached,56.0,Low,Product Launch,1,1,Sunday,12,181
+TCKT_0132,2025-08-05 06:59:14,2025-08-07 04:59:14,Critical,Software,App Crash,Admin,App Support,Breached,46.0,Medium,Server Maintenance,0,0,Tuesday,8,143
+TCKT_0133,2025-06-09 05:15:29,2025-06-10 10:15:29,Low,Hardware,Monitor Issue,HR,Infra Team,Breached,29.0,Medium,None,1,0,Monday,6,176
+TCKT_0134,2025-06-02 20:54:26,2025-06-05 05:54:26,High,Hardware,Monitor Issue,HR,Infra Team,Breached,57.0,High,Security Patch,1,0,Monday,6,140
+TCKT_0135,2025-10-08 08:05:54,2025-10-08 19:05:54,High,Network,WiFi Issue,Finance,Hardware Support,Met,11.0,Medium,System Upgrade,0,0,Wednesday,10,214
+TCKT_0136,2025-06-10 23:55:48,2025-06-12 08:55:48,Medium,Network,Server Down,IT,Infra Team,Breached,33.0,High,System Upgrade,1,0,Tuesday,6,128
+TCKT_0137,2025-04-18 14:06:51,2025-04-20 20:06:51,Critical,Access,Password Reset,IT,Hardware Support,Breached,54.0,Low,Server Maintenance,0,0,Friday,4,215
+TCKT_0138,2025-08-12 09:52:37,2025-08-14 03:52:37,Critical,Network,VPN Issue,IT,Infra Team,Breached,42.0,Low,Product Launch,1,0,Tuesday,8,140
+TCKT_0139,2025-06-29 16:32:30,2025-06-30 23:32:30,Medium,Network,Server Down,HR,Hardware Support,Met,31.0,High,None,0,1,Sunday,6,171
+TCKT_0140,2024-11-17 19:42:31,2024-11-19 03:42:31,Medium,Access,Password Reset,Finance,App Support,Breached,32.0,Medium,Security Patch,1,1,Sunday,11,211
+TCKT_0141,2024-12-06 07:23:08,2024-12-08 03:23:08,Critical,Software,Update Error,IT,App Support,Breached,44.0,High,None,1,0,Friday,12,183
+TCKT_0142,2025-03-13 23:29:29,2025-03-15 04:29:29,Critical,Access,Account Lock,HR,Hardware Support,Breached,29.0,Low,Security Patch,0,0,Thursday,3,189
+TCKT_0143,2025-07-28 11:14:28,2025-07-31 03:14:28,High,Network,WiFi Issue,IT,Infra Team,Breached,64.0,Low,Server Maintenance,1,0,Monday,7,213
+TCKT_0144,2024-10-27 14:10:03,2024-10-29 02:10:03,Critical,Hardware,Monitor Issue,Admin,Hardware Support,Breached,36.0,Low,Product Launch,1,1,Sunday,10,144
+TCKT_0145,2025-04-22 16:15:57,2025-04-24 11:15:57,Critical,Access,Access Request,Finance,App Support,Met,43.0,High,System Upgrade,0,0,Tuesday,4,103
+TCKT_0146,2025-06-11 20:33:17,2025-06-12 10:33:17,Medium,Software,App Crash,IT,Hardware Support,Breached,14.0,Low,None,0,0,Wednesday,6,172
+TCKT_0147,2024-12-25 15:48:36,2024-12-26 14:48:36,Medium,Access,Access Request,Admin,Infra Team,Breached,23.0,Low,System Upgrade,1,0,Wednesday,12,212
+TCKT_0148,2025-01-30 12:30:09,2025-01-30 14:30:09,Critical,Network,Server Down,Finance,Infra Team,Met,2.0,Medium,Product Launch,1,0,Thursday,1,107
+TCKT_0149,2025-09-03 14:52:02,2025-09-05 03:52:02,Medium,Access,Account Lock,IT,App Support,Breached,37.0,High,System Upgrade,1,0,Wednesday,9,106
+TCKT_0150,2024-10-19 04:59:02,2024-10-22 04:59:02,Critical,Software,Login Issue,Admin,Hardware Support,Breached,72.0,High,Product Launch,1,1,Saturday,10,243
+TCKT_0151,2024-11-30 03:06:34,2024-11-30 20:06:34,Critical,Access,Account Lock,Admin,App Support,Met,17.0,Low,Security Patch,1,1,Saturday,11,124
+TCKT_0152,2025-06-12 12:44:59,2025-06-14 10:44:59,High,Access,Access Request,Admin,Infra Team,Met,46.0,Medium,Product Launch,1,0,Thursday,6,164
+TCKT_0153,2025-02-26 07:41:50,2025-03-01 07:41:50,Low,Software,App Crash,Finance,Hardware Support,Met,72.0,Low,System Upgrade,0,0,Wednesday,2,218
+TCKT_0154,2025-09-05 16:36:39,2025-09-06 04:36:39,Medium,Software,UI Bug,Admin,Hardware Support,Met,12.0,Medium,Server Maintenance,0,0,Friday,9,165
+TCKT_0155,2025-04-15 01:11:37,2025-04-16 09:11:37,Critical,Network,WiFi Issue,Finance,Hardware Support,Breached,32.0,Medium,Server Maintenance,0,0,Tuesday,4,249
+TCKT_0156,2025-04-16 11:34:30,2025-04-17 18:34:30,Medium,Software,Login Issue,Finance,App Support,Breached,31.0,High,Security Patch,1,0,Wednesday,4,176
+TCKT_0157,2025-02-12 09:35:10,2025-02-12 16:35:10,Medium,Software,Login Issue,Finance,Hardware Support,Breached,7.0,Low,Server Maintenance,0,0,Wednesday,2,105
+TCKT_0158,2025-06-05 23:22:43,2025-06-08 13:22:43,Medium,Access,Account Lock,Finance,App Support,Breached,62.0,Low,None,0,0,Thursday,6,185
+TCKT_0159,2025-02-02 17:36:56,2025-02-05 04:36:56,Medium,Software,Update Error,Admin,Infra Team,Met,59.0,Low,Security Patch,1,1,Sunday,2,239
+TCKT_0160,2025-01-16 20:49:17,2025-01-18 17:49:17,High,Access,Access Request,HR,Hardware Support,Met,45.0,High,Server Maintenance,0,0,Thursday,1,125
+TCKT_0161,2025-09-13 04:56:40,2025-09-15 22:56:40,Low,Software,Login Issue,Admin,Hardware Support,Met,66.0,Medium,System Upgrade,0,1,Saturday,9,161
+TCKT_0162,2025-01-12 06:36:58,2025-01-15 02:36:58,Medium,Hardware,Keyboard Issue,Finance,App Support,Breached,68.0,Low,Product Launch,1,1,Sunday,1,236
+TCKT_0163,2025-07-04 18:35:44,2025-07-06 00:35:44,Critical,Software,Login Issue,Admin,Infra Team,Breached,30.0,Low,System Upgrade,0,0,Friday,7,107
+TCKT_0164,2025-08-12 12:23:48,2025-08-13 04:23:48,High,Hardware,Printer Issue,IT,App Support,Breached,16.0,Medium,Security Patch,0,0,Tuesday,8,198
+TCKT_0165,2025-03-09 00:13:19,2025-03-10 13:13:19,Low,Access,Account Lock,Admin,App Support,Met,37.0,Low,System Upgrade,1,1,Sunday,3,208
+TCKT_0166,2025-04-19 22:43:39,2025-04-22 12:43:39,Critical,Access,Account Lock,Finance,Infra Team,Met,62.0,Low,Server Maintenance,1,1,Saturday,4,181
+TCKT_0167,2025-03-23 02:38:25,2025-03-23 20:38:25,High,Software,Update Error,Admin,Hardware Support,Breached,18.0,High,Product Launch,1,1,Sunday,3,212
+TCKT_0168,2025-04-08 03:08:49,2025-04-09 04:08:49,High,Software,App Crash,IT,App Support,Breached,25.0,Low,Security Patch,0,0,Tuesday,4,241
+TCKT_0169,2025-05-29 00:59:37,2025-05-29 10:59:37,Medium,Software,App Crash,HR,Hardware Support,Met,10.0,Low,Security Patch,0,0,Thursday,5,103
+TCKT_0170,2025-05-24 09:07:22,2025-05-24 13:07:22,Medium,Access,Account Lock,IT,Hardware Support,Breached,4.0,High,None,1,1,Saturday,5,229
+TCKT_0171,2025-01-28 06:51:19,2025-01-30 04:51:19,High,Hardware,Keyboard Issue,Admin,Hardware Support,Met,46.0,High,System Upgrade,1,0,Tuesday,1,146
+TCKT_0172,2025-08-04 12:23:34,2025-08-05 05:23:34,Low,Software,App Crash,Admin,App Support,Met,17.0,High,Server Maintenance,0,0,Monday,8,142
+TCKT_0173,2024-12-18 15:11:56,2024-12-21 10:11:56,Medium,Software,App Crash,Admin,App Support,Breached,67.0,Low,Security Patch,0,0,Wednesday,12,216
+TCKT_0174,2025-03-08 04:54:52,2025-03-09 22:54:52,Medium,Software,App Crash,IT,Hardware Support,Met,42.0,High,Security Patch,0,1,Saturday,3,175
+TCKT_0175,2025-10-13 14:40:32,2025-10-16 11:40:32,Critical,Software,Login Issue,HR,Infra Team,Breached,69.0,Low,Server Maintenance,0,0,Monday,10,134
+TCKT_0176,2024-11-09 17:44:05,2024-11-11 21:44:05,Low,Hardware,Printer Issue,IT,Infra Team,Breached,52.0,Low,System Upgrade,1,1,Saturday,11,102
+TCKT_0177,2025-05-25 04:09:10,2025-05-28 00:09:10,Medium,Access,Password Reset,HR,App Support,Breached,68.0,High,Security Patch,1,1,Sunday,5,218
+TCKT_0178,2025-10-12 18:55:00,2025-10-13 02:55:00,Critical,Hardware,Keyboard Issue,IT,Infra Team,Breached,8.0,Medium,System Upgrade,1,1,Sunday,10,162
+TCKT_0179,2024-11-01 17:23:40,2024-11-03 08:23:40,Low,Software,Update Error,Admin,App Support,Breached,39.0,Medium,None,0,0,Friday,11,221
+TCKT_0180,2024-10-16 06:01:21,2024-10-18 08:01:21,High,Access,Account Lock,HR,App Support,Breached,50.0,Medium,None,1,0,Wednesday,10,182
+TCKT_0181,2025-05-31 12:16:48,2025-06-01 14:16:48,Medium,Hardware,Printer Issue,HR,Infra Team,Breached,26.0,High,Server Maintenance,0,1,Saturday,5,118
+TCKT_0182,2025-09-01 09:13:43,2025-09-04 05:13:43,Medium,Software,UI Bug,Finance,Infra Team,Met,68.0,Medium,Server Maintenance,1,0,Monday,9,115
+TCKT_0183,2025-09-26 12:31:47,2025-09-28 07:31:47,Low,Network,Server Down,IT,Hardware Support,Met,43.0,High,Product Launch,0,0,Friday,9,173
+TCKT_0184,2025-04-16 02:00:02,2025-04-16 20:00:02,Low,Hardware,Printer Issue,Admin,App Support,Met,18.0,High,None,1,0,Wednesday,4,160
+TCKT_0185,2025-08-31 09:12:54,2025-09-01 06:12:54,Medium,Access,Account Lock,IT,App Support,Breached,21.0,High,Product Launch,0,1,Sunday,8,105
+TCKT_0186,2025-04-12 13:50:10,2025-04-12 14:50:10,Low,Software,Login Issue,IT,Hardware Support,Met,1.0,High,Server Maintenance,0,1,Saturday,4,185
+TCKT_0187,2025-07-15 11:18:37,2025-07-17 00:18:37,High,Network,Server Down,Admin,App Support,Breached,37.0,Low,Product Launch,0,0,Tuesday,7,153
+TCKT_0188,2025-03-02 03:29:54,2025-03-05 00:29:54,Low,Software,App Crash,HR,App Support,Breached,69.0,High,System Upgrade,0,1,Sunday,3,205
+TCKT_0189,2025-01-30 05:56:40,2025-01-31 13:56:40,Critical,Hardware,System Crash,Finance,Infra Team,Met,32.0,Medium,System Upgrade,0,0,Thursday,1,148
+TCKT_0190,2025-03-05 09:42:03,2025-03-06 06:42:03,Low,Access,Account Lock,IT,Infra Team,Breached,21.0,Medium,Product Launch,0,0,Wednesday,3,220
+TCKT_0191,2025-10-11 07:38:11,2025-10-13 06:38:11,Low,Software,UI Bug,Finance,App Support,Breached,47.0,Low,Security Patch,1,1,Saturday,10,229
+TCKT_0192,2024-10-25 23:13:43,2024-10-28 14:13:43,Medium,Software,UI Bug,IT,Hardware Support,Breached,63.0,Low,System Upgrade,0,0,Friday,10,210
+TCKT_0193,2025-03-11 04:59:06,2025-03-12 07:59:06,Low,Network,WiFi Issue,Admin,Hardware Support,Met,27.0,Medium,System Upgrade,1,0,Tuesday,3,136
+TCKT_0194,2024-12-11 07:39:37,2024-12-12 19:39:37,Medium,Access,Password Reset,IT,App Support,Met,36.0,Medium,None,1,0,Wednesday,12,235
+TCKT_0195,2025-07-22 09:35:55,2025-07-25 08:35:55,Critical,Access,Password Reset,IT,Hardware Support,Met,71.0,Low,System Upgrade,0,0,Tuesday,7,140
+TCKT_0196,2025-05-29 18:30:44,2025-05-30 20:30:44,High,Access,Access Request,HR,Infra Team,Breached,26.0,Medium,None,1,0,Thursday,5,196
+TCKT_0197,2024-11-22 12:45:43,2024-11-24 11:45:43,High,Access,Account Lock,Finance,Hardware Support,Met,47.0,Low,Security Patch,1,0,Friday,11,104
+TCKT_0198,2025-02-27 07:37:21,2025-02-28 06:37:21,Critical,Hardware,System Crash,Admin,Hardware Support,Breached,23.0,Low,Server Maintenance,0,0,Thursday,2,150
+TCKT_0199,2025-02-11 04:25:02,2025-02-11 05:25:02,Low,Network,Server Down,Finance,App Support,Met,1.0,Medium,None,1,0,Tuesday,2,145
+TCKT_0200,2025-07-05 21:36:23,2025-07-08 17:36:23,Medium,Software,UI Bug,Admin,Hardware Support,Met,68.0,High,None,0,1,Saturday,7,192
+TCKT_0201,2024-11-22 04:25:18,2024-11-24 00:25:18,Low,Hardware,Printer Issue,Finance,Hardware Support,Met,44.0,Medium,None,1,0,Friday,11,170
+TCKT_0202,2024-11-26 15:35:50,2024-11-26 18:35:50,Medium,Access,Account Lock,IT,Hardware Support,Breached,3.0,High,System Upgrade,1,0,Tuesday,11,242
+TCKT_0203,2025-04-10 16:54:47,2025-04-12 18:54:47,High,Hardware,System Crash,Admin,Infra Team,Breached,50.0,Low,System Upgrade,1,0,Thursday,4,241
+TCKT_0204,2025-04-28 06:24:18,2025-04-29 03:24:18,High,Network,Router Failure,HR,Hardware Support,Breached,21.0,Medium,None,0,0,Monday,4,171
+TCKT_0205,2025-06-28 20:23:18,2025-07-01 09:23:18,Critical,Access,Account Lock,Finance,Hardware Support,Breached,61.0,Low,Server Maintenance,0,1,Saturday,6,201
+TCKT_0206,2025-07-15 23:56:22,2025-07-18 22:56:22,Medium,Access,Account Lock,Finance,App Support,Met,71.0,Low,Server Maintenance,1,0,Tuesday,7,210
+TCKT_0207,2025-03-11 11:55:44,2025-03-11 13:55:44,Medium,Access,Password Reset,Finance,Infra Team,Met,2.0,High,None,1,0,Tuesday,3,150
+TCKT_0208,2024-11-12 04:45:11,2024-11-13 16:45:11,Medium,Network,VPN Issue,IT,Infra Team,Met,36.0,Low,Server Maintenance,0,0,Tuesday,11,131
+TCKT_0209,2025-09-12 03:37:05,2025-09-13 00:37:05,Medium,Hardware,Monitor Issue,IT,Hardware Support,Met,21.0,Medium,Security Patch,0,0,Friday,9,231
+TCKT_0210,2025-01-02 07:32:38,2025-01-03 21:32:38,Critical,Network,Router Failure,HR,Hardware Support,Met,38.0,High,None,1,0,Thursday,1,233
+TCKT_0211,2025-03-29 14:05:53,2025-03-30 07:05:53,Low,Network,Router Failure,Admin,Hardware Support,Breached,17.0,High,None,1,1,Saturday,3,244
+TCKT_0212,2025-03-02 06:20:05,2025-03-04 12:20:05,Critical,Access,Account Lock,IT,Infra Team,Breached,54.0,High,Product Launch,1,1,Sunday,3,202
+TCKT_0213,2025-09-01 21:11:34,2025-09-03 10:11:34,Critical,Access,Password Reset,Admin,App Support,Met,37.0,High,Security Patch,0,0,Monday,9,109
+TCKT_0214,2024-10-18 19:38:07,2024-10-20 01:38:07,High,Hardware,Monitor Issue,HR,Infra Team,Met,30.0,High,Server Maintenance,1,0,Friday,10,177
+TCKT_0215,2024-10-20 04:36:45,2024-10-22 18:36:45,Medium,Network,WiFi Issue,Admin,Hardware Support,Met,62.0,Low,None,0,1,Sunday,10,113
+TCKT_0216,2024-12-31 10:23:07,2025-01-03 02:23:07,Critical,Hardware,Keyboard Issue,Admin,App Support,Met,64.0,Low,System Upgrade,1,0,Tuesday,12,143
+TCKT_0217,2025-09-14 11:31:13,2025-09-16 23:31:13,Critical,Access,Account Lock,IT,App Support,Breached,60.0,Medium,Security Patch,0,1,Sunday,9,130
+TCKT_0218,2025-05-06 06:51:24,2025-05-09 06:51:24,High,Software,UI Bug,Finance,App Support,Breached,72.0,Low,Security Patch,1,0,Tuesday,5,225
+TCKT_0219,2025-03-31 19:41:28,2025-04-03 04:41:28,High,Hardware,System Crash,HR,Hardware Support,Met,57.0,High,System Upgrade,1,0,Monday,3,113
+TCKT_0220,2025-01-22 05:25:33,2025-01-25 01:25:33,Medium,Network,VPN Issue,HR,App Support,Breached,68.0,Low,Product Launch,1,0,Wednesday,1,227
+TCKT_0221,2025-03-03 21:48:17,2025-03-06 18:48:17,High,Network,VPN Issue,HR,App Support,Breached,69.0,Medium,None,1,0,Monday,3,227
+TCKT_0222,2025-07-26 10:32:13,2025-07-28 20:32:13,High,Software,UI Bug,HR,Hardware Support,Breached,58.0,Low,Product Launch,1,1,Saturday,7,162
+TCKT_0223,2025-06-12 04:18:14,2025-06-13 23:18:14,Medium,Software,Update Error,Admin,App Support,Met,43.0,Low,Security Patch,0,0,Thursday,6,221
+TCKT_0224,2025-06-24 01:00:04,2025-06-24 12:00:04,Low,Hardware,Keyboard Issue,Admin,Infra Team,Met,11.0,Medium,None,0,0,Tuesday,6,187
+TCKT_0225,2025-03-20 11:10:25,2025-03-20 14:10:25,Low,Software,App Crash,HR,Hardware Support,Breached,3.0,Medium,Security Patch,0,0,Thursday,3,202
+TCKT_0226,2024-11-01 01:21:00,2024-11-02 13:21:00,Medium,Hardware,Printer Issue,HR,Hardware Support,Met,36.0,Low,Security Patch,0,0,Friday,11,101
+TCKT_0227,2025-05-04 06:48:28,2025-05-07 01:48:28,High,Software,Update Error,Finance,App Support,Breached,67.0,Low,None,0,1,Sunday,5,222
+TCKT_0228,2025-01-06 12:15:35,2025-01-06 23:15:35,Low,Software,UI Bug,Finance,App Support,Met,11.0,High,None,0,0,Monday,1,156
+TCKT_0229,2025-01-25 12:12:15,2025-01-28 04:12:15,Low,Hardware,Monitor Issue,IT,Hardware Support,Breached,64.0,Low,Product Launch,1,1,Saturday,1,206
+TCKT_0230,2025-02-21 00:49:49,2025-02-23 22:49:49,High,Access,Account Lock,HR,Infra Team,Breached,70.0,Medium,Server Maintenance,0,0,Friday,2,126
+TCKT_0231,2025-01-01 03:52:12,2025-01-03 17:52:12,Critical,Access,Access Request,Admin,App Support,Breached,62.0,High,Server Maintenance,0,0,Wednesday,1,197
+TCKT_0232,2024-12-06 15:00:25,2024-12-08 19:00:25,Low,Hardware,Printer Issue,HR,Infra Team,Breached,52.0,Medium,Server Maintenance,1,0,Friday,12,164
+TCKT_0233,2025-05-07 10:07:09,2025-05-08 04:07:09,High,Software,Update Error,IT,App Support,Breached,18.0,Medium,System Upgrade,0,0,Wednesday,5,163
+TCKT_0234,2025-04-05 17:12:31,2025-04-06 08:12:31,Medium,Hardware,Keyboard Issue,Finance,App Support,Breached,15.0,High,System Upgrade,0,1,Saturday,4,237
+TCKT_0235,2024-10-17 18:17:14,2024-10-19 15:17:14,Medium,Software,Login Issue,HR,Infra Team,Met,45.0,Low,Security Patch,1,0,Thursday,10,204
+TCKT_0236,2025-06-13 16:18:51,2025-06-14 17:18:51,Critical,Access,Password Reset,IT,App Support,Breached,25.0,Medium,Security Patch,0,0,Friday,6,162
+TCKT_0237,2025-06-05 19:43:49,2025-06-06 20:43:49,Medium,Software,UI Bug,Admin,Hardware Support,Met,25.0,High,None,1,0,Thursday,6,124
+TCKT_0238,2025-10-06 01:00:01,2025-10-08 04:00:01,High,Network,WiFi Issue,IT,App Support,Breached,51.0,Medium,Security Patch,0,0,Monday,10,152
+TCKT_0239,2025-05-03 00:29:37,2025-05-05 09:29:37,Medium,Access,Account Lock,Finance,Hardware Support,Breached,57.0,Low,System Upgrade,0,1,Saturday,5,114
+TCKT_0240,2024-12-22 21:22:34,2024-12-23 10:22:34,Medium,Hardware,System Crash,IT,Hardware Support,Breached,13.0,Low,Product Launch,0,1,Sunday,12,123
+TCKT_0241,2024-11-19 08:39:32,2024-11-21 15:39:32,High,Software,UI Bug,HR,App Support,Breached,55.0,Medium,Server Maintenance,1,0,Tuesday,11,114
+TCKT_0242,2025-04-11 22:29:52,2025-04-14 07:29:52,Critical,Network,VPN Issue,Finance,Infra Team,Met,57.0,Medium,None,0,0,Friday,4,225
+TCKT_0243,2024-11-06 13:51:49,2024-11-06 16:51:49,Low,Hardware,Keyboard Issue,IT,Infra Team,Breached,3.0,High,Security Patch,0,0,Wednesday,11,201
+TCKT_0244,2024-12-04 11:31:29,2024-12-06 08:31:29,Critical,Hardware,Printer Issue,IT,App Support,Met,45.0,Low,Server Maintenance,0,0,Wednesday,12,113
+TCKT_0245,2024-10-27 08:17:36,2024-10-29 09:17:36,Medium,Hardware,Printer Issue,IT,Infra Team,Met,49.0,High,System Upgrade,1,1,Sunday,10,101
+TCKT_0246,2025-07-26 03:01:49,2025-07-29 03:01:49,Critical,Software,Login Issue,HR,Hardware Support,Breached,72.0,High,System Upgrade,0,1,Saturday,7,216
+TCKT_0247,2025-01-19 01:40:59,2025-01-20 08:40:59,Medium,Network,VPN Issue,Finance,Hardware Support,Breached,31.0,Medium,Product Launch,1,1,Sunday,1,138
+TCKT_0248,2024-11-16 17:59:21,2024-11-19 10:59:21,Medium,Software,Login Issue,IT,Hardware Support,Breached,65.0,High,Product Launch,1,1,Saturday,11,218
+TCKT_0249,2025-01-28 04:42:56,2025-01-28 17:42:56,Critical,Software,App Crash,Finance,Hardware Support,Met,13.0,High,Security Patch,1,0,Tuesday,1,191
+TCKT_0250,2024-11-08 17:02:05,2024-11-11 01:02:05,Medium,Hardware,Keyboard Issue,Finance,Infra Team,Met,56.0,Medium,Server Maintenance,1,0,Friday,11,217
+TCKT_0251,2025-02-28 11:09:16,2025-03-02 04:09:16,Low,Software,Login Issue,Admin,App Support,Met,41.0,Low,System Upgrade,0,0,Friday,2,187
+TCKT_0252,2025-01-02 11:33:35,2025-01-05 04:33:35,High,Software,Update Error,Finance,Hardware Support,Breached,65.0,High,Server Maintenance,1,0,Thursday,1,233
+TCKT_0253,2025-01-15 08:10:29,2025-01-17 10:10:29,Critical,Hardware,Keyboard Issue,IT,Infra Team,Met,50.0,Medium,Product Launch,1,0,Wednesday,1,223
+TCKT_0254,2024-10-19 09:29:28,2024-10-21 10:29:28,Critical,Network,VPN Issue,IT,Infra Team,Breached,49.0,Medium,Product Launch,0,1,Saturday,10,182
+TCKT_0255,2025-07-21 14:31:55,2025-07-22 03:31:55,Critical,Software,Update Error,Finance,App Support,Met,13.0,Low,System Upgrade,1,0,Monday,7,244
+TCKT_0256,2025-05-08 11:04:34,2025-05-10 03:04:34,Low,Network,WiFi Issue,HR,Infra Team,Met,40.0,Low,None,0,0,Thursday,5,210
+TCKT_0257,2025-02-10 03:57:18,2025-02-11 05:57:18,High,Hardware,Keyboard Issue,HR,Hardware Support,Met,26.0,Medium,Security Patch,0,0,Monday,2,193
+TCKT_0258,2025-03-19 02:44:19,2025-03-21 02:44:19,High,Access,Password Reset,IT,Infra Team,Breached,48.0,High,Server Maintenance,1,0,Wednesday,3,139
+TCKT_0259,2025-04-07 11:54:59,2025-04-09 03:54:59,Medium,Access,Access Request,Admin,Hardware Support,Met,40.0,Low,Security Patch,1,0,Monday,4,232
+TCKT_0260,2025-06-06 12:09:36,2025-06-07 22:09:36,Critical,Hardware,Keyboard Issue,HR,Infra Team,Met,34.0,Low,None,0,0,Friday,6,208
+TCKT_0261,2024-11-30 01:25:02,2024-12-02 07:25:02,Low,Access,Password Reset,IT,Infra Team,Breached,54.0,Medium,Server Maintenance,0,1,Saturday,11,197
+TCKT_0262,2025-04-10 09:44:50,2025-04-12 07:44:50,Critical,Software,Login Issue,HR,Infra Team,Breached,46.0,Low,None,1,0,Thursday,4,218
+TCKT_0263,2024-11-11 10:45:59,2024-11-13 18:45:59,Medium,Access,Access Request,HR,App Support,Met,56.0,Medium,Server Maintenance,0,0,Monday,11,199
+TCKT_0264,2025-08-19 07:04:02,2025-08-20 17:04:02,Medium,Software,Update Error,HR,App Support,Met,34.0,Medium,Product Launch,1,0,Tuesday,8,138
+TCKT_0265,2025-07-22 15:33:13,2025-07-24 19:33:13,Low,Access,Password Reset,HR,App Support,Met,52.0,Low,None,0,0,Tuesday,7,138
+TCKT_0266,2025-06-15 15:19:56,2025-06-16 15:19:56,Low,Network,Server Down,IT,Hardware Support,Met,24.0,Low,Security Patch,0,1,Sunday,6,210
+TCKT_0267,2024-12-24 04:45:42,2024-12-25 03:45:42,High,Software,UI Bug,Finance,Hardware Support,Breached,23.0,Medium,Security Patch,1,0,Tuesday,12,126
+TCKT_0268,2025-06-05 06:08:07,2025-06-07 10:08:07,Critical,Hardware,System Crash,Admin,Hardware Support,Met,52.0,Low,None,0,0,Thursday,6,181
+TCKT_0269,2025-03-12 00:33:33,2025-03-13 02:33:33,Medium,Network,Server Down,Finance,Hardware Support,Breached,26.0,Medium,Server Maintenance,1,0,Wednesday,3,205
+TCKT_0270,2025-07-11 06:56:27,2025-07-13 14:56:27,Critical,Hardware,Keyboard Issue,Admin,App Support,Breached,56.0,Low,Security Patch,1,0,Friday,7,166
+TCKT_0271,2025-03-15 20:44:13,2025-03-17 18:44:13,High,Hardware,Monitor Issue,HR,Infra Team,Breached,46.0,High,Server Maintenance,1,1,Saturday,3,244
+TCKT_0272,2025-04-25 09:34:38,2025-04-27 21:34:38,Critical,Access,Account Lock,Admin,Hardware Support,Breached,60.0,Medium,Product Launch,1,0,Friday,4,132
+TCKT_0273,2025-08-08 08:01:26,2025-08-08 09:01:26,Low,Network,WiFi Issue,Admin,Infra Team,Met,1.0,Medium,Server Maintenance,1,0,Friday,8,101
+TCKT_0274,2025-04-12 09:09:30,2025-04-13 10:09:30,Low,Access,Access Request,IT,Hardware Support,Met,25.0,Low,Server Maintenance,1,1,Saturday,4,194
+TCKT_0275,2025-08-08 22:11:32,2025-08-09 04:11:32,Low,Access,Access Request,HR,App Support,Met,6.0,High,System Upgrade,1,0,Friday,8,168
+TCKT_0276,2025-01-11 15:31:21,2025-01-14 08:31:21,Medium,Software,Update Error,Admin,Hardware Support,Breached,65.0,High,None,1,1,Saturday,1,123
+TCKT_0277,2025-05-04 21:10:50,2025-05-06 03:10:50,Low,Network,WiFi Issue,Finance,Infra Team,Breached,30.0,Low,Security Patch,0,1,Sunday,5,213
+TCKT_0278,2025-06-27 13:34:06,2025-06-29 09:34:06,Low,Hardware,System Crash,IT,App Support,Met,44.0,High,None,0,0,Friday,6,190
+TCKT_0279,2025-03-30 12:02:07,2025-03-31 13:02:07,Critical,Access,Access Request,HR,Hardware Support,Met,25.0,Medium,Security Patch,0,1,Sunday,3,201
+TCKT_0280,2024-12-14 02:08:19,2024-12-16 18:08:19,Critical,Hardware,Keyboard Issue,Admin,App Support,Breached,64.0,Medium,Security Patch,0,1,Saturday,12,190
+TCKT_0281,2025-08-10 09:38:59,2025-08-11 11:38:59,High,Hardware,System Crash,Finance,Hardware Support,Met,26.0,Low,Server Maintenance,0,1,Sunday,8,133
+TCKT_0282,2024-10-24 04:28:17,2024-10-26 23:28:17,Low,Software,UI Bug,Admin,Infra Team,Met,67.0,High,None,1,0,Thursday,10,166
+TCKT_0283,2025-01-19 04:36:00,2025-01-19 12:36:00,Medium,Access,Password Reset,HR,Hardware Support,Breached,8.0,Low,Security Patch,0,1,Sunday,1,223
+TCKT_0284,2025-07-27 23:45:43,2025-07-29 03:45:43,High,Network,WiFi Issue,Finance,Infra Team,Met,28.0,Low,System Upgrade,0,1,Sunday,7,112
+TCKT_0285,2025-03-20 18:10:14,2025-03-21 08:10:14,Critical,Software,App Crash,Finance,Infra Team,Met,14.0,Low,Product Launch,1,0,Thursday,3,239
+TCKT_0286,2025-04-25 16:12:24,2025-04-27 04:12:24,High,Access,Account Lock,Admin,App Support,Breached,36.0,Low,Security Patch,0,0,Friday,4,240
+TCKT_0287,2025-02-08 23:55:28,2025-02-10 07:55:28,Medium,Software,App Crash,HR,App Support,Met,32.0,Medium,Product Launch,1,1,Saturday,2,223
+TCKT_0288,2025-09-09 16:39:47,2025-09-10 04:39:47,High,Network,VPN Issue,IT,App Support,Met,12.0,Low,Product Launch,1,0,Tuesday,9,238
+TCKT_0289,2025-10-02 15:49:42,2025-10-03 12:49:42,Critical,Software,Login Issue,Finance,Infra Team,Breached,21.0,Medium,Product Launch,1,0,Thursday,10,165
+TCKT_0290,2025-09-05 04:36:23,2025-09-07 23:36:23,Medium,Network,Router Failure,HR,App Support,Met,67.0,Low,Product Launch,1,0,Friday,9,123
+TCKT_0291,2024-11-11 04:04:35,2024-11-12 01:04:35,Critical,Access,Access Request,Admin,App Support,Met,21.0,Medium,Product Launch,0,0,Monday,11,111
+TCKT_0292,2025-07-01 08:20:20,2025-07-02 22:20:20,Low,Software,UI Bug,IT,App Support,Breached,38.0,High,None,0,0,Tuesday,7,151
+TCKT_0293,2024-10-21 07:14:16,2024-10-22 19:14:16,High,Network,Router Failure,Finance,Infra Team,Met,36.0,High,Server Maintenance,0,0,Monday,10,119
+TCKT_0294,2025-05-13 14:14:52,2025-05-15 21:14:52,High,Network,Server Down,Admin,Infra Team,Breached,55.0,Medium,None,1,0,Tuesday,5,154
+TCKT_0295,2025-07-22 03:29:24,2025-07-23 10:29:24,Medium,Software,UI Bug,Finance,Infra Team,Met,31.0,High,System Upgrade,1,0,Tuesday,7,180
+TCKT_0296,2024-10-29 06:30:39,2024-10-29 21:30:39,Medium,Hardware,Monitor Issue,IT,Hardware Support,Met,15.0,High,System Upgrade,0,0,Tuesday,10,145
+TCKT_0297,2025-05-26 11:29:48,2025-05-29 01:29:48,High,Access,Password Reset,IT,Hardware Support,Breached,62.0,Low,Security Patch,0,0,Monday,5,224
+TCKT_0298,2025-07-16 15:06:02,2025-07-18 03:06:02,Medium,Network,Server Down,IT,Hardware Support,Met,36.0,Medium,Security Patch,0,0,Wednesday,7,189
+TCKT_0299,2024-12-03 17:01:51,2024-12-04 02:01:51,Medium,Software,Login Issue,Admin,App Support,Breached,9.0,Low,Server Maintenance,1,0,Tuesday,12,103
+TCKT_0300,2024-11-25 21:53:57,2024-11-28 11:53:57,Critical,Network,Server Down,Admin,Hardware Support,Met,62.0,Low,None,1,0,Monday,11,200
+TCKT_0301,2024-10-22 12:58:37,2024-10-24 12:58:37,Critical,Software,Login Issue,Finance,App Support,Met,48.0,High,Server Maintenance,1,0,Tuesday,10,224
+TCKT_0302,2025-06-02 11:50:31,2025-06-05 09:50:31,Medium,Software,UI Bug,Admin,App Support,Met,70.0,Medium,Product Launch,0,0,Monday,6,228
+TCKT_0303,2025-08-11 11:11:46,2025-08-11 22:11:46,High,Access,Password Reset,Admin,Infra Team,Breached,11.0,High,System Upgrade,0,0,Monday,8,125
+TCKT_0304,2025-08-06 06:23:30,2025-08-08 21:23:30,Low,Network,VPN Issue,Admin,App Support,Breached,63.0,Medium,Product Launch,0,0,Wednesday,8,235
+TCKT_0305,2025-09-19 08:29:40,2025-09-19 16:29:40,Critical,Hardware,Monitor Issue,Finance,Infra Team,Met,8.0,High,Security Patch,0,0,Friday,9,249
+TCKT_0306,2025-10-02 00:54:17,2025-10-04 07:54:17,Low,Network,WiFi Issue,HR,Infra Team,Breached,55.0,Low,Server Maintenance,1,0,Thursday,10,112
+TCKT_0307,2024-12-23 06:35:40,2024-12-24 23:35:40,High,Network,Router Failure,Admin,Hardware Support,Met,41.0,Low,System Upgrade,0,0,Monday,12,149
+TCKT_0308,2024-12-27 21:15:40,2024-12-30 18:15:40,Low,Hardware,Keyboard Issue,Admin,Hardware Support,Met,69.0,Low,Server Maintenance,0,0,Friday,12,104
+TCKT_0309,2025-02-19 19:30:46,2025-02-20 22:30:46,Medium,Access,Access Request,Finance,App Support,Met,27.0,High,System Upgrade,0,0,Wednesday,2,132
+TCKT_0310,2025-04-01 16:35:41,2025-04-02 14:35:41,Critical,Network,WiFi Issue,IT,Infra Team,Met,22.0,High,System Upgrade,0,0,Tuesday,4,238
+TCKT_0311,2025-09-30 19:52:56,2025-10-02 04:52:56,Low,Access,Account Lock,IT,Hardware Support,Breached,33.0,Low,System Upgrade,0,0,Tuesday,9,170
+TCKT_0312,2025-01-02 11:01:04,2025-01-04 18:01:04,High,Software,UI Bug,Finance,Hardware Support,Breached,55.0,Low,Security Patch,0,0,Thursday,1,219
+TCKT_0313,2024-11-09 20:03:02,2024-11-10 12:03:02,High,Software,App Crash,Admin,Infra Team,Breached,16.0,Low,System Upgrade,1,1,Saturday,11,199
+TCKT_0314,2025-04-14 05:33:31,2025-04-16 03:33:31,High,Software,App Crash,HR,App Support,Met,46.0,Low,System Upgrade,0,0,Monday,4,133
+TCKT_0315,2024-10-28 16:42:32,2024-10-29 05:42:32,High,Software,UI Bug,Admin,Infra Team,Breached,13.0,Low,Security Patch,1,0,Monday,10,242
+TCKT_0316,2025-07-13 22:56:25,2025-07-16 21:56:25,Medium,Software,UI Bug,IT,App Support,Breached,71.0,Medium,Server Maintenance,0,1,Sunday,7,236
+TCKT_0317,2025-02-03 13:00:58,2025-02-04 07:00:58,Critical,Network,VPN Issue,HR,Hardware Support,Breached,18.0,High,Server Maintenance,0,0,Monday,2,163
+TCKT_0318,2025-08-15 15:04:53,2025-08-18 01:04:53,Medium,Access,Password Reset,Finance,App Support,Met,58.0,Medium,None,1,0,Friday,8,174
+TCKT_0319,2025-08-23 14:53:59,2025-08-25 02:53:59,Critical,Hardware,Keyboard Issue,Finance,App Support,Met,36.0,High,Product Launch,1,1,Saturday,8,216
+TCKT_0320,2024-10-16 06:21:33,2024-10-18 00:21:33,High,Software,Update Error,Finance,Hardware Support,Met,42.0,Low,Server Maintenance,0,0,Wednesday,10,156
+TCKT_0321,2025-09-01 07:42:04,2025-09-02 09:42:04,Low,Hardware,Printer Issue,Finance,App Support,Breached,26.0,High,Server Maintenance,0,0,Monday,9,109
+TCKT_0322,2024-11-22 18:50:35,2024-11-23 19:50:35,Critical,Hardware,System Crash,HR,Hardware Support,Breached,25.0,High,Product Launch,1,0,Friday,11,205
+TCKT_0323,2025-10-04 00:11:04,2025-10-05 21:11:04,High,Software,Update Error,Admin,Infra Team,Met,45.0,High,Security Patch,0,1,Saturday,10,143
+TCKT_0324,2025-08-24 21:31:00,2025-08-27 16:31:00,Medium,Access,Account Lock,Admin,App Support,Met,67.0,Low,Server Maintenance,0,1,Sunday,8,126
+TCKT_0325,2025-01-10 16:51:17,2025-01-11 14:51:17,Low,Hardware,System Crash,HR,Infra Team,Met,22.0,High,None,0,0,Friday,1,151
+TCKT_0326,2025-04-27 22:21:51,2025-04-29 19:21:51,High,Access,Access Request,HR,Hardware Support,Met,45.0,Low,Product Launch,0,1,Sunday,4,103
+TCKT_0327,2025-09-24 04:22:30,2025-09-26 14:22:30,Critical,Network,WiFi Issue,IT,App Support,Breached,58.0,Low,Product Launch,0,0,Wednesday,9,155
+TCKT_0328,2025-01-04 08:45:48,2025-01-05 14:45:48,Low,Software,UI Bug,Admin,App Support,Met,30.0,Medium,Server Maintenance,1,1,Saturday,1,241
+TCKT_0329,2025-07-25 07:34:16,2025-07-26 08:34:16,Medium,Hardware,System Crash,IT,Infra Team,Breached,25.0,High,Product Launch,1,0,Friday,7,180
+TCKT_0330,2024-11-20 19:08:19,2024-11-22 18:08:19,Critical,Network,Router Failure,HR,Hardware Support,Breached,47.0,High,Server Maintenance,1,0,Wednesday,11,208
+TCKT_0331,2024-11-23 07:39:49,2024-11-23 12:39:49,High,Network,Router Failure,HR,Infra Team,Met,5.0,Low,Product Launch,0,1,Saturday,11,122
+TCKT_0332,2024-11-12 21:50:43,2024-11-15 00:50:43,Medium,Software,UI Bug,IT,Infra Team,Breached,51.0,High,None,1,0,Tuesday,11,182
+TCKT_0333,2025-06-20 15:21:39,2025-06-22 16:21:39,Medium,Network,Router Failure,IT,Hardware Support,Met,49.0,High,System Upgrade,0,0,Friday,6,133
+TCKT_0334,2024-12-06 23:57:27,2024-12-09 15:57:27,Critical,Network,WiFi Issue,Finance,Hardware Support,Met,64.0,High,System Upgrade,0,0,Friday,12,213
+TCKT_0335,2025-08-21 05:59:15,2025-08-22 09:59:15,Low,Access,Access Request,Admin,App Support,Met,28.0,Medium,Product Launch,0,0,Thursday,8,148
+TCKT_0336,2025-03-10 10:41:49,2025-03-10 11:41:49,Medium,Access,Account Lock,Admin,Infra Team,Breached,1.0,High,System Upgrade,0,0,Monday,3,204
+TCKT_0337,2025-08-17 19:22:14,2025-08-18 21:22:14,Medium,Access,Access Request,IT,Infra Team,Met,26.0,High,Server Maintenance,0,1,Sunday,8,153
+TCKT_0338,2025-04-19 15:42:24,2025-04-22 11:42:24,Critical,Access,Access Request,HR,Infra Team,Met,68.0,High,System Upgrade,1,1,Saturday,4,238
+TCKT_0339,2025-08-10 14:12:21,2025-08-11 07:12:21,Low,Hardware,System Crash,Finance,Infra Team,Breached,17.0,Medium,Product Launch,0,1,Sunday,8,167
+TCKT_0340,2024-12-24 16:00:08,2024-12-26 00:00:08,Low,Software,UI Bug,Finance,Infra Team,Met,32.0,Medium,None,1,0,Tuesday,12,183
+TCKT_0341,2025-04-19 18:12:25,2025-04-20 02:12:25,Low,Network,VPN Issue,IT,Infra Team,Breached,8.0,Low,System Upgrade,0,1,Saturday,4,144
+TCKT_0342,2025-07-31 21:52:41,2025-08-01 07:52:41,Low,Network,Router Failure,IT,App Support,Breached,10.0,Low,Server Maintenance,1,0,Thursday,7,219
+TCKT_0343,2024-10-16 21:13:29,2024-10-18 10:13:29,Low,Access,Password Reset,Admin,Hardware Support,Met,37.0,High,Product Launch,0,0,Wednesday,10,122
+TCKT_0344,2025-09-09 08:26:01,2025-09-11 23:26:01,Critical,Network,VPN Issue,Admin,App Support,Met,63.0,Medium,Server Maintenance,1,0,Tuesday,9,245
+TCKT_0345,2025-05-05 11:25:10,2025-05-05 22:25:10,Medium,Network,Server Down,Finance,Infra Team,Met,11.0,High,System Upgrade,1,0,Monday,5,243
+TCKT_0346,2025-06-06 03:52:04,2025-06-08 13:52:04,Critical,Hardware,Keyboard Issue,Admin,App Support,Breached,58.0,Medium,Product Launch,1,0,Friday,6,122
+TCKT_0347,2025-08-30 19:23:51,2025-08-31 11:23:51,High,Hardware,Monitor Issue,HR,App Support,Met,16.0,Medium,Security Patch,0,1,Saturday,8,155
+TCKT_0348,2024-11-27 12:31:30,2024-11-29 00:31:30,Critical,Hardware,Keyboard Issue,IT,Infra Team,Met,36.0,Low,Product Launch,1,0,Wednesday,11,243
+TCKT_0349,2025-07-26 04:24:05,2025-07-27 00:24:05,High,Software,UI Bug,Admin,Infra Team,Met,20.0,Medium,System Upgrade,1,1,Saturday,7,178
+TCKT_0350,2025-05-23 03:58:43,2025-05-24 19:58:43,Critical,Hardware,Printer Issue,IT,Infra Team,Breached,40.0,High,Security Patch,0,0,Friday,5,126
+TCKT_0351,2025-10-09 06:26:06,2025-10-09 18:26:06,Critical,Network,Server Down,HR,Infra Team,Breached,12.0,Low,Product Launch,1,0,Thursday,10,155
+TCKT_0352,2025-01-30 13:16:11,2025-01-31 04:16:11,Low,Hardware,Monitor Issue,Admin,Infra Team,Breached,15.0,Low,None,1,0,Thursday,1,233
+TCKT_0353,2025-07-29 03:00:55,2025-07-31 05:00:55,Critical,Access,Account Lock,Finance,App Support,Met,50.0,Medium,Product Launch,0,0,Tuesday,7,100
+TCKT_0354,2025-04-29 17:33:41,2025-05-01 01:33:41,High,Network,Router Failure,Finance,App Support,Met,32.0,Medium,Server Maintenance,0,0,Tuesday,4,103
+TCKT_0355,2025-01-14 17:43:33,2025-01-17 15:43:33,High,Access,Account Lock,Finance,Hardware Support,Breached,70.0,Low,Security Patch,1,0,Tuesday,1,166
+TCKT_0356,2025-02-06 18:02:09,2025-02-08 22:02:09,High,Access,Access Request,IT,Hardware Support,Breached,52.0,Low,None,0,0,Thursday,2,162
+TCKT_0357,2025-06-24 00:27:27,2025-06-27 00:27:27,Medium,Network,WiFi Issue,Admin,Hardware Support,Breached,72.0,Low,Product Launch,0,0,Tuesday,6,199
+TCKT_0358,2025-02-18 21:42:09,2025-02-21 11:42:09,High,Access,Account Lock,HR,Hardware Support,Met,62.0,High,Server Maintenance,0,0,Tuesday,2,217
+TCKT_0359,2024-11-08 02:34:47,2024-11-09 00:34:47,High,Software,Login Issue,Finance,Hardware Support,Met,22.0,High,System Upgrade,0,0,Friday,11,177
+TCKT_0360,2025-05-01 05:41:26,2025-05-02 05:41:26,Critical,Software,Update Error,IT,Infra Team,Met,24.0,Medium,Server Maintenance,0,0,Thursday,5,105
+TCKT_0361,2025-04-05 05:27:11,2025-04-08 02:27:11,High,Network,Router Failure,Finance,App Support,Met,69.0,Medium,Security Patch,1,1,Saturday,4,139
+TCKT_0362,2025-09-02 20:31:59,2025-09-03 08:31:59,Low,Software,Update Error,HR,App Support,Breached,12.0,Medium,System Upgrade,1,0,Tuesday,9,194
+TCKT_0363,2025-04-29 23:42:33,2025-05-01 12:42:33,Medium,Hardware,Monitor Issue,IT,App Support,Breached,37.0,Medium,Server Maintenance,0,0,Tuesday,4,243
+TCKT_0364,2025-05-14 13:26:33,2025-05-17 07:26:33,Medium,Network,Router Failure,Admin,Infra Team,Breached,66.0,Low,Product Launch,0,0,Wednesday,5,149
+TCKT_0365,2025-04-04 01:47:33,2025-04-06 04:47:33,High,Hardware,System Crash,IT,Infra Team,Met,51.0,Medium,Server Maintenance,0,0,Friday,4,104
+TCKT_0366,2025-07-07 10:00:42,2025-07-07 12:00:42,Medium,Network,VPN Issue,Finance,App Support,Breached,2.0,Low,System Upgrade,0,0,Monday,7,135
+TCKT_0367,2024-10-20 05:21:26,2024-10-22 13:21:26,Low,Network,VPN Issue,IT,Infra Team,Breached,56.0,High,None,1,1,Sunday,10,147
+TCKT_0368,2025-09-06 13:54:25,2025-09-09 00:54:25,Critical,Hardware,System Crash,Finance,App Support,Breached,59.0,Medium,Server Maintenance,0,1,Saturday,9,204
+TCKT_0369,2024-11-12 23:29:29,2024-11-14 11:29:29,Medium,Access,Account Lock,HR,App Support,Met,36.0,Medium,Security Patch,0,0,Tuesday,11,239
+TCKT_0370,2025-03-08 03:38:12,2025-03-09 05:38:12,Medium,Hardware,Monitor Issue,Admin,Hardware Support,Breached,26.0,Low,Security Patch,0,1,Saturday,3,112
+TCKT_0371,2025-09-20 19:04:46,2025-09-20 21:04:46,High,Access,Access Request,IT,Hardware Support,Breached,2.0,Medium,Security Patch,0,1,Saturday,9,187
+TCKT_0372,2025-08-01 13:02:23,2025-08-02 17:02:23,High,Network,VPN Issue,IT,Infra Team,Breached,28.0,Low,Server Maintenance,0,0,Friday,8,182
+TCKT_0373,2025-10-16 02:18:30,2025-10-17 02:18:30,Critical,Software,UI Bug,Admin,App Support,Met,24.0,High,System Upgrade,1,0,Thursday,10,173
+TCKT_0374,2025-04-01 04:23:08,2025-04-03 16:23:08,Low,Software,Update Error,IT,Hardware Support,Met,60.0,High,Product Launch,1,0,Tuesday,4,139
+TCKT_0375,2025-09-03 18:02:18,2025-09-06 16:02:18,Medium,Network,WiFi Issue,IT,Hardware Support,Breached,70.0,High,Product Launch,1,0,Wednesday,9,204
+TCKT_0376,2025-03-14 01:20:57,2025-03-14 05:20:57,Medium,Hardware,Keyboard Issue,Admin,Hardware Support,Met,4.0,Low,Product Launch,1,0,Friday,3,156
+TCKT_0377,2024-12-25 07:08:44,2024-12-27 14:08:44,High,Hardware,Printer Issue,Finance,Infra Team,Breached,55.0,Medium,None,0,0,Wednesday,12,183
+TCKT_0378,2025-08-28 12:36:44,2025-08-29 14:36:44,Low,Network,Server Down,HR,Infra Team,Breached,26.0,Medium,Product Launch,1,0,Thursday,8,122
+TCKT_0379,2024-12-02 03:42:51,2024-12-02 19:42:51,Critical,Hardware,Printer Issue,HR,Hardware Support,Breached,16.0,Medium,Product Launch,1,0,Monday,12,235
+TCKT_0380,2025-04-18 08:18:00,2025-04-18 16:18:00,High,Network,Router Failure,Admin,Hardware Support,Breached,8.0,Low,System Upgrade,0,0,Friday,4,172
+TCKT_0381,2025-03-12 11:27:14,2025-03-14 17:27:14,Critical,Software,UI Bug,Admin,Infra Team,Breached,54.0,Medium,Security Patch,1,0,Wednesday,3,183
+TCKT_0382,2025-07-12 10:43:06,2025-07-15 00:43:06,Critical,Software,App Crash,Admin,Hardware Support,Breached,62.0,High,None,1,1,Saturday,7,218
+TCKT_0383,2025-07-04 17:57:56,2025-07-06 13:57:56,Low,Hardware,System Crash,Finance,Infra Team,Breached,44.0,Medium,Security Patch,1,0,Friday,7,238
+TCKT_0384,2025-02-16 11:25:49,2025-02-16 17:25:49,High,Software,Login Issue,HR,App Support,Breached,6.0,Medium,Security Patch,1,1,Sunday,2,243
+TCKT_0385,2025-05-30 16:07:21,2025-05-31 02:07:21,Low,Hardware,Monitor Issue,Admin,App Support,Breached,10.0,Low,None,0,0,Friday,5,185
+TCKT_0386,2025-07-13 00:22:34,2025-07-14 10:22:34,Low,Software,UI Bug,HR,Infra Team,Breached,34.0,Medium,System Upgrade,0,1,Sunday,7,132
+TCKT_0387,2025-06-11 04:51:12,2025-06-13 15:51:12,Critical,Hardware,Printer Issue,Admin,App Support,Met,59.0,High,Server Maintenance,0,0,Wednesday,6,221
+TCKT_0388,2025-02-22 13:23:08,2025-02-22 16:23:08,Medium,Hardware,Printer Issue,HR,Hardware Support,Breached,3.0,Medium,Security Patch,1,1,Saturday,2,169
+TCKT_0389,2025-04-26 05:20:34,2025-04-27 17:20:34,Critical,Hardware,System Crash,Finance,Hardware Support,Met,36.0,High,None,1,1,Saturday,4,123
+TCKT_0390,2024-12-02 09:47:08,2024-12-03 06:47:08,Critical,Access,Access Request,IT,Infra Team,Met,21.0,Medium,Product Launch,0,0,Monday,12,186
+TCKT_0391,2025-03-03 15:40:53,2025-03-04 09:40:53,Critical,Network,VPN Issue,Admin,App Support,Met,18.0,Medium,Server Maintenance,0,0,Monday,3,241
+TCKT_0392,2024-11-12 12:26:46,2024-11-12 15:26:46,Critical,Software,Update Error,Finance,App Support,Breached,3.0,Low,Server Maintenance,1,0,Tuesday,11,187
+TCKT_0393,2025-09-22 03:58:06,2025-09-24 01:58:06,High,Hardware,Monitor Issue,Finance,Hardware Support,Met,46.0,Medium,None,1,0,Monday,9,135
+TCKT_0394,2025-10-03 18:21:18,2025-10-06 01:21:18,Low,Hardware,System Crash,Admin,Hardware Support,Met,55.0,High,Security Patch,0,0,Friday,10,246
+TCKT_0395,2025-02-25 20:32:29,2025-02-28 00:32:29,Critical,Hardware,Keyboard Issue,Admin,Hardware Support,Met,52.0,Medium,Security Patch,0,0,Tuesday,2,172
+TCKT_0396,2025-05-15 06:04:15,2025-05-16 00:04:15,Critical,Network,Router Failure,IT,Hardware Support,Met,18.0,Medium,Server Maintenance,1,0,Thursday,5,163
+TCKT_0397,2025-06-19 06:37:53,2025-06-19 15:37:53,Low,Software,Update Error,IT,App Support,Met,9.0,Medium,System Upgrade,0,0,Thursday,6,213
+TCKT_0398,2025-05-26 03:48:32,2025-05-26 10:48:32,High,Software,Login Issue,IT,App Support,Breached,7.0,Medium,None,1,0,Monday,5,151
+TCKT_0399,2024-10-30 01:50:46,2024-10-30 05:50:46,Medium,Software,Login Issue,IT,App Support,Met,4.0,Low,Product Launch,0,0,Wednesday,10,180
+TCKT_0400,2025-03-21 13:21:30,2025-03-23 12:21:30,Critical,Network,VPN Issue,Finance,Infra Team,Breached,47.0,Medium,Server Maintenance,1,0,Friday,3,198
+TCKT_0401,2025-03-16 20:43:08,2025-03-17 10:43:08,Low,Access,Access Request,Admin,App Support,Breached,14.0,Medium,System Upgrade,0,1,Sunday,3,118
+TCKT_0402,2025-07-21 14:22:42,2025-07-24 14:22:42,Critical,Software,Login Issue,HR,Hardware Support,Met,72.0,Low,Security Patch,0,0,Monday,7,238
+TCKT_0403,2025-06-04 06:07:15,2025-06-05 13:07:15,Critical,Hardware,System Crash,HR,Hardware Support,Breached,31.0,Medium,System Upgrade,1,0,Wednesday,6,219
+TCKT_0404,2025-04-07 01:06:51,2025-04-07 07:06:51,Low,Access,Password Reset,HR,Hardware Support,Breached,6.0,Medium,None,1,0,Monday,4,121
+TCKT_0405,2025-06-27 06:31:56,2025-06-29 07:31:56,Low,Hardware,Printer Issue,Admin,App Support,Breached,49.0,High,Server Maintenance,1,0,Friday,6,110
+TCKT_0406,2025-05-10 16:49:50,2025-05-11 16:49:50,Critical,Software,Login Issue,IT,Hardware Support,Met,24.0,Medium,None,1,1,Saturday,5,116
+TCKT_0407,2025-03-03 08:59:35,2025-03-05 17:59:35,Low,Network,Router Failure,HR,Hardware Support,Met,57.0,High,Security Patch,1,0,Monday,3,112
+TCKT_0408,2024-12-26 15:49:42,2024-12-28 16:49:42,Low,Software,Update Error,Admin,Hardware Support,Breached,49.0,High,Product Launch,1,0,Thursday,12,120
+TCKT_0409,2024-11-23 13:03:08,2024-11-26 04:03:08,Medium,Network,VPN Issue,IT,Hardware Support,Met,63.0,Low,None,1,1,Saturday,11,140
+TCKT_0410,2025-03-24 10:53:57,2025-03-25 22:53:57,Critical,Software,Update Error,Finance,App Support,Breached,36.0,High,Product Launch,1,0,Monday,3,194
+TCKT_0411,2024-11-17 13:50:03,2024-11-19 07:50:03,High,Hardware,Printer Issue,Admin,Hardware Support,Breached,42.0,Medium,System Upgrade,0,1,Sunday,11,212
+TCKT_0412,2025-07-13 03:16:06,2025-07-15 04:16:06,High,Hardware,Keyboard Issue,HR,Infra Team,Breached,49.0,High,System Upgrade,0,1,Sunday,7,172
+TCKT_0413,2024-11-21 01:05:53,2024-11-21 09:05:53,Medium,Software,Login Issue,IT,Hardware Support,Breached,8.0,Medium,None,0,0,Thursday,11,244
+TCKT_0414,2025-09-01 22:25:06,2025-09-03 22:25:06,High,Software,Login Issue,Finance,App Support,Met,48.0,High,Product Launch,0,0,Monday,9,133
+TCKT_0415,2025-01-23 05:04:55,2025-01-24 01:04:55,Critical,Network,Server Down,IT,Infra Team,Breached,20.0,Medium,None,0,0,Thursday,1,238
+TCKT_0416,2025-07-11 21:47:55,2025-07-14 01:47:55,High,Software,App Crash,Admin,Hardware Support,Met,52.0,High,Product Launch,1,0,Friday,7,237
+TCKT_0417,2025-01-18 23:38:05,2025-01-20 14:38:05,Medium,Access,Password Reset,IT,Infra Team,Breached,39.0,Low,Server Maintenance,0,1,Saturday,1,149
+TCKT_0418,2025-08-15 04:37:25,2025-08-18 02:37:25,Critical,Hardware,Printer Issue,IT,App Support,Breached,70.0,Low,System Upgrade,1,0,Friday,8,134
+TCKT_0419,2024-11-29 07:11:28,2024-11-29 12:11:28,High,Access,Account Lock,IT,Hardware Support,Met,5.0,High,System Upgrade,0,0,Friday,11,138
+TCKT_0420,2025-05-26 14:08:16,2025-05-26 19:08:16,Low,Software,Update Error,IT,App Support,Met,5.0,Medium,Security Patch,0,0,Monday,5,117
+TCKT_0421,2025-01-13 01:42:32,2025-01-15 01:42:32,Critical,Software,Login Issue,IT,Hardware Support,Met,48.0,Low,None,0,0,Monday,1,148
+TCKT_0422,2025-05-25 03:17:39,2025-05-27 09:17:39,Critical,Access,Password Reset,HR,Infra Team,Breached,54.0,Low,Server Maintenance,0,1,Sunday,5,213
+TCKT_0423,2024-12-13 18:16:37,2024-12-15 08:16:37,Medium,Network,Server Down,Admin,Hardware Support,Met,38.0,Medium,None,1,0,Friday,12,194
+TCKT_0424,2025-06-07 14:40:09,2025-06-09 01:40:09,Low,Hardware,Monitor Issue,IT,Infra Team,Breached,35.0,High,Server Maintenance,0,1,Saturday,6,176
+TCKT_0425,2025-03-12 12:49:27,2025-03-15 09:49:27,Medium,Network,Router Failure,Admin,App Support,Breached,69.0,Low,Server Maintenance,1,0,Wednesday,3,156
+TCKT_0426,2025-08-13 11:28:01,2025-08-15 11:28:01,Low,Network,WiFi Issue,HR,App Support,Met,48.0,Low,Server Maintenance,1,0,Wednesday,8,137
+TCKT_0427,2025-02-22 09:10:50,2025-02-24 18:10:50,Medium,Network,WiFi Issue,Admin,Infra Team,Breached,57.0,Low,Security Patch,1,1,Saturday,2,242
+TCKT_0428,2025-02-10 23:06:38,2025-02-11 00:06:38,Medium,Hardware,Monitor Issue,IT,Hardware Support,Breached,1.0,Medium,Product Launch,1,0,Monday,2,159
+TCKT_0429,2025-01-04 16:43:07,2025-01-07 10:43:07,Critical,Access,Password Reset,Finance,Hardware Support,Met,66.0,High,System Upgrade,1,1,Saturday,1,187
+TCKT_0430,2025-07-05 11:38:09,2025-07-06 13:38:09,Critical,Software,Login Issue,Finance,Infra Team,Met,26.0,Low,System Upgrade,0,1,Saturday,7,121
+TCKT_0431,2025-05-05 21:10:07,2025-05-06 02:10:07,Critical,Network,Server Down,IT,App Support,Breached,5.0,High,System Upgrade,1,0,Monday,5,183
+TCKT_0432,2024-11-01 03:18:19,2024-11-03 22:18:19,High,Software,UI Bug,IT,Infra Team,Breached,67.0,Medium,Product Launch,1,0,Friday,11,249
+TCKT_0433,2024-11-12 13:55:58,2024-11-13 11:55:58,High,Software,Login Issue,Finance,Infra Team,Breached,22.0,High,Server Maintenance,1,0,Tuesday,11,236
+TCKT_0434,2024-11-12 02:12:15,2024-11-13 07:12:15,Medium,Network,WiFi Issue,Finance,Hardware Support,Met,29.0,Low,Server Maintenance,0,0,Tuesday,11,231
+TCKT_0435,2025-02-06 21:19:25,2025-02-06 23:19:25,Low,Software,App Crash,IT,Infra Team,Breached,2.0,High,Product Launch,0,0,Thursday,2,219
+TCKT_0436,2025-01-28 15:57:32,2025-01-29 09:57:32,High,Network,VPN Issue,HR,Hardware Support,Met,18.0,High,System Upgrade,1,0,Tuesday,1,178
+TCKT_0437,2025-03-29 21:38:55,2025-04-01 20:38:55,Critical,Network,WiFi Issue,HR,App Support,Met,71.0,Low,Security Patch,0,1,Saturday,3,166
+TCKT_0438,2025-07-31 16:58:29,2025-08-03 08:58:29,Critical,Software,App Crash,IT,App Support,Met,64.0,High,Security Patch,0,0,Thursday,7,167
+TCKT_0439,2025-05-02 02:14:54,2025-05-03 22:14:54,Critical,Network,Router Failure,Admin,Infra Team,Breached,44.0,High,System Upgrade,0,0,Friday,5,175
+TCKT_0440,2025-08-03 05:53:02,2025-08-05 04:53:02,High,Network,Router Failure,Finance,Infra Team,Met,47.0,High,None,0,1,Sunday,8,113
+TCKT_0441,2025-04-26 23:36:10,2025-04-28 06:36:10,Low,Access,Access Request,IT,App Support,Breached,31.0,High,Product Launch,1,1,Saturday,4,192
+TCKT_0442,2025-08-01 02:13:35,2025-08-01 20:13:35,Medium,Hardware,Keyboard Issue,Finance,Infra Team,Met,18.0,Low,Product Launch,0,0,Friday,8,112
+TCKT_0443,2025-06-18 09:49:08,2025-06-21 03:49:08,Low,Network,Router Failure,Finance,Infra Team,Met,66.0,Medium,Product Launch,1,0,Wednesday,6,250
+TCKT_0444,2024-12-20 07:23:53,2024-12-21 07:23:53,High,Access,Access Request,Admin,Hardware Support,Met,24.0,Medium,System Upgrade,1,0,Friday,12,145
+TCKT_0445,2025-07-11 21:49:59,2025-07-13 05:49:59,Critical,Software,Login Issue,Finance,Infra Team,Met,32.0,High,Product Launch,0,0,Friday,7,217
+TCKT_0446,2024-10-17 07:24:54,2024-10-19 03:24:54,Low,Hardware,Monitor Issue,IT,Hardware Support,Breached,44.0,Low,Server Maintenance,1,0,Thursday,10,111
+TCKT_0447,2025-10-08 23:15:09,2025-10-09 13:15:09,Low,Access,Password Reset,Finance,Hardware Support,Met,14.0,High,Product Launch,0,0,Wednesday,10,218
+TCKT_0448,2025-03-13 20:10:20,2025-03-16 18:10:20,Critical,Hardware,Printer Issue,HR,Hardware Support,Met,70.0,Low,Product Launch,1,0,Thursday,3,237
+TCKT_0449,2025-07-19 11:28:27,2025-07-22 05:28:27,Medium,Software,UI Bug,HR,Infra Team,Breached,66.0,High,Server Maintenance,0,1,Saturday,7,220
+TCKT_0450,2025-04-28 06:36:40,2025-04-30 20:36:40,Low,Network,Server Down,Finance,Hardware Support,Breached,62.0,High,Security Patch,1,0,Monday,4,110
+TCKT_0451,2024-11-14 20:58:30,2024-11-15 04:58:30,Low,Access,Account Lock,IT,App Support,Breached,8.0,Low,Security Patch,0,0,Thursday,11,150
+TCKT_0452,2025-08-03 13:37:28,2025-08-05 06:37:28,High,Access,Password Reset,HR,Infra Team,Breached,41.0,High,Product Launch,1,1,Sunday,8,140
+TCKT_0453,2025-07-19 16:10:54,2025-07-21 09:10:54,Medium,Hardware,Monitor Issue,HR,App Support,Breached,41.0,Medium,Security Patch,1,1,Saturday,7,153
+TCKT_0454,2024-10-17 21:50:29,2024-10-19 20:50:29,Low,Network,WiFi Issue,Finance,Infra Team,Met,47.0,High,Product Launch,1,0,Thursday,10,241
+TCKT_0455,2025-04-18 16:12:55,2025-04-19 13:12:55,Medium,Access,Account Lock,IT,Hardware Support,Met,21.0,Low,Product Launch,1,0,Friday,4,171
+TCKT_0456,2024-12-28 00:26:43,2024-12-29 20:26:43,Critical,Software,App Crash,IT,Infra Team,Breached,44.0,Medium,Security Patch,1,1,Saturday,12,203
+TCKT_0457,2025-09-07 00:57:44,2025-09-09 01:57:44,Critical,Network,Server Down,HR,Infra Team,Met,49.0,Low,Product Launch,0,1,Sunday,9,204
+TCKT_0458,2025-05-22 05:35:22,2025-05-23 11:35:22,Critical,Software,Update Error,HR,Infra Team,Met,30.0,Low,Product Launch,1,0,Thursday,5,232
+TCKT_0459,2025-02-05 23:26:53,2025-02-06 13:26:53,Critical,Network,WiFi Issue,Admin,Infra Team,Breached,14.0,Low,None,1,0,Wednesday,2,140
+TCKT_0460,2025-08-04 13:21:03,2025-08-07 11:21:03,High,Access,Password Reset,Admin,Infra Team,Met,70.0,Medium,Product Launch,0,0,Monday,8,234
+TCKT_0461,2024-12-03 12:35:03,2024-12-04 15:35:03,Medium,Network,WiFi Issue,HR,Infra Team,Met,27.0,High,Server Maintenance,0,0,Tuesday,12,170
+TCKT_0462,2025-04-09 12:28:42,2025-04-11 19:28:42,Medium,Hardware,Monitor Issue,HR,Hardware Support,Breached,55.0,High,None,0,0,Wednesday,4,109
+TCKT_0463,2024-11-04 09:08:49,2024-11-04 11:08:49,Low,Network,Server Down,HR,Hardware Support,Breached,2.0,High,Product Launch,1,0,Monday,11,145
+TCKT_0464,2024-12-11 04:26:53,2024-12-13 14:26:53,Low,Hardware,System Crash,Finance,App Support,Breached,58.0,Low,Security Patch,1,0,Wednesday,12,232
+TCKT_0465,2024-11-23 04:25:00,2024-11-24 20:25:00,Medium,Software,Update Error,HR,Hardware Support,Met,40.0,Low,Security Patch,0,1,Saturday,11,164
+TCKT_0466,2025-05-20 18:03:09,2025-05-20 21:03:09,Low,Network,WiFi Issue,HR,App Support,Breached,3.0,High,Security Patch,1,0,Tuesday,5,108
+TCKT_0467,2025-04-19 12:13:45,2025-04-20 20:13:45,Low,Hardware,System Crash,IT,App Support,Met,32.0,Low,Security Patch,0,1,Saturday,4,115
+TCKT_0468,2025-04-19 16:29:39,2025-04-21 13:29:39,High,Access,Password Reset,HR,Hardware Support,Breached,45.0,Low,None,0,1,Saturday,4,136
+TCKT_0469,2025-08-18 02:51:36,2025-08-20 20:51:36,Low,Hardware,Printer Issue,Admin,Infra Team,Met,66.0,Low,System Upgrade,0,0,Monday,8,114
+TCKT_0470,2025-07-26 23:52:16,2025-07-29 14:52:16,Critical,Access,Access Request,IT,Infra Team,Met,63.0,Low,System Upgrade,0,1,Saturday,7,175
+TCKT_0471,2024-10-28 14:32:50,2024-10-29 06:32:50,Medium,Network,Server Down,IT,Infra Team,Met,16.0,High,Product Launch,1,0,Monday,10,103
+TCKT_0472,2025-01-28 20:01:18,2025-01-30 23:01:18,Medium,Network,VPN Issue,IT,App Support,Met,51.0,Medium,System Upgrade,1,0,Tuesday,1,236
+TCKT_0473,2025-02-04 21:07:07,2025-02-07 04:07:07,High,Hardware,Monitor Issue,IT,App Support,Breached,55.0,Low,Product Launch,0,0,Tuesday,2,171
+TCKT_0474,2025-10-09 17:40:39,2025-10-11 07:40:39,Low,Hardware,Printer Issue,IT,App Support,Met,38.0,High,Security Patch,1,0,Thursday,10,131
+TCKT_0475,2025-06-09 06:43:18,2025-06-11 18:43:18,Low,Access,Password Reset,IT,App Support,Met,60.0,Low,System Upgrade,1,0,Monday,6,100
+TCKT_0476,2025-05-17 01:37:12,2025-05-19 11:37:12,High,Software,App Crash,IT,Infra Team,Breached,58.0,Low,System Upgrade,1,1,Saturday,5,186
+TCKT_0477,2024-10-16 15:30:04,2024-10-17 19:30:04,High,Software,Login Issue,Finance,Hardware Support,Breached,28.0,High,None,0,0,Wednesday,10,220
+TCKT_0478,2025-04-14 10:54:00,2025-04-16 16:54:00,Critical,Hardware,Monitor Issue,HR,Infra Team,Met,54.0,Medium,Product Launch,0,0,Monday,4,220
+TCKT_0479,2024-11-01 16:59:05,2024-11-02 06:59:05,Medium,Access,Account Lock,Admin,App Support,Met,14.0,High,System Upgrade,0,0,Friday,11,195
+TCKT_0480,2025-01-12 14:32:51,2025-01-15 07:32:51,Critical,Software,Login Issue,Admin,Hardware Support,Met,65.0,Medium,System Upgrade,1,1,Sunday,1,245
+TCKT_0481,2025-01-25 12:34:31,2025-01-26 07:34:31,High,Software,Update Error,Admin,App Support,Breached,19.0,Low,Server Maintenance,1,1,Saturday,1,158
+TCKT_0482,2024-10-17 04:26:46,2024-10-20 01:26:46,Critical,Software,Update Error,Finance,Infra Team,Breached,69.0,High,Product Launch,1,0,Thursday,10,153
+TCKT_0483,2025-09-01 11:54:59,2025-09-04 06:54:59,Medium,Hardware,Monitor Issue,Admin,App Support,Breached,67.0,Low,None,0,0,Monday,9,225
+TCKT_0484,2025-06-16 07:09:01,2025-06-18 09:09:01,High,Access,Password Reset,IT,Infra Team,Met,50.0,High,System Upgrade,0,0,Monday,6,213
+TCKT_0485,2025-06-14 21:53:09,2025-06-16 19:53:09,Low,Software,Login Issue,IT,Infra Team,Breached,46.0,High,System Upgrade,1,1,Saturday,6,244
+TCKT_0486,2025-08-25 10:56:10,2025-08-25 19:56:10,Low,Hardware,Printer Issue,IT,App Support,Met,9.0,Medium,Product Launch,1,0,Monday,8,243
+TCKT_0487,2025-04-20 16:20:07,2025-04-21 01:20:07,Low,Access,Account Lock,HR,Hardware Support,Breached,9.0,High,System Upgrade,1,1,Sunday,4,121
+TCKT_0488,2025-07-09 10:04:27,2025-07-09 15:04:27,Low,Hardware,Keyboard Issue,Admin,Hardware Support,Met,5.0,Medium,Security Patch,0,0,Wednesday,7,193
+TCKT_0489,2024-11-05 09:13:03,2024-11-06 05:13:03,High,Hardware,Printer Issue,HR,Hardware Support,Met,20.0,High,Product Launch,0,0,Tuesday,11,161
+TCKT_0490,2025-07-25 09:22:01,2025-07-28 04:22:01,Critical,Hardware,Printer Issue,HR,Hardware Support,Met,67.0,Low,Server Maintenance,1,0,Friday,7,198
+TCKT_0491,2024-11-21 03:59:47,2024-11-22 16:59:47,Low,Access,Password Reset,HR,Infra Team,Met,37.0,Medium,System Upgrade,1,0,Thursday,11,109
+TCKT_0492,2025-02-10 17:41:33,2025-02-11 17:41:33,Low,Software,Login Issue,IT,Infra Team,Breached,24.0,Low,None,1,0,Monday,2,239
+TCKT_0493,2025-09-17 02:50:05,2025-09-19 00:50:05,Medium,Access,Password Reset,IT,App Support,Met,46.0,Low,Server Maintenance,1,0,Wednesday,9,111
+TCKT_0494,2025-10-09 00:32:19,2025-10-09 20:32:19,Critical,Network,Server Down,Finance,App Support,Breached,20.0,Low,Server Maintenance,0,0,Thursday,10,171
+TCKT_0495,2025-01-16 11:37:24,2025-01-17 00:37:24,High,Software,Login Issue,Finance,App Support,Met,13.0,Medium,Security Patch,1,0,Thursday,1,234
+TCKT_0496,2024-11-27 01:07:33,2024-11-27 16:07:33,High,Software,Update Error,IT,App Support,Breached,15.0,High,Security Patch,0,0,Wednesday,11,147
+TCKT_0497,2025-07-23 04:27:44,2025-07-24 01:27:44,High,Access,Password Reset,HR,Infra Team,Met,21.0,Medium,Product Launch,0,0,Wednesday,7,122
+TCKT_0498,2025-09-20 20:32:29,2025-09-21 12:32:29,Critical,Network,VPN Issue,HR,Infra Team,Met,16.0,Low,Security Patch,0,1,Saturday,9,181
+TCKT_0499,2025-02-21 13:39:15,2025-02-21 18:39:15,High,Software,App Crash,Admin,Hardware Support,Met,5.0,Medium,None,0,0,Friday,2,243
+TCKT_0500,2025-04-01 03:31:25,2025-04-03 22:31:25,High,Hardware,Printer Issue,HR,App Support,Met,67.0,High,Product Launch,1,0,Tuesday,4,125
+TCKT_0501,2025-06-06 10:50:42,2025-06-09 09:50:42,Medium,Network,VPN Issue,Admin,Hardware Support,Breached,71.0,High,None,1,0,Friday,6,172
+TCKT_0502,2025-01-03 15:50:00,2025-01-04 23:50:00,Critical,Software,UI Bug,IT,App Support,Breached,32.0,Medium,None,1,0,Friday,1,157
+TCKT_0503,2025-05-20 21:59:42,2025-05-23 04:59:42,Critical,Software,Update Error,HR,App Support,Breached,55.0,Low,None,0,0,Tuesday,5,106
+TCKT_0504,2024-11-16 06:37:47,2024-11-16 13:37:47,Critical,Network,Router Failure,Finance,Hardware Support,Met,7.0,High,System Upgrade,1,1,Saturday,11,203
+TCKT_0505,2024-11-20 00:40:20,2024-11-22 11:40:20,High,Network,WiFi Issue,HR,App Support,Breached,59.0,High,None,1,0,Wednesday,11,159
+TCKT_0506,2025-06-01 20:51:31,2025-06-03 19:51:31,Critical,Network,WiFi Issue,Admin,App Support,Met,47.0,Medium,Server Maintenance,1,1,Sunday,6,231
+TCKT_0507,2025-05-26 01:09:24,2025-05-28 21:09:24,Critical,Software,Update Error,Finance,App Support,Met,68.0,High,System Upgrade,0,0,Monday,5,119
+TCKT_0508,2025-02-07 13:58:34,2025-02-08 09:58:34,Critical,Software,Login Issue,IT,Hardware Support,Breached,20.0,Low,Product Launch,0,0,Friday,2,202
+TCKT_0509,2025-05-06 17:57:55,2025-05-08 17:57:55,High,Network,VPN Issue,Admin,Infra Team,Breached,48.0,Low,None,1,0,Tuesday,5,208
+TCKT_0510,2025-10-02 01:02:13,2025-10-03 08:02:13,Medium,Network,WiFi Issue,Finance,Infra Team,Breached,31.0,Low,None,0,0,Thursday,10,134
+TCKT_0511,2025-05-19 07:26:10,2025-05-22 07:26:10,High,Access,Access Request,HR,App Support,Breached,72.0,Low,Server Maintenance,1,0,Monday,5,112
+TCKT_0512,2025-06-21 13:37:21,2025-06-22 22:37:21,Low,Hardware,System Crash,IT,Hardware Support,Met,33.0,Medium,Product Launch,0,1,Saturday,6,174
+TCKT_0513,2025-08-22 17:46:18,2025-08-24 05:46:18,Medium,Hardware,Keyboard Issue,IT,Infra Team,Met,36.0,Medium,System Upgrade,0,0,Friday,8,192
+TCKT_0514,2025-10-01 19:25:01,2025-10-02 00:25:01,High,Network,Server Down,HR,Infra Team,Breached,5.0,Medium,Product Launch,1,0,Wednesday,10,204
+TCKT_0515,2025-02-17 18:23:22,2025-02-20 05:23:22,Low,Access,Password Reset,Admin,Hardware Support,Breached,59.0,High,None,1,0,Monday,2,122
+TCKT_0516,2025-09-17 21:47:12,2025-09-18 08:47:12,Critical,Hardware,Printer Issue,HR,Hardware Support,Met,11.0,Low,Server Maintenance,0,0,Wednesday,9,212
+TCKT_0517,2025-10-06 21:18:17,2025-10-08 08:18:17,High,Software,UI Bug,Finance,Infra Team,Met,35.0,Low,Security Patch,1,0,Monday,10,190
+TCKT_0518,2024-12-25 06:58:08,2024-12-26 10:58:08,Low,Access,Password Reset,HR,Infra Team,Met,28.0,Low,None,0,0,Wednesday,12,116
+TCKT_0519,2024-10-27 11:30:38,2024-10-28 09:30:38,Critical,Network,VPN Issue,IT,Infra Team,Breached,22.0,High,Security Patch,1,1,Sunday,10,238
+TCKT_0520,2025-06-10 15:10:34,2025-06-11 10:10:34,Medium,Software,UI Bug,Finance,Infra Team,Met,19.0,High,Product Launch,0,0,Tuesday,6,175
+TCKT_0521,2025-01-05 18:08:51,2025-01-06 18:08:51,High,Access,Password Reset,Admin,App Support,Breached,24.0,Medium,None,0,1,Sunday,1,220
+TCKT_0522,2025-06-27 11:31:18,2025-06-30 03:31:18,Low,Network,WiFi Issue,IT,App Support,Met,64.0,Medium,Product Launch,0,0,Friday,6,108
+TCKT_0523,2025-05-18 02:33:43,2025-05-18 16:33:43,Critical,Network,WiFi Issue,IT,Hardware Support,Met,14.0,Medium,Server Maintenance,1,1,Sunday,5,195
+TCKT_0524,2025-03-12 23:01:18,2025-03-13 02:01:18,High,Access,Access Request,HR,Hardware Support,Breached,3.0,Low,System Upgrade,1,0,Wednesday,3,173
+TCKT_0525,2025-02-04 07:27:34,2025-02-05 14:27:34,Low,Access,Password Reset,IT,Infra Team,Met,31.0,Low,Security Patch,0,0,Tuesday,2,174
+TCKT_0526,2025-03-04 13:54:05,2025-03-07 04:54:05,Medium,Software,UI Bug,IT,Infra Team,Breached,63.0,Low,Server Maintenance,1,0,Tuesday,3,202
+TCKT_0527,2025-10-13 08:50:38,2025-10-15 14:50:38,Critical,Hardware,Keyboard Issue,IT,Hardware Support,Breached,54.0,High,System Upgrade,0,0,Monday,10,205
+TCKT_0528,2024-10-27 09:06:25,2024-10-28 08:06:25,Low,Software,Login Issue,Finance,Hardware Support,Breached,23.0,Low,None,0,1,Sunday,10,230
+TCKT_0529,2025-10-15 06:24:19,2025-10-16 17:24:19,High,Hardware,Monitor Issue,Admin,Hardware Support,Breached,35.0,High,None,0,0,Wednesday,10,104
+TCKT_0530,2025-03-02 22:36:52,2025-03-05 06:36:52,High,Network,WiFi Issue,IT,Infra Team,Breached,56.0,Low,Security Patch,1,1,Sunday,3,224
+TCKT_0531,2025-03-05 21:37:36,2025-03-08 06:37:36,Medium,Access,Password Reset,Finance,App Support,Met,57.0,Low,Security Patch,0,0,Wednesday,3,211
+TCKT_0532,2025-08-21 20:53:22,2025-08-22 13:53:22,Low,Software,App Crash,IT,App Support,Breached,17.0,High,Security Patch,1,0,Thursday,8,122
+TCKT_0533,2025-10-11 05:20:43,2025-10-12 21:20:43,Medium,Hardware,Keyboard Issue,IT,Hardware Support,Met,40.0,Medium,System Upgrade,1,1,Saturday,10,227
+TCKT_0534,2025-02-28 08:30:21,2025-03-02 11:30:21,Critical,Access,Access Request,HR,Infra Team,Breached,51.0,Medium,None,0,0,Friday,2,137
+TCKT_0535,2025-04-09 19:32:37,2025-04-09 23:32:37,Low,Software,Update Error,HR,Hardware Support,Met,4.0,High,None,1,0,Wednesday,4,190
+TCKT_0536,2025-10-10 08:56:33,2025-10-11 20:56:33,Medium,Hardware,System Crash,Admin,Infra Team,Breached,36.0,High,Security Patch,0,0,Friday,10,238
+TCKT_0537,2025-05-17 09:46:00,2025-05-18 06:46:00,Medium,Network,WiFi Issue,HR,Hardware Support,Met,21.0,Low,None,0,1,Saturday,5,248
+TCKT_0538,2025-01-04 09:14:58,2025-01-05 17:14:58,Medium,Network,Server Down,Finance,Hardware Support,Met,32.0,Low,Server Maintenance,0,1,Saturday,1,173
+TCKT_0539,2024-10-30 01:16:20,2024-11-01 03:16:20,High,Access,Password Reset,IT,Hardware Support,Breached,50.0,Medium,Server Maintenance,1,0,Wednesday,10,175
+TCKT_0540,2025-04-04 21:15:46,2025-04-06 18:15:46,Low,Access,Access Request,Admin,App Support,Met,45.0,High,System Upgrade,1,0,Friday,4,236
+TCKT_0541,2025-04-17 04:17:44,2025-04-18 23:17:44,High,Hardware,Printer Issue,Finance,Hardware Support,Breached,43.0,High,System Upgrade,0,0,Thursday,4,151
+TCKT_0542,2025-04-09 19:18:27,2025-04-09 23:18:27,Critical,Network,Server Down,HR,Hardware Support,Met,4.0,Low,Security Patch,0,0,Wednesday,4,132
+TCKT_0543,2025-06-08 09:50:53,2025-06-11 09:50:53,High,Access,Password Reset,Admin,Hardware Support,Met,72.0,High,None,1,1,Sunday,6,218
+TCKT_0544,2025-08-22 04:58:31,2025-08-23 19:58:31,High,Hardware,Printer Issue,Finance,Infra Team,Breached,39.0,Medium,Product Launch,0,0,Friday,8,168
+TCKT_0545,2025-08-26 11:47:54,2025-08-27 08:47:54,High,Access,Account Lock,IT,App Support,Met,21.0,Medium,Product Launch,1,0,Tuesday,8,244
+TCKT_0546,2024-12-13 09:33:30,2024-12-13 15:33:30,High,Access,Account Lock,IT,Hardware Support,Met,6.0,Low,Product Launch,0,0,Friday,12,128
+TCKT_0547,2025-01-30 03:17:54,2025-01-31 16:17:54,Medium,Software,UI Bug,Admin,App Support,Breached,37.0,Medium,Server Maintenance,0,0,Thursday,1,225
+TCKT_0548,2025-07-15 11:21:40,2025-07-17 06:21:40,Critical,Network,VPN Issue,HR,Hardware Support,Met,43.0,High,Security Patch,1,0,Tuesday,7,229
+TCKT_0549,2025-05-03 07:59:42,2025-05-05 19:59:42,Low,Software,Login Issue,Admin,Hardware Support,Met,60.0,Medium,Server Maintenance,0,1,Saturday,5,142
+TCKT_0550,2025-05-26 05:43:28,2025-05-26 11:43:28,Low,Software,App Crash,IT,Hardware Support,Met,6.0,High,Server Maintenance,1,0,Monday,5,218
+TCKT_0551,2025-06-24 22:26:55,2025-06-26 10:26:55,Medium,Access,Password Reset,Admin,Hardware Support,Met,36.0,Medium,System Upgrade,0,0,Tuesday,6,144
+TCKT_0552,2025-06-26 23:13:56,2025-06-27 09:13:56,High,Access,Account Lock,HR,App Support,Met,10.0,Low,None,1,0,Thursday,6,137
+TCKT_0553,2024-11-23 00:36:36,2024-11-24 21:36:36,Low,Software,UI Bug,Admin,App Support,Breached,45.0,Low,Server Maintenance,1,1,Saturday,11,118
+TCKT_0554,2024-12-15 00:57:29,2024-12-15 02:57:29,Critical,Software,UI Bug,Admin,Hardware Support,Met,2.0,High,System Upgrade,1,1,Sunday,12,145
+TCKT_0555,2025-01-01 03:53:46,2025-01-03 15:53:46,High,Network,Router Failure,Admin,Infra Team,Met,60.0,High,Server Maintenance,1,0,Wednesday,1,246
+TCKT_0556,2025-07-21 16:58:27,2025-07-24 16:58:27,Critical,Access,Account Lock,Admin,Infra Team,Breached,72.0,Medium,None,0,0,Monday,7,189
+TCKT_0557,2025-01-06 16:00:26,2025-01-08 01:00:26,Medium,Network,VPN Issue,Admin,Hardware Support,Met,33.0,Medium,None,1,0,Monday,1,213
+TCKT_0558,2025-03-16 12:56:12,2025-03-18 07:56:12,High,Access,Access Request,Admin,Infra Team,Met,43.0,Low,None,1,1,Sunday,3,189
+TCKT_0559,2025-04-22 07:50:02,2025-04-23 22:50:02,Low,Hardware,Printer Issue,Admin,Hardware Support,Met,39.0,Low,System Upgrade,1,0,Tuesday,4,248
+TCKT_0560,2025-06-13 16:06:50,2025-06-15 23:06:50,High,Access,Access Request,IT,App Support,Breached,55.0,Medium,None,0,0,Friday,6,122
+TCKT_0561,2024-10-31 02:47:43,2024-11-02 07:47:43,High,Access,Password Reset,HR,Infra Team,Met,53.0,Medium,None,1,0,Thursday,10,233
+TCKT_0562,2025-05-22 06:55:34,2025-05-23 11:55:34,High,Hardware,Keyboard Issue,Finance,App Support,Met,29.0,High,Product Launch,1,0,Thursday,5,196
+TCKT_0563,2025-02-05 06:19:35,2025-02-06 17:19:35,High,Network,VPN Issue,HR,Infra Team,Met,35.0,High,System Upgrade,1,0,Wednesday,2,156
+TCKT_0564,2025-03-08 16:49:10,2025-03-10 04:49:10,Medium,Hardware,System Crash,Finance,Infra Team,Met,36.0,High,None,1,1,Saturday,3,183
+TCKT_0565,2025-05-28 02:30:10,2025-05-30 14:30:10,Low,Network,VPN Issue,HR,Hardware Support,Met,60.0,High,Product Launch,0,0,Wednesday,5,216
+TCKT_0566,2024-11-17 11:52:22,2024-11-17 13:52:22,Medium,Hardware,Printer Issue,Finance,App Support,Breached,2.0,Medium,Product Launch,0,1,Sunday,11,136
+TCKT_0567,2025-05-28 19:20:57,2025-05-28 21:20:57,High,Software,UI Bug,IT,Hardware Support,Breached,2.0,Medium,Security Patch,0,0,Wednesday,5,224
+TCKT_0568,2025-10-15 09:51:41,2025-10-16 09:51:41,Critical,Network,Server Down,Finance,Infra Team,Breached,24.0,High,Product Launch,1,0,Wednesday,10,247
+TCKT_0569,2025-10-09 23:31:50,2025-10-10 13:31:50,Critical,Software,Login Issue,Finance,App Support,Met,14.0,Medium,System Upgrade,1,0,Thursday,10,176
+TCKT_0570,2025-02-08 23:40:12,2025-02-10 14:40:12,Low,Access,Access Request,Admin,Infra Team,Breached,39.0,High,Server Maintenance,0,1,Saturday,2,109
+TCKT_0571,2025-09-16 02:45:36,2025-09-16 10:45:36,High,Access,Account Lock,IT,App Support,Met,8.0,Low,Product Launch,0,0,Tuesday,9,238
+TCKT_0572,2025-06-02 18:56:28,2025-06-04 03:56:28,High,Network,WiFi Issue,Admin,Infra Team,Met,33.0,High,None,0,0,Monday,6,116
+TCKT_0573,2024-12-09 11:18:37,2024-12-09 17:18:37,High,Access,Account Lock,IT,Infra Team,Met,6.0,High,Product Launch,1,0,Monday,12,157
+TCKT_0574,2024-11-04 21:12:38,2024-11-05 02:12:38,Critical,Access,Account Lock,IT,Hardware Support,Breached,5.0,Medium,None,0,0,Monday,11,207
+TCKT_0575,2025-05-08 04:24:52,2025-05-09 23:24:52,High,Software,App Crash,HR,Hardware Support,Met,43.0,Medium,System Upgrade,0,0,Thursday,5,125
+TCKT_0576,2024-11-24 23:45:17,2024-11-25 09:45:17,High,Software,UI Bug,Admin,Hardware Support,Met,10.0,Low,System Upgrade,1,1,Sunday,11,169
+TCKT_0577,2025-07-06 16:12:13,2025-07-08 10:12:13,High,Hardware,System Crash,Admin,Infra Team,Met,42.0,High,None,0,1,Sunday,7,232
+TCKT_0578,2025-08-12 12:35:42,2025-08-13 05:35:42,High,Access,Access Request,Admin,App Support,Breached,17.0,Low,Server Maintenance,1,0,Tuesday,8,125
+TCKT_0579,2025-02-12 01:13:03,2025-02-12 07:13:03,High,Access,Password Reset,HR,App Support,Breached,6.0,Low,Server Maintenance,0,0,Wednesday,2,161
+TCKT_0580,2025-07-22 21:04:39,2025-07-24 18:04:39,Medium,Network,WiFi Issue,Admin,Infra Team,Breached,45.0,High,Security Patch,0,0,Tuesday,7,248
+TCKT_0581,2025-03-09 15:34:25,2025-03-12 12:34:25,Low,Network,WiFi Issue,IT,Infra Team,Breached,69.0,Low,System Upgrade,1,1,Sunday,3,244
+TCKT_0582,2025-02-19 11:48:23,2025-02-19 23:48:23,High,Software,Login Issue,IT,Hardware Support,Met,12.0,High,System Upgrade,1,0,Wednesday,2,148
+TCKT_0583,2025-03-31 03:13:23,2025-04-01 06:13:23,Medium,Software,UI Bug,HR,Infra Team,Met,27.0,Low,Product Launch,0,0,Monday,3,189
+TCKT_0584,2025-07-01 16:56:33,2025-07-02 09:56:33,Critical,Network,Router Failure,Finance,Infra Team,Breached,17.0,High,None,1,0,Tuesday,7,139
+TCKT_0585,2025-10-09 16:40:37,2025-10-12 06:40:37,High,Software,Update Error,HR,Hardware Support,Met,62.0,Medium,System Upgrade,1,0,Thursday,10,106
+TCKT_0586,2025-09-28 20:26:12,2025-10-01 05:26:12,Low,Hardware,Monitor Issue,Finance,Hardware Support,Met,57.0,Medium,Product Launch,1,1,Sunday,9,140
+TCKT_0587,2025-08-05 03:42:34,2025-08-06 02:42:34,Medium,Hardware,Monitor Issue,Finance,Hardware Support,Met,23.0,High,Product Launch,1,0,Tuesday,8,226
+TCKT_0588,2025-04-12 23:31:19,2025-04-14 07:31:19,High,Software,UI Bug,Admin,App Support,Met,32.0,High,None,0,1,Saturday,4,122
+TCKT_0589,2024-11-25 00:44:59,2024-11-27 21:44:59,Critical,Network,VPN Issue,IT,App Support,Breached,69.0,Medium,Server Maintenance,1,0,Monday,11,218
+TCKT_0590,2024-12-04 07:39:40,2024-12-04 11:39:40,High,Network,Router Failure,Admin,Hardware Support,Met,4.0,Low,Server Maintenance,0,0,Wednesday,12,179
+TCKT_0591,2025-10-07 22:27:27,2025-10-08 08:27:27,High,Network,WiFi Issue,HR,Infra Team,Breached,10.0,Medium,Product Launch,0,0,Tuesday,10,142
+TCKT_0592,2025-04-13 21:34:16,2025-04-14 12:34:16,High,Access,Account Lock,Finance,Hardware Support,Breached,15.0,High,Security Patch,1,1,Sunday,4,131
+TCKT_0593,2025-03-01 17:32:08,2025-03-02 09:32:08,Critical,Software,UI Bug,HR,Infra Team,Breached,16.0,High,Product Launch,1,1,Saturday,3,118
+TCKT_0594,2024-12-03 16:29:30,2024-12-03 20:29:30,Critical,Software,App Crash,HR,Infra Team,Met,4.0,Medium,None,1,0,Tuesday,12,154
+TCKT_0595,2025-04-18 01:17:15,2025-04-18 05:17:15,Low,Hardware,System Crash,Finance,Infra Team,Met,4.0,Low,Product Launch,0,0,Friday,4,132
+TCKT_0596,2024-12-16 05:30:09,2024-12-17 02:30:09,Low,Hardware,System Crash,HR,Infra Team,Breached,21.0,High,Server Maintenance,1,0,Monday,12,126
+TCKT_0597,2025-07-03 20:43:05,2025-07-06 08:43:05,High,Software,UI Bug,Finance,Infra Team,Met,60.0,High,None,0,0,Thursday,7,246
+TCKT_0598,2025-04-16 09:27:28,2025-04-18 01:27:28,Medium,Network,WiFi Issue,IT,Infra Team,Met,40.0,Low,Server Maintenance,1,0,Wednesday,4,159
+TCKT_0599,2025-08-12 09:12:02,2025-08-14 18:12:02,Medium,Network,Server Down,IT,Infra Team,Breached,57.0,Medium,Server Maintenance,0,0,Tuesday,8,213
+TCKT_0600,2025-10-13 21:37:10,2025-10-15 21:37:10,Medium,Network,VPN Issue,Finance,Infra Team,Breached,48.0,High,System Upgrade,1,0,Monday,10,221
+TCKT_0601,2025-06-12 15:04:23,2025-06-15 13:04:23,Critical,Access,Password Reset,Finance,App Support,Met,70.0,Low,Security Patch,1,0,Thursday,6,217
+TCKT_0602,2025-07-02 04:14:36,2025-07-02 14:14:36,Medium,Network,Server Down,Finance,Infra Team,Breached,10.0,High,Security Patch,1,0,Wednesday,7,190
+TCKT_0603,2025-04-21 02:27:59,2025-04-23 00:27:59,Critical,Network,Server Down,HR,App Support,Met,46.0,Medium,Server Maintenance,0,0,Monday,4,217
+TCKT_0604,2025-09-14 15:32:59,2025-09-17 04:32:59,Medium,Software,Login Issue,IT,App Support,Breached,61.0,High,Product Launch,1,1,Sunday,9,225
+TCKT_0605,2025-03-20 05:26:07,2025-03-22 14:26:07,Critical,Access,Password Reset,HR,Hardware Support,Breached,57.0,Medium,Security Patch,0,0,Thursday,3,240
+TCKT_0606,2025-01-14 11:36:01,2025-01-16 07:36:01,High,Hardware,Monitor Issue,Finance,Hardware Support,Breached,44.0,Medium,System Upgrade,1,0,Tuesday,1,225
+TCKT_0607,2024-11-30 08:15:39,2024-12-01 11:15:39,High,Software,App Crash,Finance,Infra Team,Met,27.0,Low,Security Patch,1,1,Saturday,11,124
+TCKT_0608,2025-04-02 18:57:44,2025-04-04 09:57:44,Low,Hardware,System Crash,Admin,Infra Team,Breached,39.0,High,System Upgrade,0,0,Wednesday,4,123
+TCKT_0609,2025-07-04 06:02:00,2025-07-06 13:02:00,Critical,Access,Password Reset,HR,Hardware Support,Breached,55.0,High,Product Launch,1,0,Friday,7,228
+TCKT_0610,2025-01-27 14:36:11,2025-01-30 12:36:11,Critical,Software,Update Error,Finance,App Support,Breached,70.0,Medium,Product Launch,0,0,Monday,1,194
+TCKT_0611,2025-06-22 23:59:28,2025-06-25 03:59:28,Critical,Network,Server Down,IT,Infra Team,Breached,52.0,Low,Security Patch,1,1,Sunday,6,198
+TCKT_0612,2025-05-15 09:15:49,2025-05-15 20:15:49,Medium,Access,Access Request,HR,App Support,Breached,11.0,High,Product Launch,1,0,Thursday,5,110
+TCKT_0613,2025-05-13 23:53:26,2025-05-16 07:53:26,Low,Access,Account Lock,Finance,Hardware Support,Breached,56.0,Low,Server Maintenance,1,0,Tuesday,5,191
+TCKT_0614,2025-07-04 20:40:21,2025-07-06 05:40:21,Medium,Network,WiFi Issue,Finance,Infra Team,Met,33.0,Medium,Server Maintenance,1,0,Friday,7,125
+TCKT_0615,2025-07-04 12:57:31,2025-07-04 19:57:31,Critical,Hardware,Printer Issue,HR,Hardware Support,Breached,7.0,Medium,None,1,0,Friday,7,159
+TCKT_0616,2025-05-11 08:04:40,2025-05-12 01:04:40,Critical,Software,Update Error,HR,App Support,Met,17.0,High,System Upgrade,1,1,Sunday,5,211
+TCKT_0617,2025-02-06 16:27:38,2025-02-08 14:27:38,Medium,Network,VPN Issue,IT,Hardware Support,Breached,46.0,High,Server Maintenance,0,0,Thursday,2,165
+TCKT_0618,2025-02-28 02:09:31,2025-03-02 18:09:31,Critical,Access,Access Request,HR,Infra Team,Met,64.0,Low,Server Maintenance,0,0,Friday,2,221
+TCKT_0619,2025-05-03 06:59:41,2025-05-05 04:59:41,High,Software,UI Bug,Finance,App Support,Breached,46.0,Low,None,1,1,Saturday,5,112
+TCKT_0620,2025-03-05 06:29:12,2025-03-05 20:29:12,Low,Network,VPN Issue,Finance,Infra Team,Met,14.0,Medium,System Upgrade,0,0,Wednesday,3,132
+TCKT_0621,2025-09-22 12:47:50,2025-09-22 17:47:50,Critical,Software,UI Bug,HR,Hardware Support,Breached,5.0,Low,Server Maintenance,0,0,Monday,9,185
+TCKT_0622,2024-12-22 11:38:16,2024-12-24 00:38:16,Medium,Hardware,Printer Issue,Finance,App Support,Met,37.0,High,Security Patch,1,1,Sunday,12,130
+TCKT_0623,2025-05-11 09:29:41,2025-05-12 16:29:41,Critical,Hardware,Printer Issue,IT,Infra Team,Breached,31.0,Low,Security Patch,1,1,Sunday,5,177
+TCKT_0624,2025-05-13 22:37:05,2025-05-16 22:37:05,Critical,Hardware,Keyboard Issue,IT,Infra Team,Breached,72.0,High,Server Maintenance,0,0,Tuesday,5,104
+TCKT_0625,2025-08-05 17:43:38,2025-08-05 20:43:38,Low,Hardware,Keyboard Issue,Finance,App Support,Met,3.0,Medium,Product Launch,1,0,Tuesday,8,234
+TCKT_0626,2025-06-03 05:58:48,2025-06-03 14:58:48,Critical,Access,Password Reset,Finance,Hardware Support,Breached,9.0,Low,Product Launch,0,0,Tuesday,6,204
+TCKT_0627,2025-06-22 16:43:13,2025-06-24 02:43:13,Critical,Software,UI Bug,Admin,Infra Team,Breached,34.0,High,Product Launch,1,1,Sunday,6,214
+TCKT_0628,2024-10-20 14:29:21,2024-10-21 20:29:21,Medium,Access,Password Reset,IT,App Support,Breached,30.0,Medium,System Upgrade,1,1,Sunday,10,141
+TCKT_0629,2025-03-12 05:08:35,2025-03-13 15:08:35,Critical,Hardware,Monitor Issue,IT,App Support,Met,34.0,High,Security Patch,0,0,Wednesday,3,127
+TCKT_0630,2025-01-19 15:48:18,2025-01-20 22:48:18,High,Hardware,Monitor Issue,Finance,App Support,Breached,31.0,Low,None,1,1,Sunday,1,131
+TCKT_0631,2025-06-22 07:48:43,2025-06-23 00:48:43,Medium,Hardware,Keyboard Issue,Admin,App Support,Met,17.0,Low,System Upgrade,0,1,Sunday,6,249
+TCKT_0632,2024-11-21 14:25:05,2024-11-23 17:25:05,High,Software,UI Bug,Finance,Infra Team,Met,51.0,Low,System Upgrade,0,0,Thursday,11,231
+TCKT_0633,2024-10-20 00:44:07,2024-10-22 05:44:07,Critical,Hardware,Keyboard Issue,HR,App Support,Met,53.0,Low,Server Maintenance,1,1,Sunday,10,108
+TCKT_0634,2025-05-09 02:24:23,2025-05-09 06:24:23,Low,Network,VPN Issue,Finance,Hardware Support,Met,4.0,High,Security Patch,1,0,Friday,5,192
+TCKT_0635,2025-05-10 08:30:13,2025-05-12 23:30:13,High,Access,Access Request,HR,Hardware Support,Met,63.0,Medium,Product Launch,1,1,Saturday,5,207
+TCKT_0636,2025-08-08 08:49:15,2025-08-08 11:49:15,High,Software,Login Issue,IT,Infra Team,Met,3.0,Medium,Security Patch,1,0,Friday,8,121
+TCKT_0637,2025-09-05 01:01:31,2025-09-05 06:01:31,Medium,Network,WiFi Issue,HR,App Support,Met,5.0,Low,Security Patch,0,0,Friday,9,114
+TCKT_0638,2025-05-09 08:44:31,2025-05-12 04:44:31,Critical,Access,Access Request,Admin,Infra Team,Met,68.0,Medium,System Upgrade,1,0,Friday,5,192
+TCKT_0639,2025-08-20 19:47:37,2025-08-22 23:47:37,Critical,Network,Router Failure,IT,Infra Team,Breached,52.0,Low,System Upgrade,0,0,Wednesday,8,124
+TCKT_0640,2025-10-14 01:46:07,2025-10-15 20:46:07,Critical,Network,WiFi Issue,HR,App Support,Met,43.0,High,System Upgrade,0,0,Tuesday,10,220
+TCKT_0641,2025-02-13 00:44:10,2025-02-15 17:44:10,Low,Network,Router Failure,Admin,Hardware Support,Met,65.0,High,Product Launch,1,0,Thursday,2,102
+TCKT_0642,2025-09-08 03:31:56,2025-09-09 00:31:56,Critical,Access,Access Request,HR,Infra Team,Breached,21.0,Low,System Upgrade,1,0,Monday,9,139
+TCKT_0643,2025-08-21 05:41:51,2025-08-22 17:41:51,Low,Software,Login Issue,Admin,Hardware Support,Breached,36.0,Low,Security Patch,0,0,Thursday,8,216
+TCKT_0644,2025-09-23 07:36:41,2025-09-23 19:36:41,Medium,Network,Server Down,Admin,Hardware Support,Breached,12.0,High,Security Patch,0,0,Tuesday,9,121
+TCKT_0645,2025-08-04 19:44:34,2025-08-05 17:44:34,High,Hardware,System Crash,IT,Infra Team,Met,22.0,High,Product Launch,0,0,Monday,8,231
+TCKT_0646,2025-04-13 10:03:52,2025-04-14 11:03:52,Medium,Hardware,Keyboard Issue,Finance,App Support,Met,25.0,Medium,Server Maintenance,0,1,Sunday,4,188
+TCKT_0647,2024-12-28 09:36:05,2024-12-29 21:36:05,Critical,Network,WiFi Issue,Finance,Infra Team,Breached,36.0,Medium,Security Patch,1,1,Saturday,12,116
+TCKT_0648,2025-04-14 07:51:17,2025-04-17 06:51:17,Medium,Access,Account Lock,Admin,Infra Team,Breached,71.0,High,Security Patch,1,0,Monday,4,242
+TCKT_0649,2025-06-26 15:24:40,2025-06-29 03:24:40,Low,Hardware,Printer Issue,Admin,Infra Team,Met,60.0,Low,Server Maintenance,1,0,Thursday,6,243
+TCKT_0650,2025-05-06 01:17:29,2025-05-08 01:17:29,Medium,Access,Password Reset,HR,App Support,Breached,48.0,Low,None,0,0,Tuesday,5,129
+TCKT_0651,2025-04-28 00:15:41,2025-04-30 19:15:41,Critical,Software,UI Bug,IT,App Support,Breached,67.0,Medium,Product Launch,1,0,Monday,4,113
+TCKT_0652,2025-01-10 19:19:54,2025-01-13 15:19:54,Critical,Network,Router Failure,Finance,Infra Team,Met,68.0,Low,None,0,0,Friday,1,235
+TCKT_0653,2025-10-04 01:40:14,2025-10-04 05:40:14,Medium,Hardware,Monitor Issue,Finance,Infra Team,Breached,4.0,Low,Product Launch,1,1,Saturday,10,167
+TCKT_0654,2025-03-24 01:46:22,2025-03-25 21:46:22,Critical,Software,Update Error,HR,App Support,Breached,44.0,High,System Upgrade,1,0,Monday,3,203
+TCKT_0655,2025-05-04 13:34:02,2025-05-04 21:34:02,Low,Access,Access Request,HR,Infra Team,Met,8.0,Medium,Product Launch,1,1,Sunday,5,231
+TCKT_0656,2025-05-23 16:31:59,2025-05-26 02:31:59,High,Access,Password Reset,HR,Infra Team,Breached,58.0,Low,Server Maintenance,1,0,Friday,5,136
+TCKT_0657,2025-06-20 04:47:39,2025-06-21 06:47:39,Medium,Software,UI Bug,IT,Infra Team,Breached,26.0,Low,Server Maintenance,0,0,Friday,6,185
+TCKT_0658,2025-05-04 11:46:06,2025-05-06 02:46:06,Medium,Hardware,Printer Issue,HR,App Support,Breached,39.0,Low,System Upgrade,1,1,Sunday,5,136
+TCKT_0659,2025-10-06 11:38:19,2025-10-07 18:38:19,Low,Network,Router Failure,HR,Hardware Support,Breached,31.0,Medium,None,1,0,Monday,10,242
+TCKT_0660,2025-01-06 04:54:34,2025-01-07 02:54:34,High,Software,App Crash,Finance,Infra Team,Breached,22.0,High,System Upgrade,1,0,Monday,1,118
+TCKT_0661,2024-11-08 19:55:02,2024-11-10 07:55:02,High,Network,Server Down,Admin,Hardware Support,Met,36.0,Medium,System Upgrade,1,0,Friday,11,113
+TCKT_0662,2025-08-28 07:53:02,2025-08-31 00:53:02,Low,Hardware,System Crash,IT,App Support,Breached,65.0,High,Security Patch,0,0,Thursday,8,249
+TCKT_0663,2025-01-28 03:22:58,2025-01-30 15:22:58,Low,Access,Access Request,HR,App Support,Breached,60.0,High,Security Patch,1,0,Tuesday,1,172
+TCKT_0664,2025-06-22 11:43:21,2025-06-23 11:43:21,High,Hardware,System Crash,IT,Hardware Support,Breached,24.0,Medium,Server Maintenance,0,1,Sunday,6,107
+TCKT_0665,2025-04-27 08:56:29,2025-04-28 23:56:29,Critical,Access,Access Request,HR,Hardware Support,Met,39.0,Medium,System Upgrade,1,1,Sunday,4,222
+TCKT_0666,2024-11-14 13:04:43,2024-11-15 03:04:43,Low,Network,WiFi Issue,IT,App Support,Met,14.0,High,Security Patch,1,0,Thursday,11,222
+TCKT_0667,2025-06-23 14:30:19,2025-06-24 07:30:19,Low,Network,Server Down,IT,App Support,Breached,17.0,Low,Security Patch,0,0,Monday,6,200
+TCKT_0668,2025-05-29 08:21:28,2025-05-29 10:21:28,High,Network,Server Down,Finance,Hardware Support,Breached,2.0,High,Server Maintenance,1,0,Thursday,5,250
+TCKT_0669,2025-01-14 13:12:23,2025-01-16 21:12:23,Critical,Network,Router Failure,Admin,Infra Team,Breached,56.0,Medium,Server Maintenance,0,0,Tuesday,1,127
+TCKT_0670,2025-08-28 03:42:25,2025-08-31 00:42:25,Low,Software,Login Issue,Finance,Infra Team,Met,69.0,Medium,Server Maintenance,0,0,Thursday,8,164
+TCKT_0671,2025-03-29 18:24:18,2025-04-01 12:24:18,Critical,Software,App Crash,Admin,Hardware Support,Met,66.0,Medium,Product Launch,0,1,Saturday,3,127
+TCKT_0672,2025-04-12 19:54:59,2025-04-13 23:54:59,Low,Network,VPN Issue,IT,Hardware Support,Breached,28.0,Low,Server Maintenance,1,1,Saturday,4,200
+TCKT_0673,2024-10-20 17:29:08,2024-10-22 12:29:08,Low,Software,UI Bug,Finance,Hardware Support,Met,43.0,Medium,None,1,1,Sunday,10,235
+TCKT_0674,2025-01-29 21:37:57,2025-01-30 06:37:57,Critical,Hardware,Keyboard Issue,Admin,App Support,Met,9.0,Low,Server Maintenance,0,0,Wednesday,1,174
+TCKT_0675,2025-04-05 21:37:38,2025-04-07 20:37:38,Critical,Access,Access Request,IT,App Support,Met,47.0,Low,System Upgrade,1,1,Saturday,4,228
+TCKT_0676,2025-08-26 08:27:19,2025-08-28 01:27:19,Low,Network,Router Failure,Admin,Hardware Support,Met,41.0,Medium,Server Maintenance,1,0,Tuesday,8,102
+TCKT_0677,2024-10-19 17:27:11,2024-10-22 16:27:11,High,Network,VPN Issue,HR,Infra Team,Met,71.0,Medium,Server Maintenance,1,1,Saturday,10,159
+TCKT_0678,2025-08-25 03:48:41,2025-08-26 10:48:41,High,Network,Server Down,HR,Hardware Support,Breached,31.0,Medium,Security Patch,1,0,Monday,8,139
+TCKT_0679,2025-04-10 05:36:17,2025-04-11 02:36:17,High,Network,Router Failure,Finance,Infra Team,Breached,21.0,High,Security Patch,1,0,Thursday,4,110
+TCKT_0680,2025-05-30 08:41:30,2025-05-30 19:41:30,Low,Software,Login Issue,Finance,Hardware Support,Breached,11.0,High,None,0,0,Friday,5,249
+TCKT_0681,2025-08-05 08:00:28,2025-08-08 08:00:28,High,Access,Access Request,Admin,App Support,Breached,72.0,Low,Product Launch,1,0,Tuesday,8,173
+TCKT_0682,2025-01-22 02:16:57,2025-01-23 22:16:57,High,Hardware,Printer Issue,Admin,Hardware Support,Breached,44.0,Medium,None,1,0,Wednesday,1,157
+TCKT_0683,2025-01-07 17:30:36,2025-01-08 03:30:36,Low,Access,Account Lock,HR,Hardware Support,Breached,10.0,Low,Server Maintenance,0,0,Tuesday,1,200
+TCKT_0684,2025-09-18 19:49:37,2025-09-19 19:49:37,Critical,Network,VPN Issue,HR,App Support,Met,24.0,High,Security Patch,0,0,Thursday,9,126
+TCKT_0685,2025-04-23 02:51:45,2025-04-25 02:51:45,High,Network,Server Down,Admin,Hardware Support,Met,48.0,High,Product Launch,0,0,Wednesday,4,122
+TCKT_0686,2025-08-07 18:13:28,2025-08-08 00:13:28,Low,Hardware,Monitor Issue,HR,Infra Team,Breached,6.0,High,None,0,0,Thursday,8,221
+TCKT_0687,2025-02-19 10:41:44,2025-02-21 07:41:44,High,Access,Access Request,IT,App Support,Met,45.0,High,Product Launch,1,0,Wednesday,2,130
+TCKT_0688,2025-09-29 12:51:25,2025-10-02 05:51:25,Low,Network,VPN Issue,HR,Infra Team,Met,65.0,High,Server Maintenance,1,0,Monday,9,226
+TCKT_0689,2025-04-24 03:57:52,2025-04-26 03:57:52,Medium,Software,Login Issue,HR,Infra Team,Breached,48.0,Low,Server Maintenance,0,0,Thursday,4,195
+TCKT_0690,2025-02-28 09:07:15,2025-03-03 08:07:15,Critical,Software,App Crash,HR,Hardware Support,Breached,71.0,Medium,None,0,0,Friday,2,122
+TCKT_0691,2025-09-17 16:47:31,2025-09-19 06:47:31,Low,Software,UI Bug,IT,Infra Team,Breached,38.0,High,None,1,0,Wednesday,9,204
+TCKT_0692,2025-05-30 03:47:01,2025-06-01 00:47:01,Low,Network,Server Down,IT,App Support,Breached,45.0,High,None,0,0,Friday,5,206
+TCKT_0693,2024-12-28 13:21:41,2024-12-29 02:21:41,Medium,Software,App Crash,IT,Hardware Support,Breached,13.0,Low,System Upgrade,0,1,Saturday,12,122
+TCKT_0694,2025-09-28 15:48:19,2025-10-01 09:48:19,Critical,Software,Login Issue,Finance,App Support,Met,66.0,High,Product Launch,0,1,Sunday,9,150
+TCKT_0695,2025-06-01 20:58:40,2025-06-03 11:58:40,Medium,Hardware,Monitor Issue,HR,Hardware Support,Met,39.0,High,System Upgrade,1,1,Sunday,6,205
+TCKT_0696,2025-02-05 22:36:08,2025-02-06 11:36:08,Low,Hardware,System Crash,HR,Hardware Support,Breached,13.0,Low,Product Launch,1,0,Wednesday,2,217
+TCKT_0697,2024-12-30 18:30:18,2025-01-02 03:30:18,High,Hardware,System Crash,IT,App Support,Breached,57.0,Low,None,0,0,Monday,12,107
+TCKT_0698,2025-07-09 22:29:32,2025-07-12 22:29:32,Critical,Network,VPN Issue,Admin,Infra Team,Met,72.0,Low,System Upgrade,0,0,Wednesday,7,185
+TCKT_0699,2025-04-03 16:35:57,2025-04-06 13:35:57,Low,Hardware,System Crash,Admin,Infra Team,Breached,69.0,Medium,Server Maintenance,1,0,Thursday,4,154
+TCKT_0700,2025-07-28 11:52:29,2025-07-29 11:52:29,Low,Software,UI Bug,HR,Hardware Support,Met,24.0,High,Security Patch,0,0,Monday,7,203
+TCKT_0701,2025-08-09 11:04:30,2025-08-11 09:04:30,Critical,Network,WiFi Issue,Admin,Hardware Support,Breached,46.0,Low,Security Patch,0,1,Saturday,8,147
+TCKT_0702,2025-02-15 21:40:33,2025-02-16 10:40:33,High,Network,Server Down,Finance,App Support,Breached,13.0,Low,Product Launch,0,1,Saturday,2,232
+TCKT_0703,2024-12-02 14:41:23,2024-12-02 15:41:23,Low,Hardware,System Crash,HR,Infra Team,Breached,1.0,Low,None,0,0,Monday,12,101
+TCKT_0704,2025-07-22 06:08:15,2025-07-24 08:08:15,Low,Network,VPN Issue,Finance,Hardware Support,Breached,50.0,Low,Product Launch,0,0,Tuesday,7,219
+TCKT_0705,2025-10-07 12:25:34,2025-10-09 20:25:34,Medium,Hardware,Monitor Issue,Finance,App Support,Met,56.0,Medium,None,1,0,Tuesday,10,228
+TCKT_0706,2024-12-25 09:35:25,2024-12-26 07:35:25,Medium,Access,Password Reset,Admin,App Support,Met,22.0,High,Product Launch,0,0,Wednesday,12,155
+TCKT_0707,2025-03-30 14:57:45,2025-04-02 09:57:45,High,Network,Server Down,HR,App Support,Met,67.0,Low,Security Patch,1,1,Sunday,3,133
+TCKT_0708,2025-08-06 23:47:24,2025-08-07 01:47:24,High,Software,UI Bug,Finance,Hardware Support,Met,2.0,High,Product Launch,0,0,Wednesday,8,235
+TCKT_0709,2024-12-21 02:30:03,2024-12-21 18:30:03,High,Network,Router Failure,Admin,App Support,Breached,16.0,Medium,Server Maintenance,0,1,Saturday,12,189
+TCKT_0710,2025-06-23 12:06:14,2025-06-25 03:06:14,Medium,Software,App Crash,Admin,Infra Team,Met,39.0,Medium,Security Patch,1,0,Monday,6,154
+TCKT_0711,2025-10-04 00:22:13,2025-10-05 21:22:13,Low,Access,Account Lock,Finance,Hardware Support,Met,45.0,High,Product Launch,0,1,Saturday,10,174
+TCKT_0712,2025-06-13 07:10:23,2025-06-14 16:10:23,High,Software,App Crash,IT,Hardware Support,Breached,33.0,Medium,Product Launch,0,0,Friday,6,248
+TCKT_0713,2025-01-02 10:14:49,2025-01-04 22:14:49,Medium,Hardware,System Crash,Admin,Hardware Support,Breached,60.0,Low,Server Maintenance,0,0,Thursday,1,146
+TCKT_0714,2025-03-10 19:05:20,2025-03-11 04:05:20,High,Network,VPN Issue,Admin,Hardware Support,Breached,9.0,High,None,0,0,Monday,3,118
+TCKT_0715,2025-09-13 20:56:16,2025-09-14 19:56:16,High,Software,Login Issue,HR,App Support,Met,23.0,High,Server Maintenance,0,1,Saturday,9,212
+TCKT_0716,2025-06-21 09:55:35,2025-06-23 04:55:35,Medium,Hardware,System Crash,Admin,App Support,Breached,43.0,High,Product Launch,1,1,Saturday,6,111
+TCKT_0717,2025-05-25 18:49:14,2025-05-26 12:49:14,Medium,Hardware,Printer Issue,HR,Hardware Support,Met,18.0,Medium,Product Launch,1,1,Sunday,5,209
+TCKT_0718,2025-07-19 10:22:38,2025-07-21 00:22:38,Medium,Hardware,Keyboard Issue,HR,App Support,Breached,38.0,Medium,Product Launch,1,1,Saturday,7,114
+TCKT_0719,2025-01-23 16:32:45,2025-01-24 22:32:45,High,Network,WiFi Issue,Finance,Infra Team,Breached,30.0,High,Security Patch,0,0,Thursday,1,201
+TCKT_0720,2025-08-14 16:52:15,2025-08-14 17:52:15,Critical,Software,Login Issue,IT,Hardware Support,Breached,1.0,High,None,0,0,Thursday,8,167
+TCKT_0721,2025-03-12 16:09:03,2025-03-15 01:09:03,Medium,Hardware,Keyboard Issue,IT,Hardware Support,Met,57.0,High,Server Maintenance,0,0,Wednesday,3,219
+TCKT_0722,2025-04-13 01:57:20,2025-04-15 03:57:20,Critical,Hardware,Monitor Issue,Admin,Infra Team,Met,50.0,Medium,Product Launch,1,1,Sunday,4,249
+TCKT_0723,2025-04-20 00:57:56,2025-04-21 22:57:56,Low,Software,UI Bug,Admin,Hardware Support,Breached,46.0,High,Server Maintenance,0,1,Sunday,4,152
+TCKT_0724,2025-06-26 06:42:25,2025-06-28 18:42:25,Medium,Access,Access Request,IT,Hardware Support,Met,60.0,Medium,System Upgrade,1,0,Thursday,6,227
+TCKT_0725,2024-10-27 19:29:37,2024-10-30 19:29:37,Critical,Software,App Crash,IT,Hardware Support,Met,72.0,Medium,Server Maintenance,1,1,Sunday,10,145
+TCKT_0726,2025-07-02 03:42:51,2025-07-02 11:42:51,Low,Software,UI Bug,IT,Infra Team,Breached,8.0,Medium,Product Launch,0,0,Wednesday,7,234
+TCKT_0727,2025-07-23 04:26:13,2025-07-24 16:26:13,Medium,Access,Access Request,IT,Infra Team,Met,36.0,Low,System Upgrade,1,0,Wednesday,7,212
+TCKT_0728,2024-12-09 13:37:37,2024-12-12 04:37:37,Low,Access,Account Lock,Admin,Infra Team,Breached,63.0,High,None,0,0,Monday,12,225
+TCKT_0729,2025-10-16 09:06:45,2025-10-18 17:06:45,High,Network,VPN Issue,HR,App Support,Breached,56.0,Low,System Upgrade,0,0,Thursday,10,149
+TCKT_0730,2025-06-12 09:29:36,2025-06-13 17:29:36,Medium,Access,Access Request,IT,Infra Team,Breached,32.0,Medium,Security Patch,0,0,Thursday,6,136
+TCKT_0731,2024-12-14 04:48:12,2024-12-15 19:48:12,Critical,Access,Access Request,HR,Hardware Support,Met,39.0,High,Server Maintenance,1,1,Saturday,12,180
+TCKT_0732,2024-12-28 02:13:58,2024-12-29 15:13:58,Medium,Hardware,Monitor Issue,Admin,Infra Team,Met,37.0,Medium,System Upgrade,1,1,Saturday,12,143
+TCKT_0733,2024-12-06 20:31:51,2024-12-07 17:31:51,Medium,Hardware,Keyboard Issue,HR,App Support,Breached,21.0,Medium,System Upgrade,1,0,Friday,12,177
+TCKT_0734,2025-09-08 23:51:44,2025-09-09 20:51:44,Critical,Network,Server Down,Admin,Hardware Support,Met,21.0,Medium,Server Maintenance,0,0,Monday,9,164
+TCKT_0735,2025-02-17 01:20:09,2025-02-18 03:20:09,Low,Software,App Crash,Admin,Infra Team,Breached,26.0,Medium,System Upgrade,1,0,Monday,2,150
+TCKT_0736,2025-03-10 08:35:56,2025-03-11 18:35:56,Medium,Software,UI Bug,HR,Infra Team,Met,34.0,High,Server Maintenance,1,0,Monday,3,179
+TCKT_0737,2025-01-29 18:41:51,2025-01-30 17:41:51,High,Software,Login Issue,Finance,App Support,Breached,23.0,Medium,System Upgrade,1,0,Wednesday,1,151
+TCKT_0738,2025-05-26 08:03:14,2025-05-26 09:03:14,Low,Access,Password Reset,IT,Hardware Support,Breached,1.0,High,System Upgrade,0,0,Monday,5,163
+TCKT_0739,2024-11-28 09:39:47,2024-11-29 08:39:47,Low,Software,UI Bug,Finance,Hardware Support,Breached,23.0,Medium,Server Maintenance,0,0,Thursday,11,249
+TCKT_0740,2025-01-06 00:04:50,2025-01-07 11:04:50,Low,Hardware,Printer Issue,Finance,App Support,Met,35.0,Low,System Upgrade,0,0,Monday,1,193
+TCKT_0741,2025-02-08 16:00:25,2025-02-09 04:00:25,High,Hardware,Printer Issue,Admin,Hardware Support,Breached,12.0,Medium,Security Patch,0,1,Saturday,2,248
+TCKT_0742,2025-01-05 09:57:40,2025-01-07 19:57:40,Medium,Access,Account Lock,Admin,App Support,Breached,58.0,High,Server Maintenance,0,1,Sunday,1,144
+TCKT_0743,2024-11-10 09:01:34,2024-11-10 21:01:34,High,Hardware,Keyboard Issue,Finance,App Support,Met,12.0,Low,None,1,1,Sunday,11,185
+TCKT_0744,2024-11-18 06:54:15,2024-11-20 09:54:15,Medium,Software,Update Error,Admin,Infra Team,Met,51.0,High,Product Launch,0,0,Monday,11,178
+TCKT_0745,2025-01-26 16:16:47,2025-01-29 14:16:47,Low,Access,Access Request,Finance,Hardware Support,Met,70.0,Medium,Product Launch,1,1,Sunday,1,141
+TCKT_0746,2025-08-18 08:31:33,2025-08-21 05:31:33,High,Network,Router Failure,HR,Infra Team,Breached,69.0,Medium,Product Launch,1,0,Monday,8,186
+TCKT_0747,2025-05-08 05:54:45,2025-05-08 09:54:45,Critical,Access,Access Request,HR,Infra Team,Breached,4.0,Low,System Upgrade,1,0,Thursday,5,133
+TCKT_0748,2025-03-10 08:24:21,2025-03-11 03:24:21,Critical,Access,Password Reset,Admin,Infra Team,Met,19.0,Medium,System Upgrade,1,0,Monday,3,146
+TCKT_0749,2025-08-17 18:34:20,2025-08-19 11:34:20,Critical,Access,Password Reset,Finance,Infra Team,Met,41.0,Low,Security Patch,0,1,Sunday,8,157
+TCKT_0750,2025-03-01 16:03:15,2025-03-01 20:03:15,Low,Network,Server Down,IT,Hardware Support,Met,4.0,High,None,0,1,Saturday,3,224
+TCKT_0751,2024-12-12 07:08:19,2024-12-14 01:08:19,High,Software,Login Issue,Admin,App Support,Breached,42.0,High,System Upgrade,0,0,Thursday,12,180
+TCKT_0752,2024-12-13 02:13:09,2024-12-14 22:13:09,Medium,Access,Account Lock,Finance,Hardware Support,Met,44.0,Low,Server Maintenance,0,0,Friday,12,128
+TCKT_0753,2025-01-12 23:24:12,2025-01-13 02:24:12,Critical,Network,Router Failure,IT,App Support,Breached,3.0,High,Server Maintenance,0,1,Sunday,1,115
+TCKT_0754,2025-06-22 02:56:29,2025-06-22 11:56:29,Critical,Software,Update Error,HR,App Support,Breached,9.0,Medium,Security Patch,1,1,Sunday,6,237
+TCKT_0755,2024-11-05 21:28:23,2024-11-07 11:28:23,High,Hardware,System Crash,IT,Hardware Support,Met,38.0,Medium,Server Maintenance,0,0,Tuesday,11,169
+TCKT_0756,2025-06-12 20:13:29,2025-06-13 23:13:29,High,Hardware,Monitor Issue,Finance,Infra Team,Breached,27.0,Medium,Server Maintenance,1,0,Thursday,6,222
+TCKT_0757,2025-03-13 08:48:00,2025-03-14 15:48:00,High,Hardware,Keyboard Issue,IT,Infra Team,Met,31.0,Low,Security Patch,0,0,Thursday,3,214
+TCKT_0758,2024-11-06 06:50:06,2024-11-08 20:50:06,Critical,Network,VPN Issue,IT,Infra Team,Met,62.0,High,Server Maintenance,0,0,Wednesday,11,160
+TCKT_0759,2025-03-22 02:32:17,2025-03-24 00:32:17,High,Software,App Crash,HR,App Support,Breached,46.0,Medium,Security Patch,1,1,Saturday,3,158
+TCKT_0760,2025-03-30 00:17:09,2025-03-31 10:17:09,High,Software,Update Error,Finance,Hardware Support,Met,34.0,High,Security Patch,1,1,Sunday,3,242
+TCKT_0761,2025-07-09 06:26:00,2025-07-12 00:26:00,Low,Hardware,Keyboard Issue,Admin,App Support,Breached,66.0,High,None,1,0,Wednesday,7,110
+TCKT_0762,2025-04-24 21:23:43,2025-04-26 00:23:43,Critical,Software,UI Bug,Admin,Hardware Support,Met,27.0,Low,Product Launch,1,0,Thursday,4,135
+TCKT_0763,2025-05-17 08:39:13,2025-05-17 20:39:13,Critical,Hardware,System Crash,IT,Infra Team,Breached,12.0,High,Security Patch,1,1,Saturday,5,166
+TCKT_0764,2024-11-03 15:08:11,2024-11-04 15:08:11,High,Hardware,Printer Issue,HR,Hardware Support,Breached,24.0,Medium,Server Maintenance,0,1,Sunday,11,237
+TCKT_0765,2025-05-13 16:53:36,2025-05-14 22:53:36,Critical,Hardware,Printer Issue,HR,App Support,Breached,30.0,Medium,Security Patch,1,0,Tuesday,5,215
+TCKT_0766,2025-10-14 12:15:21,2025-10-15 14:15:21,Critical,Network,WiFi Issue,IT,Infra Team,Breached,26.0,Medium,Security Patch,1,0,Tuesday,10,168
+TCKT_0767,2025-07-20 12:01:05,2025-07-22 19:01:05,Low,Hardware,System Crash,Admin,Infra Team,Met,55.0,Low,System Upgrade,0,1,Sunday,7,170
+TCKT_0768,2025-04-18 06:46:22,2025-04-21 06:46:22,High,Software,App Crash,HR,Infra Team,Met,72.0,Low,Server Maintenance,0,0,Friday,4,103
+TCKT_0769,2024-10-24 12:22:42,2024-10-25 18:22:42,Low,Hardware,Printer Issue,IT,Infra Team,Met,30.0,High,System Upgrade,1,0,Thursday,10,217
+TCKT_0770,2025-01-14 13:03:37,2025-01-15 07:03:37,High,Hardware,Keyboard Issue,Admin,Infra Team,Breached,18.0,Medium,None,0,0,Tuesday,1,205
+TCKT_0771,2025-09-27 16:18:59,2025-09-28 20:18:59,Medium,Software,UI Bug,Admin,Infra Team,Breached,28.0,Medium,System Upgrade,0,1,Saturday,9,166
+TCKT_0772,2025-03-08 17:10:02,2025-03-09 04:10:02,Low,Hardware,System Crash,Admin,Hardware Support,Breached,11.0,High,None,0,1,Saturday,3,159
+TCKT_0773,2024-11-07 03:11:19,2024-11-09 11:11:19,Critical,Access,Password Reset,Admin,App Support,Breached,56.0,Medium,None,1,0,Thursday,11,218
+TCKT_0774,2025-03-12 04:51:52,2025-03-14 02:51:52,Low,Access,Access Request,Finance,Infra Team,Breached,46.0,Medium,Server Maintenance,0,0,Wednesday,3,146
+TCKT_0775,2025-06-08 21:27:35,2025-06-09 05:27:35,Medium,Hardware,Keyboard Issue,Admin,Infra Team,Breached,8.0,High,Security Patch,1,1,Sunday,6,108
+TCKT_0776,2024-12-20 13:33:03,2024-12-21 22:33:03,High,Hardware,Printer Issue,Admin,Hardware Support,Breached,33.0,High,Server Maintenance,1,0,Friday,12,236
+TCKT_0777,2024-11-11 22:56:16,2024-11-13 16:56:16,Low,Hardware,System Crash,IT,Infra Team,Met,42.0,Medium,Security Patch,0,0,Monday,11,213
+TCKT_0778,2025-03-14 20:10:14,2025-03-16 03:10:14,Critical,Software,UI Bug,HR,App Support,Met,31.0,High,Product Launch,0,0,Friday,3,243
+TCKT_0779,2025-09-15 02:50:01,2025-09-17 20:50:01,Low,Hardware,Keyboard Issue,HR,Infra Team,Breached,66.0,Low,Product Launch,0,0,Monday,9,167
+TCKT_0780,2025-07-13 04:49:10,2025-07-15 03:49:10,Critical,Hardware,System Crash,Finance,App Support,Met,47.0,Low,None,1,1,Sunday,7,135
+TCKT_0781,2025-08-11 16:39:26,2025-08-13 22:39:26,Low,Hardware,Monitor Issue,Finance,App Support,Breached,54.0,Medium,Security Patch,0,0,Monday,8,154
+TCKT_0782,2024-12-25 19:10:36,2024-12-27 06:10:36,Low,Software,App Crash,Admin,Hardware Support,Met,35.0,High,Security Patch,0,0,Wednesday,12,193
+TCKT_0783,2025-09-13 17:26:54,2025-09-16 03:26:54,Critical,Network,VPN Issue,IT,App Support,Met,58.0,Low,Security Patch,0,1,Saturday,9,208
+TCKT_0784,2025-02-20 02:35:55,2025-02-22 03:35:55,Low,Access,Access Request,Admin,App Support,Met,49.0,Medium,None,1,0,Thursday,2,243
+TCKT_0785,2025-01-12 06:58:28,2025-01-15 06:58:28,Low,Software,UI Bug,HR,App Support,Met,72.0,Medium,Server Maintenance,0,1,Sunday,1,113
+TCKT_0786,2025-08-01 02:43:13,2025-08-01 05:43:13,Low,Hardware,Printer Issue,HR,Infra Team,Breached,3.0,Low,Security Patch,1,0,Friday,8,172
+TCKT_0787,2025-02-20 11:39:34,2025-02-22 12:39:34,Critical,Software,Update Error,Finance,Hardware Support,Breached,49.0,High,Server Maintenance,1,0,Thursday,2,250
+TCKT_0788,2025-04-23 03:17:44,2025-04-25 15:17:44,High,Software,Login Issue,Finance,Infra Team,Breached,60.0,Low,Server Maintenance,1,0,Wednesday,4,194
+TCKT_0789,2025-07-29 20:26:42,2025-07-31 20:26:42,Low,Hardware,Keyboard Issue,Admin,Hardware Support,Breached,48.0,Medium,Security Patch,1,0,Tuesday,7,103
+TCKT_0790,2024-12-06 22:37:22,2024-12-07 05:37:22,Medium,Software,Update Error,Admin,Hardware Support,Breached,7.0,High,Security Patch,0,0,Friday,12,175
+TCKT_0791,2025-06-01 20:33:53,2025-06-01 23:33:53,Medium,Software,App Crash,Finance,App Support,Breached,3.0,Medium,System Upgrade,0,1,Sunday,6,209
+TCKT_0792,2025-04-10 12:48:58,2025-04-11 23:48:58,Medium,Software,Login Issue,IT,Hardware Support,Breached,35.0,High,System Upgrade,1,0,Thursday,4,172
+TCKT_0793,2025-02-16 03:07:28,2025-02-16 15:07:28,Medium,Software,Login Issue,Admin,Hardware Support,Breached,12.0,High,Server Maintenance,0,1,Sunday,2,217
+TCKT_0794,2025-05-21 04:00:50,2025-05-22 15:00:50,Low,Software,Login Issue,Admin,Hardware Support,Met,35.0,Low,None,0,0,Wednesday,5,249
+TCKT_0795,2025-06-20 01:57:02,2025-06-22 11:57:02,Critical,Network,VPN Issue,Finance,App Support,Met,58.0,High,System Upgrade,1,0,Friday,6,123
+TCKT_0796,2025-06-21 10:17:49,2025-06-23 12:17:49,High,Software,Update Error,IT,App Support,Met,50.0,High,System Upgrade,0,1,Saturday,6,118
+TCKT_0797,2025-05-12 16:31:36,2025-05-15 09:31:36,Critical,Hardware,Keyboard Issue,IT,Infra Team,Breached,65.0,Medium,Product Launch,1,0,Monday,5,243
+TCKT_0798,2025-06-05 13:56:28,2025-06-08 03:56:28,Low,Hardware,Keyboard Issue,HR,App Support,Met,62.0,Medium,Server Maintenance,1,0,Thursday,6,195
+TCKT_0799,2025-03-15 08:07:04,2025-03-16 00:07:04,Critical,Hardware,Keyboard Issue,IT,Infra Team,Breached,16.0,Medium,Product Launch,1,1,Saturday,3,171
+TCKT_0800,2024-11-22 23:53:41,2024-11-25 23:53:41,Critical,Access,Access Request,IT,Infra Team,Breached,72.0,Low,Security Patch,1,0,Friday,11,139
+TCKT_0801,2024-12-18 13:15:54,2024-12-18 18:15:54,High,Software,Login Issue,Finance,App Support,Breached,5.0,High,System Upgrade,1,0,Wednesday,12,147
+TCKT_0802,2024-12-27 13:10:11,2024-12-27 23:10:11,Critical,Software,Update Error,IT,App Support,Met,10.0,Medium,Product Launch,0,0,Friday,12,200
+TCKT_0803,2024-10-28 08:04:38,2024-10-29 23:04:38,Critical,Software,Update Error,IT,Infra Team,Breached,39.0,Medium,Product Launch,1,0,Monday,10,155
+TCKT_0804,2024-11-20 09:01:15,2024-11-23 00:01:15,Low,Network,Router Failure,HR,Infra Team,Met,63.0,High,Server Maintenance,0,0,Wednesday,11,246
+TCKT_0805,2025-06-01 00:08:31,2025-06-02 05:08:31,Medium,Hardware,System Crash,Finance,Infra Team,Breached,29.0,High,Server Maintenance,0,1,Sunday,6,175
+TCKT_0806,2025-09-05 20:52:59,2025-09-07 17:52:59,Medium,Network,Server Down,IT,App Support,Breached,45.0,Medium,System Upgrade,1,0,Friday,9,158
+TCKT_0807,2025-09-11 04:28:44,2025-09-11 06:28:44,Critical,Software,UI Bug,Finance,Hardware Support,Breached,2.0,High,None,0,0,Thursday,9,214
+TCKT_0808,2025-03-09 16:40:19,2025-03-12 01:40:19,Critical,Hardware,Monitor Issue,HR,Infra Team,Breached,57.0,Low,Server Maintenance,0,1,Sunday,3,208
+TCKT_0809,2025-08-15 14:00:32,2025-08-17 17:00:32,High,Access,Access Request,Finance,Infra Team,Breached,51.0,Medium,None,1,0,Friday,8,229
+TCKT_0810,2025-07-22 22:54:40,2025-07-24 14:54:40,Medium,Software,Login Issue,IT,Infra Team,Breached,40.0,High,Server Maintenance,1,0,Tuesday,7,245
+TCKT_0811,2025-05-05 03:26:53,2025-05-06 21:26:53,Low,Hardware,Keyboard Issue,Admin,App Support,Breached,42.0,Low,System Upgrade,1,0,Monday,5,135
+TCKT_0812,2025-08-26 05:52:09,2025-08-29 01:52:09,Low,Hardware,System Crash,HR,App Support,Met,68.0,Low,None,1,0,Tuesday,8,158
+TCKT_0813,2025-01-22 22:20:23,2025-01-24 07:20:23,Low,Network,Server Down,Admin,Infra Team,Met,33.0,High,None,1,0,Wednesday,1,143
+TCKT_0814,2025-03-05 08:57:49,2025-03-05 09:57:49,Low,Access,Account Lock,IT,App Support,Breached,1.0,High,None,0,0,Wednesday,3,206
+TCKT_0815,2024-12-28 22:09:10,2024-12-30 03:09:10,Low,Access,Password Reset,IT,Hardware Support,Met,29.0,High,System Upgrade,0,1,Saturday,12,237
+TCKT_0816,2025-01-31 14:34:04,2025-02-03 04:34:04,High,Hardware,Keyboard Issue,Finance,App Support,Breached,62.0,Low,None,1,0,Friday,1,192
+TCKT_0817,2025-03-22 21:24:05,2025-03-23 08:24:05,Critical,Hardware,Monitor Issue,Admin,Infra Team,Met,11.0,High,Product Launch,0,1,Saturday,3,105
+TCKT_0818,2025-05-01 10:54:05,2025-05-02 00:54:05,Low,Software,Login Issue,HR,App Support,Breached,14.0,Medium,System Upgrade,1,0,Thursday,5,120
+TCKT_0819,2025-09-29 19:45:58,2025-09-30 18:45:58,High,Network,Router Failure,Admin,Hardware Support,Met,23.0,Low,System Upgrade,1,0,Monday,9,166
+TCKT_0820,2024-11-01 19:48:47,2024-11-02 21:48:47,Low,Software,App Crash,IT,App Support,Breached,26.0,High,Security Patch,0,0,Friday,11,153
+TCKT_0821,2025-09-26 13:18:41,2025-09-27 06:18:41,Critical,Software,Update Error,Admin,App Support,Met,17.0,Low,System Upgrade,1,0,Friday,9,121
+TCKT_0822,2025-01-23 00:05:52,2025-01-23 02:05:52,Medium,Network,VPN Issue,Admin,App Support,Breached,2.0,Medium,Product Launch,0,0,Thursday,1,163
+TCKT_0823,2024-11-12 09:34:37,2024-11-15 05:34:37,Critical,Network,Server Down,Admin,Hardware Support,Breached,68.0,High,Security Patch,1,0,Tuesday,11,103
+TCKT_0824,2025-08-08 13:50:18,2025-08-09 16:50:18,Medium,Software,Login Issue,Admin,Infra Team,Met,27.0,High,Product Launch,0,0,Friday,8,124
+TCKT_0825,2025-09-26 21:45:47,2025-09-28 13:45:47,High,Access,Account Lock,Finance,Hardware Support,Breached,40.0,High,Product Launch,0,0,Friday,9,190
+TCKT_0826,2025-04-28 17:39:55,2025-04-30 03:39:55,Medium,Access,Password Reset,Finance,Hardware Support,Met,34.0,Low,None,0,0,Monday,4,167
+TCKT_0827,2024-12-09 20:57:41,2024-12-10 15:57:41,Medium,Hardware,System Crash,IT,App Support,Breached,19.0,Low,Security Patch,1,0,Monday,12,137
+TCKT_0828,2024-10-31 09:19:04,2024-11-01 13:19:04,High,Access,Access Request,Admin,Infra Team,Met,28.0,Medium,Product Launch,1,0,Thursday,10,229
+TCKT_0829,2025-08-08 14:11:43,2025-08-10 05:11:43,Critical,Access,Account Lock,Admin,App Support,Breached,39.0,Low,System Upgrade,0,0,Friday,8,137
+TCKT_0830,2025-06-26 17:43:27,2025-06-29 15:43:27,Critical,Software,Update Error,Admin,App Support,Breached,70.0,Medium,System Upgrade,0,0,Thursday,6,214
+TCKT_0831,2025-03-01 07:49:53,2025-03-02 16:49:53,High,Software,Update Error,IT,App Support,Breached,33.0,Low,None,0,1,Saturday,3,170
+TCKT_0832,2025-10-03 23:35:06,2025-10-04 00:35:06,High,Software,App Crash,HR,Infra Team,Breached,1.0,Low,Security Patch,1,0,Friday,10,133
+TCKT_0833,2024-12-03 21:46:42,2024-12-06 06:46:42,Critical,Network,Router Failure,Finance,App Support,Met,57.0,High,None,1,0,Tuesday,12,227
+TCKT_0834,2025-02-06 03:57:01,2025-02-06 22:57:01,Medium,Hardware,System Crash,Finance,Hardware Support,Met,19.0,Low,Server Maintenance,1,0,Thursday,2,211
+TCKT_0835,2025-01-21 01:53:20,2025-01-22 23:53:20,Critical,Network,Router Failure,HR,Infra Team,Met,46.0,High,Product Launch,0,0,Tuesday,1,100
+TCKT_0836,2024-11-13 05:30:34,2024-11-16 01:30:34,Critical,Network,WiFi Issue,HR,App Support,Met,68.0,Low,Security Patch,0,0,Wednesday,11,234
+TCKT_0837,2025-05-30 07:54:09,2025-06-01 05:54:09,Critical,Hardware,Monitor Issue,HR,Hardware Support,Breached,46.0,Medium,Product Launch,1,0,Friday,5,182
+TCKT_0838,2025-05-21 22:56:50,2025-05-22 09:56:50,High,Hardware,System Crash,HR,Infra Team,Met,11.0,High,Security Patch,0,0,Wednesday,5,148
+TCKT_0839,2025-06-14 05:17:22,2025-06-15 04:17:22,High,Network,Server Down,HR,Hardware Support,Met,23.0,High,Product Launch,0,1,Saturday,6,173
+TCKT_0840,2025-04-01 08:31:24,2025-04-03 00:31:24,Critical,Hardware,Keyboard Issue,HR,App Support,Met,40.0,High,Security Patch,1,0,Tuesday,4,118
+TCKT_0841,2025-05-28 18:06:13,2025-05-31 18:06:13,Medium,Hardware,Printer Issue,HR,App Support,Breached,72.0,High,System Upgrade,0,0,Wednesday,5,239
+TCKT_0842,2025-07-15 03:26:52,2025-07-15 18:26:52,Medium,Network,WiFi Issue,HR,App Support,Breached,15.0,Low,Product Launch,1,0,Tuesday,7,199
+TCKT_0843,2025-10-05 23:39:08,2025-10-06 06:39:08,Critical,Access,Password Reset,IT,Hardware Support,Breached,7.0,High,System Upgrade,0,1,Sunday,10,226
+TCKT_0844,2025-02-25 17:12:06,2025-02-28 08:12:06,Low,Hardware,System Crash,HR,App Support,Breached,63.0,High,Security Patch,0,0,Tuesday,2,223
+TCKT_0845,2024-12-18 21:28:08,2024-12-21 17:28:08,High,Hardware,Printer Issue,Admin,Infra Team,Met,68.0,Medium,Server Maintenance,0,0,Wednesday,12,156
+TCKT_0846,2025-07-17 01:06:52,2025-07-19 14:06:52,Low,Access,Access Request,Admin,Hardware Support,Breached,61.0,High,None,1,0,Thursday,7,219
+TCKT_0847,2025-09-19 08:36:57,2025-09-20 04:36:57,High,Software,Login Issue,HR,App Support,Breached,20.0,Low,None,0,0,Friday,9,154
+TCKT_0848,2025-05-31 00:44:25,2025-06-01 03:44:25,Medium,Network,Router Failure,Finance,Hardware Support,Met,27.0,Low,Security Patch,1,1,Saturday,5,190
+TCKT_0849,2025-05-26 15:40:16,2025-05-27 15:40:16,Low,Access,Account Lock,Admin,Infra Team,Met,24.0,Low,Security Patch,1,0,Monday,5,190
+TCKT_0850,2025-04-02 14:17:47,2025-04-04 15:17:47,Critical,Hardware,System Crash,HR,Infra Team,Breached,49.0,Low,Server Maintenance,1,0,Wednesday,4,151
+TCKT_0851,2025-08-19 14:44:54,2025-08-19 20:44:54,Critical,Hardware,Keyboard Issue,Finance,App Support,Met,6.0,Medium,Security Patch,1,0,Tuesday,8,149
+TCKT_0852,2025-04-08 02:25:53,2025-04-10 21:25:53,Medium,Software,Update Error,Finance,Hardware Support,Met,67.0,High,None,0,0,Tuesday,4,158
+TCKT_0853,2025-03-19 22:48:08,2025-03-21 07:48:08,High,Hardware,Keyboard Issue,HR,Infra Team,Breached,33.0,Low,System Upgrade,1,0,Wednesday,3,239
+TCKT_0854,2025-09-16 15:43:35,2025-09-17 01:43:35,High,Hardware,Printer Issue,IT,App Support,Met,10.0,Low,Server Maintenance,0,0,Tuesday,9,165
+TCKT_0855,2025-08-08 04:43:35,2025-08-11 04:43:35,High,Software,App Crash,Finance,Infra Team,Met,72.0,Medium,Security Patch,1,0,Friday,8,209
+TCKT_0856,2024-11-09 16:17:23,2024-11-10 01:17:23,Low,Network,Router Failure,HR,Hardware Support,Met,9.0,High,System Upgrade,0,1,Saturday,11,102
+TCKT_0857,2025-04-30 18:12:14,2025-05-02 19:12:14,High,Hardware,Monitor Issue,HR,App Support,Met,49.0,Medium,Server Maintenance,0,0,Wednesday,4,205
+TCKT_0858,2025-09-27 17:31:08,2025-09-30 15:31:08,Medium,Network,Router Failure,Admin,App Support,Met,70.0,Low,System Upgrade,1,1,Saturday,9,101
+TCKT_0859,2025-10-07 16:27:04,2025-10-10 07:27:04,Medium,Access,Account Lock,HR,Hardware Support,Met,63.0,High,None,0,0,Tuesday,10,233
+TCKT_0860,2025-07-10 23:46:37,2025-07-11 09:46:37,Medium,Software,Login Issue,HR,Infra Team,Breached,10.0,High,Product Launch,0,0,Thursday,7,127
+TCKT_0861,2025-07-01 19:59:36,2025-07-03 20:59:36,Medium,Access,Access Request,IT,App Support,Breached,49.0,Medium,Product Launch,1,0,Tuesday,7,165
+TCKT_0862,2025-04-03 12:40:06,2025-04-05 00:40:06,Low,Access,Password Reset,HR,App Support,Met,36.0,Low,Security Patch,0,0,Thursday,4,104
+TCKT_0863,2025-07-25 08:47:38,2025-07-28 00:47:38,Medium,Software,Update Error,Admin,Infra Team,Breached,64.0,Low,None,1,0,Friday,7,136
+TCKT_0864,2024-11-23 17:55:37,2024-11-25 13:55:37,Low,Access,Account Lock,Admin,Hardware Support,Met,44.0,High,Server Maintenance,1,1,Saturday,11,160
+TCKT_0865,2024-11-08 21:34:54,2024-11-10 11:34:54,Medium,Network,Router Failure,IT,App Support,Breached,38.0,Low,Server Maintenance,1,0,Friday,11,143
+TCKT_0866,2024-11-02 07:45:23,2024-11-03 10:45:23,Medium,Access,Access Request,Admin,App Support,Breached,27.0,Medium,None,1,1,Saturday,11,167
+TCKT_0867,2024-12-29 22:59:32,2024-12-30 13:59:32,Medium,Hardware,Monitor Issue,Admin,Hardware Support,Met,15.0,High,System Upgrade,0,1,Sunday,12,183
+TCKT_0868,2025-08-22 15:50:36,2025-08-23 08:50:36,High,Hardware,System Crash,Finance,Infra Team,Breached,17.0,Medium,System Upgrade,1,0,Friday,8,121
+TCKT_0869,2025-08-29 14:40:28,2025-09-01 09:40:28,High,Network,VPN Issue,HR,App Support,Met,67.0,Medium,System Upgrade,1,0,Friday,8,232
+TCKT_0870,2024-11-20 04:13:24,2024-11-20 20:13:24,Medium,Network,Server Down,Admin,Hardware Support,Breached,16.0,Medium,Security Patch,1,0,Wednesday,11,232
+TCKT_0871,2025-06-08 21:02:26,2025-06-11 04:02:26,Medium,Hardware,Monitor Issue,Admin,Infra Team,Breached,55.0,Medium,None,1,1,Sunday,6,224
+TCKT_0872,2024-10-22 13:00:56,2024-10-23 10:00:56,High,Access,Account Lock,HR,App Support,Breached,21.0,High,None,1,0,Tuesday,10,179
+TCKT_0873,2025-05-31 16:11:32,2025-06-01 15:11:32,High,Hardware,Monitor Issue,Admin,Infra Team,Breached,23.0,Medium,System Upgrade,1,1,Saturday,5,109
+TCKT_0874,2025-10-07 06:37:52,2025-10-07 16:37:52,Low,Software,UI Bug,IT,Infra Team,Met,10.0,Low,Server Maintenance,0,0,Tuesday,10,163
+TCKT_0875,2025-04-03 02:20:34,2025-04-05 06:20:34,High,Software,Update Error,Finance,Hardware Support,Met,52.0,High,Security Patch,0,0,Thursday,4,181
+TCKT_0876,2025-09-14 22:28:50,2025-09-16 17:28:50,Medium,Software,Login Issue,Admin,App Support,Breached,43.0,High,None,0,1,Sunday,9,125
+TCKT_0877,2024-12-30 09:52:41,2025-01-02 02:52:41,Low,Network,Router Failure,HR,Hardware Support,Breached,65.0,High,Server Maintenance,0,0,Monday,12,153
+TCKT_0878,2025-09-10 03:35:03,2025-09-12 16:35:03,Critical,Software,Update Error,Admin,Hardware Support,Met,61.0,Low,System Upgrade,0,0,Wednesday,9,205
+TCKT_0879,2025-08-17 20:36:17,2025-08-20 15:36:17,Medium,Network,VPN Issue,IT,Infra Team,Met,67.0,High,Server Maintenance,0,1,Sunday,8,107
+TCKT_0880,2025-07-07 08:23:39,2025-07-10 00:23:39,Medium,Software,App Crash,HR,Hardware Support,Met,64.0,Low,Product Launch,1,0,Monday,7,111
+TCKT_0881,2025-01-07 13:06:22,2025-01-08 11:06:22,Critical,Software,UI Bug,Admin,Hardware Support,Breached,22.0,High,Product Launch,0,0,Tuesday,1,211
+TCKT_0882,2025-04-08 15:11:11,2025-04-10 03:11:11,High,Access,Account Lock,Finance,App Support,Met,36.0,Medium,Product Launch,1,0,Tuesday,4,203
+TCKT_0883,2025-04-04 22:56:33,2025-04-06 15:56:33,Medium,Network,Router Failure,HR,App Support,Breached,41.0,Low,Server Maintenance,1,0,Friday,4,183
+TCKT_0884,2024-12-28 20:17:45,2024-12-30 16:17:45,Critical,Network,Server Down,IT,App Support,Breached,44.0,Medium,System Upgrade,1,1,Saturday,12,222
+TCKT_0885,2025-09-18 06:20:53,2025-09-19 07:20:53,Low,Hardware,Printer Issue,Finance,Infra Team,Breached,25.0,High,System Upgrade,1,0,Thursday,9,192
+TCKT_0886,2025-06-29 13:38:17,2025-06-30 06:38:17,Low,Hardware,System Crash,IT,Infra Team,Met,17.0,Low,Security Patch,1,1,Sunday,6,206
+TCKT_0887,2024-12-16 13:53:03,2024-12-17 09:53:03,Critical,Access,Password Reset,IT,App Support,Met,20.0,Low,System Upgrade,0,0,Monday,12,113
+TCKT_0888,2025-07-08 20:25:49,2025-07-09 06:25:49,High,Hardware,Keyboard Issue,Finance,Hardware Support,Breached,10.0,Low,Server Maintenance,1,0,Tuesday,7,106
+TCKT_0889,2025-08-04 09:57:40,2025-08-04 15:57:40,Medium,Access,Access Request,HR,App Support,Met,6.0,Low,System Upgrade,0,0,Monday,8,171
+TCKT_0890,2025-09-22 10:39:47,2025-09-24 03:39:47,Medium,Hardware,Keyboard Issue,IT,App Support,Met,41.0,Low,Security Patch,1,0,Monday,9,186
+TCKT_0891,2025-08-06 08:01:12,2025-08-08 23:01:12,Low,Software,Update Error,IT,Infra Team,Breached,63.0,Medium,Security Patch,0,0,Wednesday,8,208
+TCKT_0892,2025-07-03 19:12:48,2025-07-05 14:12:48,Critical,Hardware,Printer Issue,Admin,Hardware Support,Breached,43.0,Medium,System Upgrade,1,0,Thursday,7,191
+TCKT_0893,2024-10-29 21:41:28,2024-10-30 20:41:28,Low,Network,Server Down,HR,Hardware Support,Breached,23.0,High,Server Maintenance,0,0,Tuesday,10,155
+TCKT_0894,2025-04-30 21:25:49,2025-05-03 17:25:49,High,Access,Password Reset,HR,Infra Team,Breached,68.0,High,System Upgrade,0,0,Wednesday,4,223
+TCKT_0895,2025-03-22 18:22:01,2025-03-24 16:22:01,High,Access,Account Lock,Admin,App Support,Breached,46.0,Low,Security Patch,0,1,Saturday,3,182
+TCKT_0896,2024-12-17 17:55:37,2024-12-20 09:55:37,Medium,Software,UI Bug,HR,Infra Team,Met,64.0,High,Server Maintenance,1,0,Tuesday,12,147
+TCKT_0897,2025-08-10 12:44:54,2025-08-12 07:44:54,Medium,Software,Login Issue,Finance,App Support,Met,43.0,High,Product Launch,1,1,Sunday,8,154
+TCKT_0898,2025-09-07 19:31:42,2025-09-08 04:31:42,Low,Software,App Crash,Admin,App Support,Met,9.0,Low,Product Launch,1,1,Sunday,9,181
+TCKT_0899,2025-08-27 21:59:52,2025-08-30 00:59:52,High,Access,Access Request,Admin,App Support,Met,51.0,Low,Server Maintenance,1,0,Wednesday,8,158
+TCKT_0900,2025-08-16 16:09:14,2025-08-17 20:09:14,Low,Access,Access Request,Finance,Hardware Support,Met,28.0,High,Product Launch,1,1,Saturday,8,128
+TCKT_0901,2025-09-29 04:46:34,2025-09-30 10:46:34,Low,Network,Router Failure,Finance,Hardware Support,Met,30.0,High,None,0,0,Monday,9,160
+TCKT_0902,2025-09-01 11:56:33,2025-09-02 20:56:33,Low,Hardware,Keyboard Issue,HR,Hardware Support,Breached,33.0,Medium,Product Launch,1,0,Monday,9,123
+TCKT_0903,2024-12-31 10:01:31,2025-01-02 08:01:31,Low,Software,UI Bug,Admin,Hardware Support,Met,46.0,Low,Server Maintenance,1,0,Tuesday,12,241
+TCKT_0904,2024-12-17 11:20:03,2024-12-17 20:20:03,High,Access,Password Reset,Finance,Hardware Support,Breached,9.0,Low,None,0,0,Tuesday,12,167
+TCKT_0905,2024-11-29 10:48:38,2024-11-30 06:48:38,High,Software,Update Error,IT,Hardware Support,Breached,20.0,Medium,Security Patch,0,0,Friday,11,176
+TCKT_0906,2024-12-08 07:25:12,2024-12-09 08:25:12,High,Software,Update Error,Finance,Infra Team,Met,25.0,Low,System Upgrade,0,1,Sunday,12,233
+TCKT_0907,2024-11-17 22:19:26,2024-11-20 22:19:26,Low,Network,VPN Issue,HR,App Support,Breached,72.0,Low,System Upgrade,0,1,Sunday,11,237
+TCKT_0908,2025-01-07 06:46:20,2025-01-09 13:46:20,Critical,Hardware,System Crash,HR,Infra Team,Breached,55.0,High,Server Maintenance,0,0,Tuesday,1,188
+TCKT_0909,2025-01-23 03:26:01,2025-01-25 12:26:01,Low,Hardware,Printer Issue,IT,App Support,Breached,57.0,High,None,1,0,Thursday,1,246
+TCKT_0910,2025-06-09 02:53:07,2025-06-09 23:53:07,Critical,Access,Access Request,HR,App Support,Breached,21.0,High,System Upgrade,1,0,Monday,6,245
+TCKT_0911,2025-08-06 11:17:58,2025-08-09 05:17:58,Critical,Network,Router Failure,IT,Hardware Support,Met,66.0,High,Product Launch,0,0,Wednesday,8,244
+TCKT_0912,2025-01-27 13:22:41,2025-01-28 15:22:41,High,Hardware,Monitor Issue,HR,App Support,Met,26.0,Low,System Upgrade,1,0,Monday,1,218
+TCKT_0913,2025-05-31 00:57:08,2025-05-31 12:57:08,Low,Software,UI Bug,Finance,Hardware Support,Breached,12.0,Low,System Upgrade,1,1,Saturday,5,136
+TCKT_0914,2025-05-08 21:28:06,2025-05-09 12:28:06,Low,Access,Password Reset,IT,App Support,Breached,15.0,Medium,Security Patch,0,0,Thursday,5,201
+TCKT_0915,2024-12-03 11:40:40,2024-12-04 18:40:40,Medium,Hardware,System Crash,Admin,App Support,Breached,31.0,High,Security Patch,1,0,Tuesday,12,226
+TCKT_0916,2025-07-09 19:25:58,2025-07-10 18:25:58,Critical,Software,App Crash,Finance,Hardware Support,Breached,23.0,High,System Upgrade,0,0,Wednesday,7,158
+TCKT_0917,2025-08-20 08:08:19,2025-08-22 21:08:19,Critical,Access,Account Lock,HR,Hardware Support,Met,61.0,Low,Server Maintenance,1,0,Wednesday,8,109
+TCKT_0918,2025-08-03 21:41:29,2025-08-06 18:41:29,Low,Access,Access Request,Finance,App Support,Met,69.0,High,Product Launch,0,1,Sunday,8,160
+TCKT_0919,2025-04-07 02:58:12,2025-04-09 00:58:12,Medium,Hardware,Printer Issue,Admin,Infra Team,Met,46.0,Medium,Security Patch,1,0,Monday,4,205
+TCKT_0920,2025-02-03 03:21:49,2025-02-06 00:21:49,Low,Access,Account Lock,IT,Infra Team,Breached,69.0,Low,Product Launch,0,0,Monday,2,156
+TCKT_0921,2025-07-29 07:00:07,2025-07-31 09:00:07,Critical,Access,Password Reset,Admin,Hardware Support,Met,50.0,High,None,0,0,Tuesday,7,102
+TCKT_0922,2025-05-17 12:56:05,2025-05-19 15:56:05,Low,Software,Update Error,Admin,Infra Team,Breached,51.0,Medium,Security Patch,0,1,Saturday,5,231
+TCKT_0923,2025-04-18 01:21:12,2025-04-20 18:21:12,Critical,Software,UI Bug,IT,Hardware Support,Met,65.0,High,Security Patch,1,0,Friday,4,102
+TCKT_0924,2025-02-03 21:05:18,2025-02-06 09:05:18,High,Software,UI Bug,Finance,Infra Team,Breached,60.0,Medium,None,0,0,Monday,2,174
+TCKT_0925,2025-05-09 18:00:23,2025-05-11 12:00:23,Medium,Hardware,Keyboard Issue,Admin,Hardware Support,Breached,42.0,High,System Upgrade,0,0,Friday,5,203
+TCKT_0926,2025-05-23 00:00:00,2025-05-25 05:00:00,Low,Hardware,Keyboard Issue,IT,Hardware Support,Breached,53.0,Medium,Product Launch,1,0,Friday,5,105
+TCKT_0927,2025-09-15 17:39:29,2025-09-18 00:39:29,Low,Hardware,Keyboard Issue,Admin,App Support,Breached,55.0,High,System Upgrade,0,0,Monday,9,246
+TCKT_0928,2025-02-23 00:19:52,2025-02-24 03:19:52,Low,Network,VPN Issue,HR,Hardware Support,Breached,27.0,High,Product Launch,1,1,Sunday,2,187
+TCKT_0929,2024-12-01 08:35:53,2024-12-02 13:35:53,High,Access,Password Reset,IT,App Support,Met,29.0,High,None,1,1,Sunday,12,147
+TCKT_0930,2025-10-08 21:48:30,2025-10-09 21:48:30,Low,Access,Account Lock,Admin,Infra Team,Met,24.0,High,Product Launch,0,0,Wednesday,10,232
+TCKT_0931,2025-02-17 14:55:31,2025-02-17 23:55:31,High,Software,App Crash,Finance,Hardware Support,Met,9.0,Medium,Product Launch,0,0,Monday,2,213
+TCKT_0932,2025-07-17 23:40:42,2025-07-20 12:40:42,Medium,Software,UI Bug,IT,App Support,Breached,61.0,High,None,1,0,Thursday,7,206
+TCKT_0933,2024-10-23 19:55:35,2024-10-26 06:55:35,Critical,Hardware,Printer Issue,HR,App Support,Met,59.0,High,Security Patch,1,0,Wednesday,10,103
+TCKT_0934,2025-06-07 11:35:53,2025-06-09 22:35:53,Low,Access,Password Reset,HR,Infra Team,Breached,59.0,High,System Upgrade,1,1,Saturday,6,166
+TCKT_0935,2024-11-06 12:40:33,2024-11-08 01:40:33,Medium,Access,Password Reset,IT,App Support,Breached,37.0,Medium,Security Patch,0,0,Wednesday,11,122
+TCKT_0936,2025-06-09 02:30:14,2025-06-10 17:30:14,Low,Access,Password Reset,IT,Hardware Support,Breached,39.0,Medium,Server Maintenance,0,0,Monday,6,239
+TCKT_0937,2025-06-22 13:41:29,2025-06-22 14:41:29,Medium,Network,VPN Issue,Admin,App Support,Breached,1.0,High,System Upgrade,0,1,Sunday,6,140
+TCKT_0938,2025-01-05 20:06:16,2025-01-07 13:06:16,Low,Network,Server Down,Finance,App Support,Met,41.0,Low,Security Patch,1,1,Sunday,1,239
+TCKT_0939,2024-12-18 00:19:47,2024-12-18 20:19:47,Medium,Software,App Crash,IT,Infra Team,Met,20.0,High,Server Maintenance,1,0,Wednesday,12,160
+TCKT_0940,2025-10-12 16:47:08,2025-10-14 12:47:08,Critical,Hardware,Printer Issue,Admin,Infra Team,Met,44.0,High,Server Maintenance,0,1,Sunday,10,121
+TCKT_0941,2025-10-05 09:09:03,2025-10-05 22:09:03,Low,Software,App Crash,Finance,Infra Team,Breached,13.0,Medium,None,0,1,Sunday,10,107
+TCKT_0942,2025-04-20 10:06:15,2025-04-22 23:06:15,High,Software,UI Bug,HR,Hardware Support,Met,61.0,Low,Product Launch,0,1,Sunday,4,152
+TCKT_0943,2025-03-20 04:55:01,2025-03-20 23:55:01,Medium,Software,Login Issue,Finance,Hardware Support,Breached,19.0,High,Product Launch,1,0,Thursday,3,217
+TCKT_0944,2025-02-25 19:37:58,2025-02-28 11:37:58,Low,Access,Access Request,HR,Infra Team,Breached,64.0,High,Product Launch,1,0,Tuesday,2,162
+TCKT_0945,2025-04-12 21:34:54,2025-04-13 09:34:54,Low,Network,Server Down,IT,Infra Team,Met,12.0,High,Security Patch,0,1,Saturday,4,170
+TCKT_0946,2025-01-16 04:20:53,2025-01-18 15:20:53,Low,Network,WiFi Issue,IT,Infra Team,Breached,59.0,Medium,None,1,0,Thursday,1,117
+TCKT_0947,2024-11-22 07:01:29,2024-11-23 18:01:29,High,Software,Update Error,Finance,App Support,Met,35.0,Low,Security Patch,0,0,Friday,11,109
+TCKT_0948,2025-02-09 00:10:10,2025-02-09 23:10:10,Medium,Hardware,Keyboard Issue,HR,App Support,Met,23.0,Medium,Product Launch,0,1,Sunday,2,241
+TCKT_0949,2025-04-22 16:16:58,2025-04-25 05:16:58,High,Network,Router Failure,HR,Hardware Support,Met,61.0,High,Security Patch,0,0,Tuesday,4,227
+TCKT_0950,2025-01-30 09:23:44,2025-01-31 18:23:44,Critical,Hardware,Monitor Issue,IT,Infra Team,Met,33.0,Medium,Product Launch,0,0,Thursday,1,140
+TCKT_0951,2025-10-07 12:18:43,2025-10-09 03:18:43,Low,Network,VPN Issue,Finance,Hardware Support,Met,39.0,Low,System Upgrade,1,0,Tuesday,10,117
+TCKT_0952,2025-07-26 09:52:18,2025-07-28 04:52:18,Critical,Access,Account Lock,Admin,Infra Team,Breached,43.0,High,Server Maintenance,1,1,Saturday,7,169
+TCKT_0953,2025-01-01 22:05:03,2025-01-03 00:05:03,High,Network,WiFi Issue,Admin,App Support,Met,26.0,Medium,System Upgrade,1,0,Wednesday,1,133
+TCKT_0954,2025-06-22 12:44:36,2025-06-25 06:44:36,Medium,Access,Account Lock,Finance,Hardware Support,Breached,66.0,Low,Security Patch,1,1,Sunday,6,109
+TCKT_0955,2025-07-06 00:58:41,2025-07-08 01:58:41,Low,Software,Update Error,Admin,Hardware Support,Met,49.0,High,None,0,1,Sunday,7,127
+TCKT_0956,2025-07-20 11:18:13,2025-07-23 09:18:13,Medium,Access,Access Request,IT,App Support,Breached,70.0,Low,None,1,1,Sunday,7,206
+TCKT_0957,2025-07-17 19:52:56,2025-07-19 10:52:56,Critical,Network,WiFi Issue,Admin,Infra Team,Met,39.0,High,Server Maintenance,0,0,Thursday,7,153
+TCKT_0958,2025-05-22 03:51:38,2025-05-23 20:51:38,Low,Software,Login Issue,Admin,App Support,Breached,41.0,Low,Server Maintenance,0,0,Thursday,5,184
+TCKT_0959,2025-07-15 12:50:45,2025-07-16 17:50:45,Critical,Software,Update Error,Admin,App Support,Met,29.0,Low,System Upgrade,1,0,Tuesday,7,129
+TCKT_0960,2024-11-22 14:31:12,2024-11-23 01:31:12,High,Network,Server Down,Finance,Infra Team,Breached,11.0,High,Product Launch,1,0,Friday,11,167
+TCKT_0961,2025-09-14 18:45:11,2025-09-16 14:45:11,Critical,Network,Router Failure,Finance,Hardware Support,Met,44.0,High,Product Launch,0,1,Sunday,9,199
+TCKT_0962,2025-09-07 06:21:19,2025-09-08 21:21:19,Low,Access,Account Lock,Admin,Hardware Support,Breached,39.0,High,Security Patch,1,1,Sunday,9,208
+TCKT_0963,2025-01-18 03:39:35,2025-01-20 14:39:35,Critical,Access,Password Reset,Finance,Hardware Support,Breached,59.0,High,Product Launch,1,1,Saturday,1,223
+TCKT_0964,2025-06-26 02:25:03,2025-06-28 07:25:03,Low,Hardware,System Crash,HR,App Support,Met,53.0,Low,None,0,0,Thursday,6,105
+TCKT_0965,2024-10-20 17:36:58,2024-10-23 04:36:58,High,Network,WiFi Issue,Admin,App Support,Met,59.0,High,System Upgrade,1,1,Sunday,10,132
+TCKT_0966,2025-09-10 23:18:46,2025-09-12 09:18:46,Critical,Hardware,System Crash,IT,Hardware Support,Met,34.0,Medium,Product Launch,0,0,Wednesday,9,156
+TCKT_0967,2025-10-02 13:41:56,2025-10-02 21:41:56,High,Software,Update Error,Finance,App Support,Met,8.0,High,Server Maintenance,1,0,Thursday,10,109
+TCKT_0968,2025-06-27 23:23:53,2025-06-28 23:23:53,Critical,Hardware,Keyboard Issue,HR,Infra Team,Breached,24.0,Medium,None,1,0,Friday,6,193
+TCKT_0969,2025-08-13 09:22:20,2025-08-15 11:22:20,Medium,Hardware,Monitor Issue,HR,App Support,Breached,50.0,High,Product Launch,0,0,Wednesday,8,191
+TCKT_0970,2025-04-28 11:42:02,2025-04-30 00:42:02,Critical,Access,Password Reset,Admin,Hardware Support,Breached,37.0,High,None,0,0,Monday,4,113
+TCKT_0971,2025-09-04 19:33:03,2025-09-05 00:33:03,High,Software,Login Issue,IT,Hardware Support,Met,5.0,Low,Product Launch,0,0,Thursday,9,239
+TCKT_0972,2025-04-25 21:37:11,2025-04-27 00:37:11,Low,Access,Access Request,Finance,Infra Team,Met,27.0,Low,Security Patch,1,0,Friday,4,179
+TCKT_0973,2025-05-26 09:02:19,2025-05-28 16:02:19,Low,Software,App Crash,HR,Infra Team,Breached,55.0,Low,None,0,0,Monday,5,205
+TCKT_0974,2025-07-15 00:58:52,2025-07-15 19:58:52,Low,Network,VPN Issue,IT,Infra Team,Met,19.0,High,Product Launch,1,0,Tuesday,7,207
+TCKT_0975,2025-09-07 14:39:42,2025-09-10 05:39:42,Low,Software,App Crash,Finance,App Support,Breached,63.0,Low,None,1,1,Sunday,9,129
+TCKT_0976,2025-02-24 11:17:02,2025-02-25 16:17:02,Critical,Network,WiFi Issue,Admin,Infra Team,Met,29.0,Low,Server Maintenance,1,0,Monday,2,174
+TCKT_0977,2025-08-20 22:12:15,2025-08-23 18:12:15,Critical,Access,Account Lock,HR,Infra Team,Breached,68.0,High,Server Maintenance,1,0,Wednesday,8,149
+TCKT_0978,2025-06-14 16:19:35,2025-06-16 08:19:35,Critical,Software,Login Issue,Finance,Infra Team,Breached,40.0,High,Security Patch,0,1,Saturday,6,147
+TCKT_0979,2025-01-11 22:11:18,2025-01-13 07:11:18,Critical,Software,Login Issue,Finance,App Support,Met,33.0,Medium,None,1,1,Saturday,1,162
+TCKT_0980,2025-09-24 06:33:59,2025-09-24 17:33:59,Low,Access,Password Reset,HR,App Support,Met,11.0,Medium,Security Patch,1,0,Wednesday,9,139
+TCKT_0981,2025-02-05 06:50:39,2025-02-07 02:50:39,High,Access,Account Lock,Admin,Hardware Support,Met,44.0,Medium,Product Launch,0,0,Wednesday,2,205
+TCKT_0982,2025-09-18 16:27:29,2025-09-19 09:27:29,Medium,Network,Server Down,Finance,App Support,Met,17.0,Medium,Server Maintenance,0,0,Thursday,9,239
+TCKT_0983,2025-07-11 01:50:27,2025-07-12 09:50:27,Medium,Software,UI Bug,HR,Infra Team,Met,32.0,High,None,1,0,Friday,7,134
+TCKT_0984,2025-01-11 03:32:10,2025-01-11 04:32:10,Low,Access,Password Reset,IT,Infra Team,Met,1.0,High,System Upgrade,1,1,Saturday,1,118
+TCKT_0985,2025-08-05 06:58:30,2025-08-06 16:58:30,Critical,Network,Server Down,Admin,App Support,Met,34.0,Low,Server Maintenance,0,0,Tuesday,8,239
+TCKT_0986,2025-04-09 04:38:59,2025-04-10 11:38:59,Low,Network,WiFi Issue,Admin,App Support,Breached,31.0,Medium,None,0,0,Wednesday,4,146
+TCKT_0987,2025-06-26 12:39:23,2025-06-29 10:39:23,Medium,Hardware,System Crash,Admin,Infra Team,Breached,70.0,Medium,None,1,0,Thursday,6,141
+TCKT_0988,2024-11-10 02:35:23,2024-11-13 02:35:23,High,Access,Password Reset,Admin,Infra Team,Met,72.0,Low,Server Maintenance,1,1,Sunday,11,222
+TCKT_0989,2025-05-23 05:38:56,2025-05-24 00:38:56,Critical,Access,Password Reset,Admin,Infra Team,Breached,19.0,High,None,1,0,Friday,5,121
+TCKT_0990,2025-07-27 02:51:42,2025-07-27 06:51:42,Critical,Access,Access Request,IT,Hardware Support,Breached,4.0,Low,Security Patch,0,1,Sunday,7,246
+TCKT_0991,2025-03-04 06:07:41,2025-03-06 01:07:41,Critical,Access,Access Request,HR,Infra Team,Met,43.0,High,Security Patch,1,0,Tuesday,3,220
+TCKT_0992,2024-12-16 14:07:23,2024-12-16 22:07:23,High,Network,Server Down,IT,Infra Team,Breached,8.0,High,Product Launch,1,0,Monday,12,234
+TCKT_0993,2024-12-25 17:01:49,2024-12-26 17:01:49,Low,Access,Password Reset,Finance,Infra Team,Met,24.0,High,Product Launch,0,0,Wednesday,12,137
+TCKT_0994,2024-10-20 15:13:53,2024-10-22 11:13:53,Low,Access,Account Lock,HR,App Support,Met,44.0,Medium,System Upgrade,0,1,Sunday,10,147
+TCKT_0995,2025-06-11 11:47:29,2025-06-12 08:47:29,High,Access,Account Lock,HR,Hardware Support,Met,21.0,Medium,None,1,0,Wednesday,6,180
+TCKT_0996,2025-10-04 16:43:57,2025-10-07 09:43:57,High,Network,Server Down,IT,Hardware Support,Met,65.0,Medium,Security Patch,1,1,Saturday,10,143
+TCKT_0997,2025-08-11 04:28:31,2025-08-13 00:28:31,Medium,Network,Server Down,HR,App Support,Breached,44.0,Medium,Server Maintenance,1,0,Monday,8,128
+TCKT_0998,2025-04-02 16:45:42,2025-04-04 05:45:42,Low,Access,Account Lock,HR,App Support,Met,37.0,Medium,System Upgrade,0,0,Wednesday,4,165
+TCKT_0999,2025-09-29 13:30:09,2025-09-30 10:30:09,Critical,Software,App Crash,Admin,Infra Team,Met,21.0,Low,Server Maintenance,0,0,Monday,9,209
+TCKT_1000,2025-02-21 21:47:28,2025-02-24 17:47:28,Critical,Hardware,Printer Issue,HR,Infra Team,Breached,68.0,High,Server Maintenance,1,0,Friday,2,156
