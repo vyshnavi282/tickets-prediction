@@ -1,16 +1,13 @@
 from flask import Blueprint, request, jsonify
 from datetime import datetime, timedelta
-import logging
 from ..services.prediction_service import PredictionService
 
-logger = logging.getLogger(__name__)
 prediction_routes = Blueprint('predictions', __name__)
 
 # Initialize prediction service as a global variable
 try:
     prediction_service = PredictionService()
 except Exception as e:
-    logger.error(f"Failed to initialize PredictionService: {str(e)}")
     prediction_service = None
 
 @prediction_routes.route('/predictions', methods=['GET'])
@@ -84,7 +81,6 @@ def predict_date_range():
         })
 
     except Exception as e:
-        logger.error(f"Error in prediction endpoint: {str(e)}")
         return jsonify({
             'error': 'Internal server error occurred',
             'status': 'error',
@@ -112,18 +108,17 @@ def health_check():
             'timestamp': datetime.now().isoformat()
         })
     except Exception as e:
-        logger.error(f"Error in health check endpoint: {str(e)}")
         return jsonify({
             'status': 'unhealthy',
             'error': str(e),
             'timestamp': datetime.now().isoformat()
         }), 500
 
-@prediction_routes.route('/predictions/week', methods=['GET'])
-def predict_this_week():
+@prediction_routes.route('/predictions/next_week', methods=['GET'])
+def predicted_next_7_days():
     """
     Get predictions for the next 7 days
-    Endpoint: /api/v1/predictions/week
+    Endpoint: /api/v1/predictions/next_week
     """
     try:
         if not prediction_service:
@@ -132,7 +127,7 @@ def predict_this_week():
                 'status': 'error'
             }), 503
 
-        predictions = prediction_service.predict_this_week()
+        predictions = prediction_service.predicting_next_7_days()
         return jsonify({
             'status': 'success',
             'data': {
@@ -144,14 +139,13 @@ def predict_this_week():
             }
         })
     except Exception as e:
-        logger.error(f"Error in weekly prediction endpoint: {str(e)}")
         return jsonify({
             'error': str(e),
             'status': 'error'
         }), 500
     
 @prediction_routes.route('/predictions/next/<int:days>', methods=['GET'])
-def predict_next_n_days(days):
+def predicted_next_n_days(days):
     """
     Get ticket volume predictions for the next 'days' days
     Endpoint: /api/v1/predictions/next/<days>
@@ -168,7 +162,7 @@ def predict_next_n_days(days):
                 'error': 'Days parameter must be between 1 and 90'
             }), 400
 
-        predictions = prediction_service.predict_next_n_days(days)
+        predictions = prediction_service.predicting_next_n_days(days)
         return jsonify({
             'status': 'success',
             'data': {
@@ -180,18 +174,17 @@ def predict_next_n_days(days):
             }
         })
     except Exception as e:
-        logger.error(f"Error in next_n_days prediction endpoint: {str(e)}")
         return jsonify({
             'error': str(e),
             'status': 'error'
         }), 500
 
-
-@prediction_routes.route('/predictions/month', methods=['GET'])
-def predict_this_month():
+@prediction_routes.route('/predictions/next_month', methods=['GET'])
+def predicted_next_30_days():
     """
-    Get ticket volume predictions for the next 30 days (this month)
-    Endpoint: /api/v1/predictions/month
+    Get ticket volume predictions for the next 30 days
+    Endpoint: /api/v1/predictions/next_month
+    Note: Returns predictions for exactly 30 days from current date
     """
     try:
         if not prediction_service:
@@ -200,7 +193,7 @@ def predict_this_month():
                 'status': 'error'
             }), 503
 
-        predictions = prediction_service.predict_this_month()
+        predictions = prediction_service.predicting_next_30_days()
         return jsonify({
             'status': 'success',
             'data': {
@@ -212,7 +205,96 @@ def predict_this_month():
             }
         })
     except Exception as e:
-        logger.error(f"Error in monthly prediction endpoint: {str(e)}")
+        return jsonify({
+            'error': str(e),
+            'status': 'error'
+        }), 500
+
+@prediction_routes.route('/predictions/this_month', methods=['GET'])
+def predicted_this_month():
+    """
+    Get ticket volume predictions for the this 30 days (this month)
+    Endpoint: /api/v1/predictions/this_month
+    """
+    try:
+        if not prediction_service:
+            return jsonify({
+                'error': 'Prediction service not initialized',
+                'status': 'error'
+            }), 503
+
+        predictions = prediction_service.predicting_this_month()
+        return jsonify({
+            'status': 'success',
+            'data': {
+                'predictions': predictions,
+                'metadata': {
+                    'days_predicted': 30,
+                    'timestamp': datetime.now().isoformat()
+                }
+            }
+        })
+    except Exception as e:
+        return jsonify({
+            'error': str(e),
+            'status': 'error'
+        }), 500
+    
+@prediction_routes.route('/predictions/this_week', methods=['GET'])
+def predicted_this_week():
+    """
+    Get predictions for this week
+    Endpoint: /api/v1/predictions/this_week
+    """
+    try:
+        if not prediction_service:
+            return jsonify({
+                'error': 'Prediction service not initialized',
+                'status': 'error'
+            }), 503
+
+        predictions = prediction_service.predicting_this_week()
+        return jsonify({
+            'status': 'success',
+            'data': {
+                'predictions': predictions,
+                'metadata': {
+                    'days_predicted': 7,
+                    'timestamp': datetime.now().isoformat()
+                }
+            }
+        })
+    except Exception as e:
+        return jsonify({
+            'error': str(e),
+            'status': 'error'
+        }), 500
+    
+@prediction_routes.route('/predictions/next_2_days', methods=['GET'])
+def predicted_next_2_days():
+    """
+    Get predictions for the next 2 days
+    Endpoint: /api/v1/predictions/next_2_days
+    """
+    try:
+        if not prediction_service:
+            return jsonify({
+                'error': 'Prediction service not initialized',
+                'status': 'error'
+            }), 503
+
+        predictions = prediction_service.predicting_next_2_days()
+        return jsonify({
+            'status': 'success',
+            'data': {
+                'predictions': predictions,
+                'metadata': {
+                    'days_predicted': 2,
+                    'timestamp': datetime.now().isoformat()
+                }
+            }
+        })
+    except Exception as e:
         return jsonify({
             'error': str(e),
             'status': 'error'
