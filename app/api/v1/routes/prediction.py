@@ -120,31 +120,32 @@ def predicted_next_n_days_post():
     if not isinstance(days, int) or days < 1 or days > 90:
         return make_response(error='Days parameter must be an integer between 1 and 90', status_code=400)
 
-    predictions = prediction_service.predicting_next_n_days(days)
+    predictions = prediction_service.predicting('next_n_days', days)
     return make_response(data={'predictions': predictions}, days_predicted=days)
 
-
-# Generalized "preset" predictions to replace many small routes
 @prediction_routes.route('/predictions/<string:preset>', methods=['GET'])
 @check_service_initialized
 def predictions_preset(preset):
     """
     Get predictions for preset date ranges like 'this_week', 'this_month', 'next_2_days', 'tomorrow'.
     """
-    preset_methods = {
-        'this_week': prediction_service.predicting_this_week,
-        'this_month': prediction_service.predicting_this_month,
-        'next_2_days': prediction_service.predicting_next_2_days,
-        'next_7_days': prediction_service.predicting_next_7_days,
-        'next_30_days': prediction_service.predicting_next_30_days,
-        'tomorrow': prediction_service.predicting_tomorrow
+    preset_methods ={
+    'this_week': lambda: prediction_service.predicting('this_week'),
+    'this_month': lambda: prediction_service.predicting('this_month'),
+    'next_2_days': lambda: prediction_service.predicting('next_2_days'),
+    'next_7_days': lambda: prediction_service.predicting('next_7_days'),
+    'next_30_days': lambda: prediction_service.predicting('next_30_days'),
+    'tomorrow': lambda: prediction_service.predicting('tomorrow')
     }
+
+    predictions = preset_methods[preset]()
+
 
     if preset not in preset_methods:
         return make_response(error='Invalid preset parameter', status_code=400)
 
     try:
-        predictions = preset_methods[preset]()
+        predictions = prediction_service.predicting(preset)
         days_map = {
             'this_week': 7,
             'this_month': 30,
