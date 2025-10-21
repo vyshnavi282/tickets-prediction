@@ -23,7 +23,6 @@ class TicketVolumePredictor:
         self._prepare_data()
         self._train_model()
 
-
     def _prepare_data(self):
         df = self.df.copy()
         df['start_date'] = pd.to_datetime(df['start_date'], errors='coerce')
