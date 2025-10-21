@@ -1,9 +1,6 @@
-import logging
 import pandas as pd
 from datetime import datetime
 from ..algorithms.predictions_algorithm import TicketVolumePredictor
-
-logger = logging.getLogger(__name__)
 
 class PredictionService:
     """
@@ -18,11 +15,8 @@ class PredictionService:
             csv_path (str): Path to the historical ticket data CSV file.
         """
         try:
-            logger.info("Initializing TicketVolumePredictor model...")
             self.predictor = TicketVolumePredictor(csv_path)
-            logger.info("Model successfully loaded and trained")
         except Exception as e:
-            logger.error(f"Error initializing model: {str(e)}")
             raise
 
     def predict_tickets(self, start_date: datetime, end_date: datetime):
@@ -35,15 +29,13 @@ class PredictionService:
             list[dict]: A list of predictions with dates and predicted volumes.
         """
         try:
-            logger.info(f"Predicting tickets from {start_date} to {end_date}")
             predictions_df = self.predictor.predict_by_date_range(start_date, end_date)
             predictions = predictions_df.to_dict(orient="records")
             return predictions
         except Exception as e:
-            logger.error(f"Error during date range prediction: {str(e)}")
             raise
 
-    def predict_next_n_days(self, days: int = 7):
+    def predicting_next_n_days(self, days: int = 7):
         """
         Predict ticket volume for the next 'n' days.
         Args:
@@ -52,42 +44,75 @@ class PredictionService:
             list[dict]: Predictions.
         """
         try:
-            logger.info(f"Predicting next {days} days of ticket volume.")
             predictions_df = self.predictor.predict_next_n_days(days)
             predictions = predictions_df.to_dict(orient="records")
             return predictions
         except Exception as e:
-            logger.error(f"Error in next_n_days prediction: {str(e)}")
             raise
 
-    def predict_this_week(self):
+    def predicting_this_week(self):
         """
         Shortcut method to predict this week's tickets.
         Returns:
             list[dict]: Predictions for the next 7 days.
         """
         try:
-            logger.info("Predicting ticket volume for this week...")
             predictions_df = self.predictor.predict_this_week()
             predictions = predictions_df.to_dict(orient="records")
             return predictions
         except Exception as e:
-            logger.error(f"Error in weekly prediction: {str(e)}")
             raise
 
-    def predict_this_month(self):
+    def predicting_this_month(self):
         """
         Shortcut method to predict ticket volume for this month.
-        Returns:
-            list[dict]: Predictions for the next 30 days.
-        """
+            Returns:
+                list[dict]: Predictions for the next 30 days.
+            """
         try:
-            logger.info("Predicting ticket volume for this month...")
             predictions_df = self.predictor.predict_this_month()
             predictions = predictions_df.to_dict(orient="records")
             return predictions
         except Exception as e:
-            logger.error(f"Error in monthly prediction: {str(e)}")
+                raise
+
+    def predicting_next_2_days(self):
+        """
+        Predict ticket volume for next 2 days.
+        Returns:
+            list[dict]: Predictions for next 2 days.
+        """
+        try:
+            predictions_df = self.predictor.predict_next_2_days()
+            predictions = predictions_df.to_dict(orient="records")
+            return predictions
+        except Exception as e:
+            raise
+
+    def predicting_next_7_days(self):
+        """
+        Predict ticket volume for next 7 days.
+        Returns:
+            list[dict]: Predictions for next 7 days.
+        """
+        try:
+            predictions_df = self.predictor.predict_next_7_days()
+            predictions = predictions_df.to_dict(orient="records")
+            return predictions
+        except Exception as e:
+            raise
+
+    def predicting_next_30_days(self):
+        """
+        Predict ticket volume for next 30 days.
+        Returns:
+            list[dict]: Predictions for next 30 days.
+        """
+        try:
+            predictions_df = self.predictor.predict_next_30_days()
+            predictions = predictions_df.to_dict(orient="records")
+            return predictions
+        except Exception as e:
             raise
 
     def get_health_status(self):
@@ -107,7 +132,6 @@ class PredictionService:
                 "timestamp": datetime.now().isoformat()
             }
         except Exception as e:
-            logger.error(f"Error checking health status: {str(e)}")
             return {
                 "status": "error",
                 "error": str(e),
