@@ -1,5 +1,5 @@
 import pandas as pd
-from datetime import datetime
+from datetime import datetime,timedelta
 from ..algorithms.predictions_algorithm import TicketVolumePredictor
 
 class PredictionService:
@@ -137,3 +137,17 @@ class PredictionService:
                 "error": str(e),
                 "timestamp": datetime.now().isoformat()
             }
+
+    def predicting_tomorrow(self):
+        """
+        Predict ticket volume for tomorrow.
+        Returns:
+            list[dict]: Predictions for tomorrow.
+        """
+        try:
+            tomorrow = datetime.now().date() + timedelta(days=1)
+            predictions_df = self.predictor.predict_tomorrow()
+            predictions = predictions_df.to_dict(orient="records")
+            return predictions
+        except Exception as e:
+            raise

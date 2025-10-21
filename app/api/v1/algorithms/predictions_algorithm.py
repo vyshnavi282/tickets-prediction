@@ -200,4 +200,12 @@ class TicketVolumePredictor:
     def predict_by_date_range(self, start_date, end_date):
         return self.predict_range(pd.to_datetime(start_date), pd.to_datetime(end_date))
 
+    def predict_tomorrow(self):
+        """
+        Predict ticket volume for tomorrow.
+        Returns:
+        DataFrame: Prediction for tomorrow.
+        """
+        tomorrow = pd.Timestamp.today().normalize() + pd.Timedelta(days=1)
+        return self.predict_next_n_days(1)  # Using existing method to predict just one day
  

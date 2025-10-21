@@ -143,12 +143,15 @@ def predicted_next_7_days():
             'error': str(e),
             'status': 'error'
         }), 500
-    
-@prediction_routes.route('/predictions/next/<int:days>', methods=['GET'])
-def predicted_next_n_days(days):
+@prediction_routes.route('/predictions/next', methods=['POST'])
+def predicted_next_n_days():
     """
     Get ticket volume predictions for the next 'days' days
-    Endpoint: /api/v1/predictions/next/<days>
+    Endpoint: /api/v1/predictions/next
+    Request body example:
+    {
+        "days": 10
+    }
     """
     try:
         if not prediction_service:
@@ -157,9 +160,18 @@ def predicted_next_n_days(days):
                 'status': 'error'
             }), 503
 
-        if days <= 0 or days > 90:
+        data = request.get_json()  # Get JSON body from request
+
+        if not data or 'days' not in data:
             return jsonify({
-                'error': 'Days parameter must be between 1 and 90'
+                'error': "Missing 'days' field in request body"
+            }), 400
+
+        days = data['days']
+
+        if not isinstance(days, int) or days <= 0 or days > 90:
+            return jsonify({
+                'error': 'Days parameter must be an integer between 1 and 90'
             }), 400
 
         predictions = prediction_service.predicting_next_n_days(days)
@@ -172,13 +184,13 @@ def predicted_next_n_days(days):
                     'timestamp': datetime.now().isoformat()
                 }
             }
-        })
+        }), 200
     except Exception as e:
         return jsonify({
             'error': str(e),
             'status': 'error'
         }), 500
-
+    
 @prediction_routes.route('/predictions/next_month', methods=['GET'])
 def predicted_next_30_days():
     """
@@ -290,6 +302,36 @@ def predicted_next_2_days():
                 'predictions': predictions,
                 'metadata': {
                     'days_predicted': 2,
+                    'timestamp': datetime.now().isoformat()
+                }
+            }
+        })
+    except Exception as e:
+        return jsonify({
+            'error': str(e),
+            'status': 'error'
+        }), 500
+
+@prediction_routes.route('/predictions/tomorrow', methods=['GET'])
+def predicted_tomorrow():
+    """
+    Get predictions for tomorrow
+    Endpoint: /api/v1/predictions/tomorrow
+    """
+    try:
+        if not prediction_service:
+            return jsonify({
+                'error': 'Prediction service not initialized',
+                'status': 'error'
+            }), 503
+
+        predictions = prediction_service.predicting_tomorrow()
+        return jsonify({
+            'status': 'success',
+            'data': {
+                'predictions': predictions,
+                'metadata': {
+                    'days_predicted': 1,
                     'timestamp': datetime.now().isoformat()
                 }
             }
