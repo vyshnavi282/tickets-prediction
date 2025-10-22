@@ -5,7 +5,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error, r2_score
 import xgboost as xgb
 
-
 class TicketVolumePredictor:
     def __init__(self, csv_path):
         self.df = pd.read_csv(csv_path)
