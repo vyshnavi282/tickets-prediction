@@ -48,7 +48,6 @@ class TicketVolumePredictor:
         daily_df = self._create_features(daily_df)
         self.daily_df = daily_df.dropna()
 
-
     def _create_features(self, df):
         df = df.copy()
         df['prev_day_volume'] = df['ticket_volume_day'].shift(1)
@@ -161,51 +160,3 @@ class TicketVolumePredictor:
             data = data.dropna()
 
         return pd.DataFrame(predictions)
-
-    def predict_next_n_days(self, days, start_date=None):
-        if start_date is None:
-            # Default start from tomorrow
-            start_date = pd.Timestamp.today().normalize() + pd.Timedelta(days=1)
-        end_date = start_date + pd.Timedelta(days=days - 1)
-        return self.predict_range(start_date, end_date)
-
-    def predict_next_2_days(self):
-        return self.predict_next_n_days(2)
-
-    def predict_next_30_days(self):
-        return self.predict_next_n_days(30)
-
-    def predict_next_7_days(self):
-        return self.predict_next_n_days(7)
-
-    def predict_this_week(self):
-        today = pd.Timestamp.today().normalize()
-        if today.dayofweek == 6:  # Sunday
-        # Only today (Sunday)
-            return self.predict_range(today, today)
-        else:
-            days_left = 6 - today.dayofweek + 1  # Remaining days including today until Sunday
-        return self.predict_next_n_days(days_left, start_date=today)
-    
-    def predict_this_month(self):
-        today = pd.Timestamp.today().normalize()
-        last_day = today + pd.offsets.MonthEnd(0)
-        if today == last_day:
-            # If today is last day of month, predict only today
-            return self.predict_range(today, today)
-        else:
-            days_left = (last_day - today).days + 1  # Days including today until month's end
-            return self.predict_next_n_days(days_left, start_date=today)
-
-    def predict_by_date_range(self, start_date, end_date):
-        return self.predict_range(pd.to_datetime(start_date), pd.to_datetime(end_date))
-
-    def predict_tomorrow(self):
-        """
-        Predict ticket volume for tomorrow.
-        Returns:
-        DataFrame: Prediction for tomorrow.
-        """
-        tomorrow = pd.Timestamp.today().normalize() + pd.Timedelta(days=1)
-        return self.predict_next_n_days(1)  # Using existing method to predict just one day
- 
