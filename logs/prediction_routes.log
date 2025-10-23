@@ -1,0 +1,92 @@
+2025-10-23 10:00:52,186 - prediction_routes - INFO - [prediction.py:16] - Initializing PredictionService...
+2025-10-23 10:00:52,455 - prediction_routes - INFO - [prediction.py:18] - PredictionService initialized successfully
+2025-10-23 10:00:54,723 - prediction_routes - INFO - [prediction.py:16] - Initializing PredictionService...
+2025-10-23 10:00:54,988 - prediction_routes - INFO - [prediction.py:18] - PredictionService initialized successfully
+2025-10-23 10:01:00,713 - prediction_routes - INFO - [prediction.py:62] - Received prediction request
+2025-10-23 10:01:00,714 - prediction_routes - INFO - [prediction.py:96] - Calling prediction service for date range 2025-10-23 to 2025-10-28
+2025-10-23 10:01:00,716 - prediction_routes - ERROR - [prediction.py:114] - Failed to generate predictions: 'NoneType' object has no attribute 'to_dict'
+Traceback (most recent call last):
+  File "/home/LabsKraft/tickets-prediction/app/api/v1/routes/prediction.py", line 100, in predict_date_range
+    predictions = prediction_service.predict_tickets(starting_date, ending_date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/LabsKraft/tickets-prediction/app/api/v1/services/prediction_service.py", line 82, in predict_tickets
+    return self._predict_helper(lambda: self.predictor.predict_range(start_date, end_date))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/LabsKraft/tickets-prediction/app/api/v1/services/prediction_service.py", line 65, in _predict_helper
+    return df.to_dict(orient='records')
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2025-10-23 10:01:03,179 - prediction_routes - INFO - [prediction.py:62] - Received prediction request
+2025-10-23 10:01:03,180 - prediction_routes - INFO - [prediction.py:96] - Calling prediction service for date range 2025-10-23 to 2025-10-28
+2025-10-23 10:01:03,182 - prediction_routes - ERROR - [prediction.py:114] - Failed to generate predictions: 'NoneType' object has no attribute 'to_dict'
+Traceback (most recent call last):
+  File "/home/LabsKraft/tickets-prediction/app/api/v1/routes/prediction.py", line 100, in predict_date_range
+    predictions = prediction_service.predict_tickets(starting_date, ending_date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/LabsKraft/tickets-prediction/app/api/v1/services/prediction_service.py", line 82, in predict_tickets
+    return self._predict_helper(lambda: self.predictor.predict_range(start_date, end_date))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/LabsKraft/tickets-prediction/app/api/v1/services/prediction_service.py", line 65, in _predict_helper
+    return df.to_dict(orient='records')
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2025-10-23 10:07:23,454 - prediction_routes - INFO - [prediction.py:62] - Received prediction request
+2025-10-23 10:07:23,455 - prediction_routes - INFO - [prediction.py:96] - Calling prediction service for date range 2025-10-23 to 2025-10-28
+2025-10-23 10:07:23,458 - prediction_routes - ERROR - [prediction.py:114] - Failed to generate predictions: 'NoneType' object has no attribute 'to_dict'
+Traceback (most recent call last):
+  File "/home/LabsKraft/tickets-prediction/app/api/v1/routes/prediction.py", line 100, in predict_date_range
+    predictions = prediction_service.predict_tickets(starting_date, ending_date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/LabsKraft/tickets-prediction/app/api/v1/services/prediction_service.py", line 82, in predict_tickets
+    return self._predict_helper(lambda: self.predictor.predict_range(start_date, end_date))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/LabsKraft/tickets-prediction/app/api/v1/services/prediction_service.py", line 65, in _predict_helper
+    return df.to_dict(orient='records')
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2025-10-23 10:07:26,755 - prediction_routes - INFO - [prediction.py:62] - Received prediction request
+2025-10-23 10:07:26,756 - prediction_routes - INFO - [prediction.py:96] - Calling prediction service for date range 2025-10-23 to 2025-10-28
+2025-10-23 10:07:26,759 - prediction_routes - ERROR - [prediction.py:114] - Failed to generate predictions: 'NoneType' object has no attribute 'to_dict'
+Traceback (most recent call last):
+  File "/home/LabsKraft/tickets-prediction/app/api/v1/routes/prediction.py", line 100, in predict_date_range
+    predictions = prediction_service.predict_tickets(starting_date, ending_date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/LabsKraft/tickets-prediction/app/api/v1/services/prediction_service.py", line 82, in predict_tickets
+    return self._predict_helper(lambda: self.predictor.predict_range(start_date, end_date))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/LabsKraft/tickets-prediction/app/api/v1/services/prediction_service.py", line 65, in _predict_helper
+    return df.to_dict(orient='records')
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2025-10-23 10:10:41,394 - prediction_routes - INFO - [prediction.py:16] - Initializing PredictionService...
+2025-10-23 10:10:41,705 - prediction_routes - INFO - [prediction.py:18] - PredictionService initialized successfully
+2025-10-23 10:10:43,791 - prediction_routes - INFO - [prediction.py:62] - Received prediction request
+2025-10-23 10:10:43,792 - prediction_routes - INFO - [prediction.py:96] - Calling prediction service for date range 2025-10-23 to 2025-10-28
+2025-10-23 10:10:43,795 - prediction_routes - ERROR - [prediction.py:114] - Failed to generate predictions: 'NoneType' object has no attribute 'to_dict'
+Traceback (most recent call last):
+  File "/home/LabsKraft/tickets-prediction/app/api/v1/routes/prediction.py", line 100, in predict_date_range
+    predictions = prediction_service.predict_tickets(starting_date, ending_date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/LabsKraft/tickets-prediction/app/api/v1/services/prediction_service.py", line 82, in predict_tickets
+    return self._predict_helper(lambda: self.predictor.predict_range(start_date, end_date))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/LabsKraft/tickets-prediction/app/api/v1/services/prediction_service.py", line 65, in _predict_helper
+    return df.to_dict(orient='records')
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2025-10-23 10:10:45,870 - prediction_routes - INFO - [prediction.py:62] - Received prediction request
+2025-10-23 10:10:45,872 - prediction_routes - INFO - [prediction.py:96] - Calling prediction service for date range 2025-10-23 to 2025-10-28
+2025-10-23 10:10:45,874 - prediction_routes - ERROR - [prediction.py:114] - Failed to generate predictions: 'NoneType' object has no attribute 'to_dict'
+Traceback (most recent call last):
+  File "/home/LabsKraft/tickets-prediction/app/api/v1/routes/prediction.py", line 100, in predict_date_range
+    predictions = prediction_service.predict_tickets(starting_date, ending_date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/LabsKraft/tickets-prediction/app/api/v1/services/prediction_service.py", line 82, in predict_tickets
+    return self._predict_helper(lambda: self.predictor.predict_range(start_date, end_date))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/LabsKraft/tickets-prediction/app/api/v1/services/prediction_service.py", line 65, in _predict_helper
+    return df.to_dict(orient='records')
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+2025-10-23 10:11:59,639 - prediction_routes - INFO - [prediction.py:16] - Initializing PredictionService...
+2025-10-23 10:11:59,901 - prediction_routes - INFO - [prediction.py:18] - PredictionService initialized successfully

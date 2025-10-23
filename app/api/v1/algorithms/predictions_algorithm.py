@@ -46,6 +46,7 @@ class TicketVolumePredictor:
         daily_df['major_event'] = daily_df['major_event'].fillna(0).astype(int)
 
         daily_df = self._create_features(daily_df)
+        
         self.daily_df = daily_df.dropna()
 
     def _create_features(self, df):

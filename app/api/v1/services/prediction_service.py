@@ -5,6 +5,7 @@ from ..algorithms.predictions_algorithm import TicketVolumePredictor
 class PredictionService:
     def __init__(self, csv_path="data/tickets_dataset_datetime_converted.csv"):
         try:
+            print("****** Initializing TicketVolumePredictor *****")
             self.predictor = TicketVolumePredictor(csv_path)
         except Exception as e:
             raise
