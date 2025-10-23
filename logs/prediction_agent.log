@@ -1,0 +1,39 @@
+2025-10-23 09:42:36,405 - prediction_agent_service - INFO - [prediction_agent_service.py:135] - Starting prediction analysis with AI agent for dates: 2025-10-23 to 2025-10-28
+2025-10-23 09:42:36,497 - prediction_agent_service - INFO - [prediction_agent_service.py:71] - prediction_tool called with dates: 2025-10-23 to 2025-10-28
+2025-10-23 09:42:36,498 - prediction_agent_service - INFO - [prediction_agent_service.py:35] - Calling prediction API for date range: 2025-10-23 to 2025-10-28
+2025-10-23 09:42:36,566 - prediction_agent_service - ERROR - [prediction_agent_service.py:56] - API request failed: Server error '500 INTERNAL SERVER ERROR' for url 'http://127.0.0.1:5000/api/v1/predictions/?startdate=2025-10-23&enddate=2025-10-28'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-10-23 09:42:36,566 - prediction_agent_service - ERROR - [prediction_agent_service.py:82] - Error from API call: API request failed: Server error '500 INTERNAL SERVER ERROR' for url 'http://127.0.0.1:5000/api/v1/predictions/?startdate=2025-10-23&enddate=2025-10-28'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-10-23 09:42:39,411 - prediction_agent_service - INFO - [prediction_agent_service.py:71] - prediction_tool called with dates: 2025-10-23 to 2025-10-28
+2025-10-23 09:42:39,412 - prediction_agent_service - INFO - [prediction_agent_service.py:35] - Calling prediction API for date range: 2025-10-23 to 2025-10-28
+2025-10-23 09:42:39,466 - prediction_agent_service - ERROR - [prediction_agent_service.py:56] - API request failed: Server error '500 INTERNAL SERVER ERROR' for url 'http://127.0.0.1:5000/api/v1/predictions/?startdate=2025-10-23&enddate=2025-10-28'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-10-23 09:42:39,467 - prediction_agent_service - ERROR - [prediction_agent_service.py:82] - Error from API call: API request failed: Server error '500 INTERNAL SERVER ERROR' for url 'http://127.0.0.1:5000/api/v1/predictions/?startdate=2025-10-23&enddate=2025-10-28'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-10-23 10:01:00,556 - prediction_agent_service - INFO - [prediction_agent_service.py:135] - Starting prediction analysis with AI agent for dates: 2025-10-23 to 2025-10-28
+2025-10-23 10:01:00,652 - prediction_agent_service - INFO - [prediction_agent_service.py:71] - prediction_tool called with dates: 2025-10-23 to 2025-10-28
+2025-10-23 10:01:00,652 - prediction_agent_service - INFO - [prediction_agent_service.py:35] - Calling prediction API for date range: 2025-10-23 to 2025-10-28
+2025-10-23 10:01:00,722 - prediction_agent_service - ERROR - [prediction_agent_service.py:56] - API request failed: Server error '500 INTERNAL SERVER ERROR' for url 'http://127.0.0.1:5000/api/v1/predictions/?startdate=2025-10-23&enddate=2025-10-28'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-10-23 10:01:00,723 - prediction_agent_service - ERROR - [prediction_agent_service.py:82] - Error from API call: API request failed: Server error '500 INTERNAL SERVER ERROR' for url 'http://127.0.0.1:5000/api/v1/predictions/?startdate=2025-10-23&enddate=2025-10-28'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-10-23 10:01:03,144 - prediction_agent_service - INFO - [prediction_agent_service.py:71] - prediction_tool called with dates: 2025-10-23 to 2025-10-28
+2025-10-23 10:01:03,144 - prediction_agent_service - INFO - [prediction_agent_service.py:35] - Calling prediction API for date range: 2025-10-23 to 2025-10-28
+2025-10-23 10:01:03,184 - prediction_agent_service - ERROR - [prediction_agent_service.py:56] - API request failed: Server error '500 INTERNAL SERVER ERROR' for url 'http://127.0.0.1:5000/api/v1/predictions/?startdate=2025-10-23&enddate=2025-10-28'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-10-23 10:01:03,185 - prediction_agent_service - ERROR - [prediction_agent_service.py:82] - Error from API call: API request failed: Server error '500 INTERNAL SERVER ERROR' for url 'http://127.0.0.1:5000/api/v1/predictions/?startdate=2025-10-23&enddate=2025-10-28'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-10-23 10:07:23,340 - prediction_agent_service - INFO - [prediction_agent_service.py:135] - Starting prediction analysis with AI agent for dates: 2025-10-23 to 2025-10-28
+2025-10-23 10:07:23,399 - prediction_agent_service - INFO - [prediction_agent_service.py:71] - prediction_tool called with dates: 2025-10-23 to 2025-10-28
+2025-10-23 10:07:23,400 - prediction_agent_service - INFO - [prediction_agent_service.py:35] - Calling prediction API for date range: 2025-10-23 to 2025-10-28
+2025-10-23 10:07:23,461 - prediction_agent_service - ERROR - [prediction_agent_service.py:56] - API request failed: Server error '500 INTERNAL SERVER ERROR' for url 'http://127.0.0.1:5000/api/v1/predictions/?startdate=2025-10-23&enddate=2025-10-28'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-10-23 10:07:23,462 - prediction_agent_service - ERROR - [prediction_agent_service.py:82] - Error from API call: API request failed: Server error '500 INTERNAL SERVER ERROR' for url 'http://127.0.0.1:5000/api/v1/predictions/?startdate=2025-10-23&enddate=2025-10-28'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-10-23 10:07:26,714 - prediction_agent_service - INFO - [prediction_agent_service.py:71] - prediction_tool called with dates: 2025-10-23 to 2025-10-28
+2025-10-23 10:07:26,714 - prediction_agent_service - INFO - [prediction_agent_service.py:35] - Calling prediction API for date range: 2025-10-23 to 2025-10-28
+2025-10-23 10:07:26,763 - prediction_agent_service - ERROR - [prediction_agent_service.py:56] - API request failed: Server error '500 INTERNAL SERVER ERROR' for url 'http://127.0.0.1:5000/api/v1/predictions/?startdate=2025-10-23&enddate=2025-10-28'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-10-23 10:07:26,763 - prediction_agent_service - ERROR - [prediction_agent_service.py:82] - Error from API call: API request failed: Server error '500 INTERNAL SERVER ERROR' for url 'http://127.0.0.1:5000/api/v1/predictions/?startdate=2025-10-23&enddate=2025-10-28'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
