@@ -1,6 +1,7 @@
 import asyncio
 import httpx  # an async http client
 import os
+from datetime import date
 from autogen_agentchat.agents import AssistantAgent
 from autogen_ext.models.openai import OpenAIChatCompletionClient
 from dotenv import load_dotenv
@@ -25,8 +26,9 @@ async def call_prediction_api(start_date: str, end_date: str) -> dict:
     except Exception as e:
         return {"error": f"API request failed: {str(e)}"}
 
-async def prediction_tool(task: str, start_date: str = None, end_date: str = None) -> str:
-    """Fetch prediction data and return a human-readable English summary string."""
+async def prediction_tool(start_date:str = None, end_date: str = None)->str:
+    """Get start date and end date from query provided by user"""
+    #print(f"######start date:{start_date} and end_date={end_date}")
     if not start_date or not end_date:
         return "Error: start_date and end_date are required."
 
@@ -49,13 +51,16 @@ async def prediction_tool(task: str, start_date: str = None, end_date: str = Non
     min_day = next(p for p in predictions if p["predicted_ticket_volume"] == min_volume)
 
     trend = "increasing" if volumes[-1] > volumes[0] else "decreasing"
-    percent_change = ((volumes[-1] - volumes[0]) / volumes[0]) * 100 if volumes[0] != 0 else 0
+    percent_change = ((volumes[-1]
+                     - volumes[0]) / volumes[0]) * 100 if volumes[0] != 0 else 0
 
     # Build human-readable summary
     summary = (
-        f"Ticket volume forecast from {response['data']['start_date']} to {response['data']['end_date']} shows a {trend} trend. "
+        f"Ticket volume forecast from {response['data']
+        ['start_date']} to {response['data']['end_date']} shows a {trend} trend."
         f"The average daily ticket volume is {avg_volume:.2f}. "
-        f"The highest predicted ticket volume is on {max_day['date']} with {max_volume:.2f} tickets, "
+        f"The highest predicted ticket volume is on {max_day['date']
+                                                    } with {max_volume:.2f} tickets,"
         f"while the lowest is on {min_day['date']} with {min_volume:.2f} tickets. "
     )
     
@@ -67,34 +72,45 @@ async def prediction_tool(task: str, start_date: str = None, end_date: str = Non
         summary += f"Overall, the ticket volume has {change_desc} over the period."
     else:
         sign = "increased" if percent_change > 0 else "decreased"
-        summary += f"This represents a {abs(percent_change):.2f}% {sign} during the period."
-    print("Processed tool call result into human-readable summary.")
+        summary += f"This represents a {abs(percent_change):.2f}% {
+            sign} during the period."
+    #print("Processed tool call result into human-readable summary.")
     return summary
 
-
-async def get_predictions_with_agent(start_date: str, end_date: str) -> dict:
+async def get_predictions_with_agent(query: str) -> dict:
     """Get prediction data by running an AI agent that hits the Flask API."""
-    print("Starting get_predictions_with_agent...")
+    #print("Starting get_predictions_with_agent...")
     try:
+        today = date.today()
         model_client = OpenAIChatCompletionClient(
-        model="gpt-4o",
-        api_key=os.getenv("OPENAI_API_KEY")
-    )
+            model="gpt-5",
+            api_key=os.getenv("OPENAI_API_KEY")
+        )
     
         agent = AssistantAgent(
         name="PredictionAgent",
         model_client=model_client,
         tools=[prediction_tool],
         system_message=(
-               """ You are a helpful prediction analyst that explains ticket volume forecasts in clear, natural English.
-
+               """ You are a helpful prediction analyst that explains 
+               ticket volume forecasts in clear and think creative , natural English.
+            Today is {today}.
+            From the query extract start date and end date properly  to call the tool.
+            Call the prediction_tool to get the answer for the query. 
+            Remember the tool needs to be called with start_date and end_date 
+            in "YYYY-MM-DD".
+            You must pass the neccesary parameters to call the tool.
             When analyzing ticket volume predictions:
-            1. Begin with a short overview of the forecast period (mention the start and end dates).
+            1. Begin with a short overview of the forecast period 
+               (mention the start and end dates).
             2. State the average daily ticket volume rounded to 2 decimal places.
-            3. Identify which day has the highest predicted volume and which has the lowest.
+            3. Identify which day has the highest predicted volume and 
+               which has the lowest.
             4. Describe the overall trend (e.g., increasing, decreasing, or stable).
             5. Explain any noticeable patterns or shifts in simple terms.
-            6. If the prediction shows a significant percentage change (over 100%), explain it as “more than doubled” or similar plain phrasing.
+            6. If the prediction shows a significant percentage change 
+               (over 100%), explain it as “more than doubled” or similar plain 
+               phrasing.
 
             Important instructions:
             - Do NOT return the output in JSON or structured data.
@@ -104,17 +120,14 @@ async def get_predictions_with_agent(start_date: str, end_date: str) -> dict:
             )
         )
 
-        summary = await prediction_tool("get_predictions", start_date, end_date)
-
-        agent_response = await agent.run(task = f"""Get and process predictions for {start_date} to
-        {summary} for the data you get out of tool call and provide a 
-        clear summary of the trends and patterns. Make it in human readable format. 
-        You must give insights -- not the json data as is""")
+        agent_response = await agent.run(task = f"""Predict the trend 
+         for the query: {query}. If the query is invalid, ask user for more clarifications
+        """)
  
         await model_client.close()
-        print("############################Agent response received")
+        #print("#########Agent response received")
  
-        print("response", agent_response)
+        #print("response", agent_response)
         if hasattr(agent_response, 'messages') and agent_response.messages:
             return agent_response.messages[-1].content
         elif hasattr(agent_response,'content'):
@@ -122,4 +135,4 @@ async def get_predictions_with_agent(start_date: str, end_date: str) -> dict:
         else:
             return str(agent_response)
     except Exception as e:
-        return f"Error getting weather with agent: {str(e)}"
+        return f"Error getting with agent: {str(e)}"
