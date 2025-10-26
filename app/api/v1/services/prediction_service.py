@@ -1,139 +1,63 @@
-import pandas as pd
 from datetime import datetime
+from typing import List, Dict
+# Import the core prediction algorithm class from the relative path
 from ..algorithms.predictions_algorithm import TicketVolumePredictor
 
+# Define a service class to manage ticket volume predictions
 class PredictionService:
-    """
-    Service layer responsible for interacting with the TicketVolumePredictor model.
-    This acts as a bridge between the Flask routes and the ML backend.
-    """
-
+    # Constructor for the service, initializes the predictor
     def __init__(self, csv_path="data/tickets_dataset_datetime_converted.csv"):
-        """
-        Initialize the prediction service and load the model.
-        Args:
-            csv_path (str): Path to the historical ticket data CSV file.
-        """
         try:
+            # Print a message indicating the predictor is being initialized
+            print("****** Initializing TicketVolumePredictor *****")
+            # Instantiate the prediction algorithm class
             self.predictor = TicketVolumePredictor(csv_path)
         except Exception as e:
+            # Re-raise any exception that occurs during initialization
             raise
 
-    def predict_tickets(self, start_date: datetime, end_date: datetime):
-        """
-        Predict ticket volumes for a specific date range using the backend model.
-        Args:
-            start_date (datetime): Start date for prediction range.
-            end_date (datetime): End date for prediction range.
-        Returns:
-            list[dict]: A list of predictions with dates and predicted volumes.
-        """
+    # Private helper method to execute a prediction function and convert results
+    def _predict_helper(self, prediction_func) -> List[Dict]:
         try:
-            predictions_df = self.predictor.predict_by_date_range(start_date, end_date)
-            predictions = predictions_df.to_dict(orient="records")
-            return predictions
+            # Execute the prediction function (which should return a pandas DataFrame)
+            df = prediction_func()
+            # Convert the resulting DataFrame to a list of dictionaries (records)
+            return df.to_dict(orient='records')
         except Exception as e:
+            # Re-raise any exception that occurs during prediction or conversion
             raise
 
-    def predicting_next_n_days(self, days: int = 7):
-        """
-        Predict ticket volume for the next 'n' days.
-        Args:
-            days (int): Number of days to predict forward.
-        Returns:
-            list[dict]: Predictions.
-        """
-        try:
-            predictions_df = self.predictor.predict_next_n_days(days)
-            predictions = predictions_df.to_dict(orient="records")
-            return predictions
-        except Exception as e:
-            raise
+    # Public method to predict ticket volume for a specified date range
+    def predict_tickets(self, start_date: datetime, end_date: datetime) -> List[Dict]:
+        # Use the helper method with a lambda function that calls the predictor's range prediction
+        return self._predict_helper(lambda: self.predictor.predict_range(start_date,
+                                                                         end_date))
 
-    def predicting_this_week(self):
-        """
-        Shortcut method to predict this week's tickets.
-        Returns:
-            list[dict]: Predictions for the next 7 days.
-        """
+    # Public method to retrieve the service's health and model status
+    def get_health_status(self) -> Dict:
         try:
-            predictions_df = self.predictor.predict_this_week()
-            predictions = predictions_df.to_dict(orient="records")
-            return predictions
-        except Exception as e:
-            raise
-
-    def predicting_this_month(self):
-        """
-        Shortcut method to predict ticket volume for this month.
-            Returns:
-                list[dict]: Predictions for the next 30 days.
-            """
-        try:
-            predictions_df = self.predictor.predict_this_month()
-            predictions = predictions_df.to_dict(orient="records")
-            return predictions
-        except Exception as e:
-                raise
-
-    def predicting_next_2_days(self):
-        """
-        Predict ticket volume for next 2 days.
-        Returns:
-            list[dict]: Predictions for next 2 days.
-        """
-        try:
-            predictions_df = self.predictor.predict_next_2_days()
-            predictions = predictions_df.to_dict(orient="records")
-            return predictions
-        except Exception as e:
-            raise
-
-    def predicting_next_7_days(self):
-        """
-        Predict ticket volume for next 7 days.
-        Returns:
-            list[dict]: Predictions for next 7 days.
-        """
-        try:
-            predictions_df = self.predictor.predict_next_7_days()
-            predictions = predictions_df.to_dict(orient="records")
-            return predictions
-        except Exception as e:
-            raise
-
-    def predicting_next_30_days(self):
-        """
-        Predict ticket volume for next 30 days.
-        Returns:
-            list[dict]: Predictions for next 30 days.
-        """
-        try:
-            predictions_df = self.predictor.predict_next_30_days()
-            predictions = predictions_df.to_dict(orient="records")
-            return predictions
-        except Exception as e:
-            raise
-
-    def get_health_status(self):
-        """
-        Check the health and readiness of the prediction service.
-        Returns:
-            dict: Health status information.
-        """
-        try:
+            # Determine the service status based on whether the predictor is initialized
+            status = 'ready' if self.predictor else 'not_ready'
+            # Get the date of the latest data point used for training, if available
+            last_trained = str(self.predictor.daily_df['start_date'].max(
+            )) if self.predictor else None
+            # Gather information about the model's features and data points
+            model_info = {
+                'features': len(self.predictor.features) if self.predictor else 0,
+                'data_points': len(self.predictor.daily_df) if self.predictor
+                and hasattr(self.predictor, 'daily_df') else 0
+            }
+            # Return a dictionary containing the comprehensive health status
             return {
-                "status": "ready" if self.predictor else "not_ready",
-                "last_trained": str(self.predictor.daily_df['start_date'].max()) if self.predictor else None,
-                "model_info": {
-                    "features": len(self.predictor.features),
-                    "data_points": len(self.predictor.daily_df) if self.predictor else 0
-                },
-                "timestamp": datetime.now().isoformat()
+                'status': status,
+                'last_trained': last_trained,
+                'model_info': model_info,
+                'timestamp': datetime.now().isoformat()
             }
         except Exception as e:
+            # If an error occurs during status check, return an error dictionary
             return {
-                "status": "error",
-                "error": str(e),
-                "timestamp": datetime.now().isoformat()
+                'status': 'error',
+                'error': str(e),
+                'timestamp': datetime.now().isoformat()
             }
