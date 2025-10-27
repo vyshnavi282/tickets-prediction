@@ -17,7 +17,8 @@ class TicketVolumePredictor:
 
         # List of features used for prediction
         self.features = [
-            'prev_day_volume', 'prev_2day_volume', 'prev_3day_volume', 'prev_7day_volume',
+            'prev_day_volume', 'prev_2day_volume', 'prev_3day_volume', 
+            'prev_7day_volume',
             'rolling_avg_7d', 'rolling_avg_14d', 'rolling_avg_30d',
             'ewm_7d', 'ewm_14d',
             'day_of_week', 'month', 'is_weekend',
